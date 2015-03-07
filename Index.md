@@ -1,9 +1,9 @@
-## Introduction ##
+### Introduction ###
 
-- Overview
-- License
-- Versioning
-- Release Notes
+- [Overview](overview.md) 
+- [License](license.md) 
+- [Versioning](versioning.md)
+- [Release Notes](release-notes.md)
 
 ### Installation ###
 
@@ -13,5 +13,7 @@
 
 ### Tools ###
 
-Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.
 
+
+### FAQ ###
+- [Frequently Asked Questions](faq.md)

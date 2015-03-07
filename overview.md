@@ -1,0 +1,1 @@
+MapSurfer.NET is a free, modern and advanced framework for producing a cartographic product of the highest quality. This full featured framework offers a rich set of tools and techniques to automate various cartographic tasks. MapSurfer.NET is designed to be fast and flexible for being used both in desktop and web applications. 
