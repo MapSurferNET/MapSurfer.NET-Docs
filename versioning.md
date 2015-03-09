@@ -6,7 +6,6 @@ This page contains explanation for version numbering used in MapSurfer.NET.
 The versioning of the framework is sticked to the follwoing scheme:
 
 >%!INFO Scheme!%
->
 >**major.minor.revision**   (Example: 1.16.2)
 
 - major number designates releases that contain significant changes in the framework. These changes might break compatibility with previous versions. The major version changes very rarely.
@@ -18,7 +17,6 @@ The versioning of the framework is sticked to the follwoing scheme:
 The MapSurfer.NET's assemblies have different version numbering. Assembly's version consists of four numbers.
 
 >%!INFO Scheme!%
->
 >**X.Y.D.S**   (Example: 1.162.5491.16601)
 
 - X.Y are two numbers that present a version of the framework. The first number X corresponds to the major number of the framework's version. Y number are encoded values for minor and revision numbers. The minor number equals to the integer division Y/10. The revision number is the remainder of Y/10.
