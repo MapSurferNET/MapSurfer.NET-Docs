@@ -70,6 +70,7 @@ Assume that you have a copy of a previously installed MapSurfer.NET in a folder 
 <center></center>
 > !!Step 5!! Create a new subkey **HKEY_LOCAL_MACHINE\SOFTWARE\MapSurfer.NET\VERSION**, where **VERSION** is the [version of the framework](versioning.md). 
 
+<center></center>
 > !!Step 6!! Create a new value **InstallPath** with the following data "C:\MapSurfer.NET". The result should look like: 
 
 <center>![](/media/images/9-Setup_Registry.png)</center>
