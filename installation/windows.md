@@ -14,3 +14,43 @@ In order to install MapSurfer.NET on a Windows System, you need to use [Windows 
 <center>![](/media/images/2-Setup_License.png)</center>
 
 Click I **Agree** if you accept the agreement.
+
+> !!Step 4!! On the next page, you specify for which user this framework will be installed. 
+
+<center>![](/media/images/3-Setup_InstallOptions.png)</center>
+
+Click **Next** to proceed.
+
+> !!Step 5!! Next, the Installation Wizard provides a single feature tree to install dependencies (.NET Framework, [GDAL](http://www.gdal.org/), [Microsoft VC++ Redistributable](http://www.microsoft.com/en-us/download/details.aspx?id=30679) package), different components of MapSurfer.NET (e.g., renderers, data source and tile cache providers), SDK samples and templates for web services. 
+
+<center>![](/media/images/4-Setup_Components.png)</center>
+
+Click **Next** to continue.
+
+> !!Step 6!! In the Destination Folder page, specify location where you want to install MapSurfer.NET. Make sure that you have enough permissions for a selected folder.
+
+<center>![](/media/images/5-Setup_InstallLocation.png)</center>
+
+Click **Next** to continue.
+
+> !!Step 7!! Select the Start menu folder in which to create the program's shortcuts. 
+
+<center>![](/media/images/6-Setup_StartMenuFolder.png)</center>
+
+Click **Install** to setup the framework.
+
+> !!Step 8!! Then, a page with installation progress is shown.
+
+<center>![](/media/images/7-Setup_Installing.png)</center>
+
+> !!Step 9!! As soon as all necessary files are installed, Installation Complete page shows up. 
+
+<center>![](/media/images/8-Setup_InstallationComplete.png)</center>
+
+Well done! MapSurfer.NET is now successfully installed.
+
+
+### Manual Installation ###
+
+This section contains instructions for manually installing MapSurfer.NET on Windows.
+Assume that you have a copy of a previously installed MapSurfer.NET in a folder "C:\MapSurfer.NET". In order to help MapSurfer.NET to find and load all dependencies, we need to tell where to start searching them. This can be accomplished using Registry Editor (Regedit.exe):
