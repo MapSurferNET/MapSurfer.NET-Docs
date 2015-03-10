@@ -9,7 +9,7 @@ In order to install MapSurfer.NET on a Windows System, you need to use [Windows 
 
 <center>![](/media/images/1-Setup_Welcome.png)</center>
 
-> !!Step 3!! After you clicked **Next**, you will see a dialog with [License](license.md) agreement, which you need to carefully read. 
+> !!Step 3!! After you clicked **Next**, you will see a dialog with [License](/license.md) agreement, which you need to carefully read. 
 
 <center>![](/media/images/2-Setup_License.png)</center>
 
