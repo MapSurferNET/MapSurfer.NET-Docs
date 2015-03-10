@@ -17,7 +17,6 @@
 
 - [Project samples](https://github.com/MapSurferNET/MapSurfer.NET-Examples)
 
-<<<<<<< HEAD:Index.md
 #### Tools ####
 
 - [MapSurfer.NET Studio](/usermanual/tools/msnstudio.md)
@@ -34,7 +33,4 @@
 
 ### FAQ ### 
 - [Frequently Asked Questions](faq.md)
-=======
-### FAQ ###
-- [Frequently Asked Questions](faq.md)
->>>>>>> e60e965e0833d3ec9fd2617e2f6093fc7775e8a0:index.md
+
