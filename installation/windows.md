@@ -7,6 +7,5 @@ In order to install MapSurfer.NET on a Windows System, you need to use [Windows 
 &nbsp;
 > !!Step 2!! First choose the language of the installation program, then welcome screen shows up.
 
-![1](/media/images/1-Setup_Welcome.png)
+<center>![](/media/images/1-Setup_Welcome.png)<center>
 
-<center>![2](https://github.com/MapSurferNET/MapSurfer.NET-Docs/blob/master/media/images/1-Setup_Welcome.png)</center>
