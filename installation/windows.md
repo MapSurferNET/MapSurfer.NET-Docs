@@ -2,7 +2,7 @@
 
 In order to install MapSurfer.NET on a Windows System, you need to use [Windows Installer](http://mapsurfernet.com/downloads#tab-win). Step belows describe how to use the installer.
 
-> %!IMPORTANT IMPORTANT:!% Please note .NET Framework 4.5 should be installed on your machine, since that is a necessary prerequisite to run >MapSurfer.NET. You can download the .NET Framework directly from an [official website](http://www.microsoft.com/en-us/download/details.aspx?id=30653) and install it manually or use Windows Installer.
+> %!IMPORTANT IMPORTANT:!% Please note .NET Framework 4.5 should be installed on your machine, since that is a necessary prerequisite to run MapSurfer.NET. You can download the .NET Framework directly from an [official website](http://www.microsoft.com/en-us/download/details.aspx?id=30653) and install it manually or use Windows Installer.
 Windows 8 and Windows Server 2012 include the .NET Framework 4.5. Therefore, you don't have to install this software on those operating systems. 
 
 <center></center>
