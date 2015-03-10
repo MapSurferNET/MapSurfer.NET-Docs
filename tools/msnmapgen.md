@@ -4,7 +4,7 @@ This tutorial describes how to generate raster (as a single file or tile cache) 
 
 On Windows: 
 
-> MSNMapGen.exe [Arguments]
+> %!COMMAND-LINE!% MSNMapGen.exe [Arguments]
 
 On Linux:
 
