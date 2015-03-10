@@ -4,9 +4,11 @@ In order to install MapSurfer.NET on a Windows System, you need to use [Windows 
 
 > !!Step 1!! Run windows installer (for example, MapSurfer.NET-1.16-setup.exe) to re-install or to make an initial installation.
 
-&nbsp;
+<center></center>
 > !!Step 2!! First choose the language of the installation program, then welcome screen shows up.
 
 <center>![](/media/images/1-Setup_Welcome.png)</center>
 
+> !!Step 3!! After you clicked **Next**, you will see a dialog with [License](license.md) agreement, which you need to carefully read. 
 
+<center>![](/media/images/2-Setup_License.png)</center>
