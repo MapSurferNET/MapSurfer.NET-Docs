@@ -53,4 +53,24 @@ Well done! MapSurfer.NET is now successfully installed.
 ### Manual Installation ###
 
 This section contains instructions for manually installing MapSurfer.NET on Windows.
+
 Assume that you have a copy of a previously installed MapSurfer.NET in a folder "C:\MapSurfer.NET". In order to help MapSurfer.NET to find and load all dependencies, we need to tell where to start searching them. This can be accomplished using Registry Editor (Regedit.exe):
+
+> !!Step 1!! Click **Start**, click **Run**, type regedit in the Open box, and then click **OK** (or press Enter).
+ 
+<center></center>
+> !!Step 2!! If prompted by User Account Control, click **Yes** to open the Registry Editor. 
+
+<center></center>
+> !!Step 3!! Open the registry key **HKEY_LOCAL_MACHINE\SOFTWARE\**, if you installing MapSurfer.NET for all users. Otherwise, open the **HKEY_CURRENT_USER\SOFTWARE\** key (folder).
+
+<center></center>
+> !!Step 4!! Create a new subkey MapSurfer.NET such as **HKEY_LOCAL_MACHINE\SOFTWARE\MapSurfer.NET\**. 
+
+<center></center>
+> !!Step 5!! Create a new subkey **HKEY_LOCAL_MACHINE\SOFTWARE\MapSurfer.NET\VERSION**, where **VERSION** is the [version of the framework](versioning.md). 
+
+> !!Step 6!! Create a new value **InstallPath** with the following data "C:\MapSurfer.NET". The result should look like: 
+
+<center>![](/media/images/9-Setup_Registry.png)</center>
+
