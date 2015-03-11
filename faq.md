@@ -27,4 +27,4 @@ A collection of sample projects is available on [GitHub](https://github.com/MapS
 
 >%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
 
-Yes, you can. See a developer guide about embedding MapSurfer.NET into a custom application.
+Yes, you can. See a [developer guide](devmanual/embedding-msn-in-custom-application.md) about embedding MapSurfer.NET into a custom application.
