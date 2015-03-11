@@ -64,5 +64,5 @@ MapSurfer.NET MapViewer is a user interface control that depicts a map or allows
 
 <center></center>
 Please refer to MapSurfer.NET Samples package that contains a ready-to-use demo application. 
-
+<center></center>
 > %!IMPORTANT IMPORTANT:!% At the moment MapViewer Control is only supported on Windows operating system.
