@@ -1,8 +1,8 @@
-### Embedding MapSurfer.NET in a custom application ###
+### Embedding MapSurfer.NET in a custom application
 
 The MapSurfer.NET API let you embed the framework into your custom application or web service. In order to start using the MapSurfer.NET API runtime assemblies, you need to reference them to your application. These assemblies can be found either in a folder where you installed the framework (e.g., **C:\Program Files\MapSurfer.NET\1.16.2\Core**) or in a folder of [NuGet](http://www.nuget.org/packages?q=mapsurfer.net)'s packages. 
 
-#### Referencing and Loading Assemblies ####
+#### Referencing and Loading Assemblies
 
 In order to start using MapSurfer.NET in your application, you need to accomplish several steps that are given below. 
 
