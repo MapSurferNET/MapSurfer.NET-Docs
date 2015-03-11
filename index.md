@@ -25,7 +25,7 @@
 
 ### For Developers 
 
-- [Embedding MapSurfer.NET in a Custom Application](/devmanual/embedding-msn-in-a-custom-application.md)
+- [Embedding MapSurfer.NET in a Custom Application](/devmanual/embedding-msn-in-custom-application.md)
 
 ### Publishing Web Service  
 
