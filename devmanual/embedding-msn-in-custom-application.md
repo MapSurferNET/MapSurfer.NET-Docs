@@ -18,16 +18,16 @@ In order to start using MapSurfer.NET in your application, you need to accomplis
 [STAThread]
 static void Main()
 {
-// Register AssemblyLoader for the current domain.
-MapSurfer.Utilities.AssemblyLoader.Register(AppDomain.CurrentDomain);
+    // Register AssemblyLoader for the current domain.
+    MapSurfer.Utilities.AssemblyLoader.Register(AppDomain.CurrentDomain);
 
-// Initialize plugins (data source providers, rendering backends, etc.), expression types, unicode tables, etc.
-MapSurfer.Utilities.CoreUtility.Initialize();
+    // Initialize plugins (data source providers, rendering backends, etc.), expression types, unicode tables, etc.
+    MapSurfer.Utilities.CoreUtility.Initialize();
 
-Application.EnableVisualStyles();
-Application.SetCompatibleTextRenderingDefault(false);
-Application.Run(new MainForm());
-} - See more at: http://mapsurfernet.com/docs/devmanual/embedding-msn-in-custom-application#sthash.whRPPMPJ.dpuf
+    Application.EnableVisualStyles();
+    Application.SetCompatibleTextRenderingDefault(false);
+    Application.Run(new MainForm());
+} 
 ```
 
 > !!Step 4!! AssemblyLoader class automatically finds and loads MapSurfer.NET assemblies. However, in some cases it can not explicitly resolve required assemblies. As a result, you can receive an exception as:
@@ -50,7 +50,7 @@ This exception is thrown in two cases. Namely, MapSurfer.NET is not installed on
 </configuration> 
 ```
 
-#### Using MapViewer Control #### 
+#### Using MapViewer Control
 
 MapSurfer.NET MapViewer is a user interface control that depicts a map or allows panning and zooming of a map. The following steps show how to embed MapViewer Control in a desktop application. 
 
