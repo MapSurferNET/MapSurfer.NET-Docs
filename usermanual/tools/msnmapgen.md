@@ -27,7 +27,7 @@ Argument      | Short form   | Description  | Mode
 
 Mode 1 defines parameters used for generating single files. The  parameters of Mode 2 are intended for tile cache generation.
 
-#### Examples #### 
+#### Examples
 
 The following example shows how to render a map of size 1000x1000 pixels and save it as a 8-bit png file.
 
