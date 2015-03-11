@@ -41,12 +41,12 @@ This exception is thrown in two cases. Namely, MapSurfer.NET is not installed on
 
 ```xml
 <configuration>
-<startup>
-<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
-</startup>
-<appSettings>
-<add key="MapSurfer.InstallPath" value="C:\MyApplication\packages\MapSurfer.NET.Core.1.16.2\lib\net45\"/>
-</appSettings>
+    <startup>
+       <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <appSettings>
+       <add key="MapSurfer.InstallPath" value="C:\MyApplication\packages\MapSurfer.NET.Core.1.16.2\lib\net45\"/>
+    </appSettings>
 </configuration> 
 ```
 
@@ -57,7 +57,7 @@ MapSurfer.NET MapViewer is a user interface control that depicts a map or allows
 > !!Step 1!! Install MapSurfer.NET UI package.
 
 <center></center>
-> !!Step 2!! Add three references to your project such as **MapSurfer.Windows.Forms.dll**, **NetGraphics32.Drawing.dll**, **NetGraphics32.Windows.Forms.dll** and set **Copy Local **property to **True**. 
+> !!Step 2!! Add three references to your project such as **MapSurfer.Windows.Forms.dll**, **NetGraphics32.Drawing.dll**, **NetGraphics32.Windows.Forms.dll** and set **Copy Loca** property to **True**. 
 
 <center></center>
 > !!Step 3!! Copy the entire folder **Native.x64** (or **Native.x86** respectively) containing dynamic libraries to the directory with an executable file of your application. 
