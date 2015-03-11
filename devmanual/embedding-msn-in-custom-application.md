@@ -63,6 +63,6 @@ MapSurfer.NET MapViewer is a user interface control that depicts a map or allows
 > !!Step 3!! Copy the entire folder **Native.x64** (or **Native.x86** respectively) containing dynamic libraries to the directory with an executable file of your application. 
 
 <center></center>
-> Please refer to MapSurfer.NET Samples package that contains a ready-to-use demo application. 
+Please refer to MapSurfer.NET Samples package that contains a ready-to-use demo application. 
 
 > %!IMPORTANT IMPORTANT:!% At the moment MapViewer Control is only supported on Windows operating system.
