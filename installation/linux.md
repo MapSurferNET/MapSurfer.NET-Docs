@@ -19,7 +19,7 @@ Well done! MapSurfer.NET is now successfully installed.
 
 This section contains instructions for manually installing MapSurfer.NET on Linux. 
 
-Suppose you have a copy of a previously installed MapSurfer.NET in a folder **/usr/lib/MapSurfer.NET**. In order to help MapSurfer.NET to find and load all dependencies, we need to tell where to start searching them. This can be accomplished using Mono's registry, which is normally located in **/etc/mono/registry**. In this sub directory, sub keys are stored as sub folders, and values are stored in xml files with the name **values.xml**. The required registry settings can be stored either in **/etc/mono/registry/LocalMachine **(local machine-specific settings) or in **etc/mono/registry/CurrentUser** (user-specific settings). 
+Suppose you have a copy of a previously installed MapSurfer.NET in a folder **/usr/lib/MapSurfer.NET**. In order to help MapSurfer.NET to find and load all dependencies, we need to tell where to start searching them. This can be accomplished using Mono's registry, which is normally located in **/etc/mono/registry**. In this sub directory, sub keys are stored as sub folders, and values are stored in xml files with the name **values.xml**. The required registry settings can be stored either in **/etc/mono/registry/LocalMachine** (local machine-specific settings) or in **etc/mono/registry/CurrentUser** (user-specific settings). 
 
 > !!Step 1!! Create a new sub-folder in **/etc/mono/registry/LocalMachine/software/mapsurfer.net/1.16**, where 1.16 is the [version](/docs/versioning) of the framework being installed.
  
