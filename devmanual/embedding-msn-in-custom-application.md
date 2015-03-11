@@ -50,7 +50,7 @@ This exception is thrown in two cases. Namely, MapSurfer.NET is not installed on
 </configuration> 
 ```
 
-#### Using MapViewer Control #### 
+#### Using MapViewer Control
 
 MapSurfer.NET MapViewer is a user interface control that depicts a map or allows panning and zooming of a map. The following steps show how to embed MapViewer Control in a desktop application. 
 
