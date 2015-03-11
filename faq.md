@@ -9,8 +9,7 @@ This page provides answers to questions that are frequently asked by users.
 - [Can I embed the framework into my application?]
 
 # General Information #
->%!INFO!% 
->#### What is MapSurfer.NET? ####
+>%!INFO!%<h4> What is MapSurfer.NET? </h4>
 
 MapSurfer.NET is a free, modern and advanced framework for rendering and publishing maps to the web. This framework has a functionality which is very similar to other well-known open source and proprietary software packages such as MapServer, GeoServer, Mapnik or ArcGIS. MapSurfer.NET is written in C# and provides the whole power of the .NET Framework to solve labour-intensive and time-consuming cartographic tasks.
 
