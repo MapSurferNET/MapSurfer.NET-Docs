@@ -29,7 +29,7 @@
 
 ### Publishing Web Service  
 
-- [Running a Web Service using IIS 7.5](/webservices/running-webservice-using-iis75.md)
+- [Running a Web Service using IIS 7.5](/usermanual/webservices/running-webservice-using-iis75.md)
 
 ### FAQ
 
