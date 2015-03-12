@@ -1,7 +1,8 @@
+# Versioning #
+
 This page contains explanation for version numbering used in MapSurfer.NET.
 
-# Framework #
-
+## Framework ##
 
 The versioning of the framework is sticked to the follwoing scheme:
 
@@ -12,7 +13,7 @@ The versioning of the framework is sticked to the follwoing scheme:
 - minor number is used for releases that introduce minor features, improvements or necessary bug fixes.
 - revision number is used when minor bugs are fixed.
 
-# .NET Assemblies #
+## .NET Assemblies ##
 
 The MapSurfer.NET's assemblies have different version numbering. Assembly's version consists of four numbers.
 
