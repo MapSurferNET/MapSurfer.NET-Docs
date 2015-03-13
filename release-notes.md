@@ -1,4 +1,4 @@
-## Release Notes ##
+# Release Notes #
 
 It is recommended to always install the latest, stable version of MapSurfer.NET.
 
@@ -7,12 +7,12 @@ It is recommended to always install the latest, stable version of MapSurfer.NET.
 [1.15.0](/release_notes/v1.15.0.md)
 
 
-### Version 2.x ###
+## Version 2.x ##
 
 * [2.0](/release_notes/v2.0.md)  (01 Mar 2015)
 
 
-### Version 1.x ###
+## Version 1.x ##
 
 * [1.16.2](/release_notes/v1.16.2.md)  (03 Jan 2015)
 * [1.16.1](/release_notes/v1.16.1.md)  (19 Dec 2014)
@@ -34,7 +34,7 @@ It is recommended to always install the latest, stable version of MapSurfer.NET.
 * [1.1.0](/release_notes/v1.1.0.md)    (15 Jan 2011)
 * [1.0](/release_notes/v1.0.md)        (11 Oct 2010)
 
-### Version 0.x ###
+## Version 0.x ##
 
 * [0.9.0](/release_notes/v0.9.0.md)    (May 15 2010)
 * [0.8.0](/release_notes/v0.8.0.md)    (17 Sep 2009)
