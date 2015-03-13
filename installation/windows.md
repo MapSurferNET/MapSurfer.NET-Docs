@@ -66,7 +66,7 @@ Assume that you have a copy of a previously installed MapSurfer.NET in a folder 
 > !!Step 2!! If prompted by User Account Control, click **Yes** to open the Registry Editor. 
 
 <center></center>
-> !!Step 3!! Open the registry key **HKEY_LOCAL_MACHINE\SOFTWARE\**, if you installing MapSurfer.NET for all users. Otherwise, open the **HKEY_CURRENT_USER\SOFTWARE\** key (folder).
+> !!Step 3!! Open the registry key **HKEY_LOCAL_MACHINE\SOFTWARE**, if you installing MapSurfer.NET for all users. Otherwise, open the **HKEY_CURRENT_USER\SOFTWARE\** key (folder).
 
 <center></center>
 > !!Step 4!! Create a new subkey MapSurfer.NET such as **HKEY_LOCAL_MACHINE\SOFTWARE\MapSurfer.NET\**. 
