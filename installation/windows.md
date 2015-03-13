@@ -1,4 +1,4 @@
-### Using a Windows Installer ###
+## Using a Windows Installer ##
 
 In order to install MapSurfer.NET on a Windows System, you need to use [Windows Installer](http://mapsurfernet.com/downloads#tab-win). Step belows describe how to use the installer.
 
@@ -54,7 +54,7 @@ Click **Install** to setup the framework.
 Well done! MapSurfer.NET is now successfully installed.
 
 
-### Manual Installation ###
+## Manual Installation ##
 
 This section contains instructions for manually installing MapSurfer.NET on Windows.
 
