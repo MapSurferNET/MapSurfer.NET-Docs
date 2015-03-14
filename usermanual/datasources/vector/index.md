@@ -8,7 +8,7 @@ This section provides a list of vector data sources supported by MapSurfer.NET. 
 - [MongoDB](usermanual/datasources/vector/mongodb.md)
 - [MsSQLSpatial](usermanual/datasources/vector/mssqlspatial.md)
 - [MySQLSpatial](usermanual/datasources/vector/mysqlspatial.md)
-- [OpenStreetMap](usermanual/datasources/vector/osm.md)
+- [OpenStreetMap](usermanual/datasources/vector/openstreetmap.md)
 - [PostGIS](usermanual/datasources/vector/postgis.md)
 - [SpatiaLite](usermanual/datasources/vector/spatialite.md)
 - [VectorTiles](usermanual/datasources/vector/vectortiles.md)
