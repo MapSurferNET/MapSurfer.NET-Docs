@@ -1,6 +1,8 @@
 # ESRI Shapefiles
 
 
+##Description
+
 The shapefile format is a digital vector storage format for storing geometric location and associated attribute information. This format consists of several files. The list of files supported by MapSurfer.NET is: 
 
 **Mandatory files**
@@ -19,6 +21,8 @@ The shapefile format is a digital vector storage format for storing geometric lo
 
 For further details, see the [technical specification](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf) provided by ESRI. 
 
+
+##Configuration
 
 In MapSurfer.NET, shapefile data source provider operates with the following configuration parameters:
 
