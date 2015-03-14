@@ -1,13 +1,12 @@
 # ESRI Shapefiles
 
 
-
 The shapefile format is a digital vector storage format for storing geometric location and associated attribute information. This format consists of several files. The list of files supported by MapSurfer.NET is: 
 
 **Mandatory files**
 
 - **.shp** — shape format; stores the feature geometry itself
-- .shx — shape index format; a positional index of the feature geometry to allow seeking forwards and backwards quickly
+- **.shx** — shape index format; a positional index of the feature geometry to allow seeking forwards and backwards quickly
 - **.dbf** — attribute format; columnar attributes for each shape, in dBase IV format
 
 
@@ -18,6 +17,10 @@ The shapefile format is a digital vector storage format for storing geometric lo
 - **.cpg** — used to specify the code page (only for .dbf) for identifying the character encoding to be used
 - **.mdix** — a quadtree spatial index, analouge of .qix format used by MapServer, Mapnik and GDAL/OGR.
 
+For further details, see the [technical specification](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf) provided by ESRI. 
+
+
+In MapSurfer.NET, shapefile data source provider operates with the following configuration parameters:
 
 Parameter Name | Description | Required
 ------------ | ------------- | -------------
