@@ -14,4 +14,4 @@ This section provides a list of vector data sources supported by MapSurfer.NET. 
 - [VectorTiles](usermanual/datasources/vector/vectortiles.md)
 - [CartoDB](usermanual/datasources/vector/cartodb.md)
 
-Note MapSurfer.NET provides an API to develop a custom data source provider which can be implemented and integrated into the framework as a [plugin](/devmanual/plugins).
+Note MapSurfer.NET provides an API to develop a custom data source provider which can be implemented and integrated into the framework through a [plugin](/devmanual/plugins) system.

@@ -21,6 +21,10 @@
 
 - [Project samples](https://github.com/MapSurferNET/MapSurfer.NET-Examples)
 
+#### Tile Caching ####
+
+- [Cache providers](usermanual/tilecaching/index.md)
+
 #### Tools ####
 
 - [MapSurfer.NET Studio](/usermanual/tools/msnstudio.md)
