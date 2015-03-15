@@ -13,6 +13,7 @@ This section provides a list of vector data sources supported by MapSurfer.NET. 
 - [OpenStreetMap](usermanual/datasources/vector/openstreetmap.md)
 - [PostGIS/PostgreSQL](usermanual/datasources/vector/postgis.md)
 - [SpatiaLite](usermanual/datasources/vector/spatialite.md)
+- [TopoJSON](usermanual/datasources/vector/topojson.md)
 - [Vector Tiles](usermanual/datasources/vector/vectortiles.md)
 - [Other Types](usermanual/datasources/vector/othertypes)
 
