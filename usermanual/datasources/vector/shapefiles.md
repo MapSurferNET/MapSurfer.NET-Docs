@@ -1,7 +1,7 @@
 # ESRI Shapefiles
 
 
-##Description
+## Description
 
 The shapefile format is a digital vector storage format for storing geometric location and associated attribute information. This format consists of several files. The list of files supported by MapSurfer.NET is: 
 
@@ -22,9 +22,9 @@ The shapefile format is a digital vector storage format for storing geometric lo
 For further details, see the [technical specification](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf) provided by ESRI. 
 
 
-##Configuration
+## Configuration
 
-In MapSurfer.NET, shapefile data source provider operates with the following configuration parameters:
+In MapSurfer.NET, **Shape** data source provider operates with the following configuration parameters:
 
 Parameter Name | Description | Required
 ------------ | ------------- | -------------
@@ -33,3 +33,7 @@ FileBasedIndex | Determines whether the quadtree spatial index is created or not
 MemoryMappedFile | Creates a memory-mapped file that enables to work with extremely large files. Possible values are True or False. | No
 Encoding | Specifies the character encoding to read data from .dbf file. | No
 BufferSize | A positive integer value greater than 0 indicating the buffer size in bytes. The default buffer size is 512.| No
+
+
+Note shapefiles can also be read using other data source providers such as
+**[EsriFileGeoDB](usermanual/datasources/vector/esrigeodb)** or **[OGR](usermanual/datasources/vector/othertypes)**.
