@@ -35,5 +35,5 @@ Encoding | String |Specifies the character encoding to read data from .dbf file.
 BufferSize | Integer | A positive integer value greater than 0 indicating the buffer size in bytes. The default buffer size is 512.| No
 
 
-Note shapefiles can also be read using other data source providers such as
+> %!IMPORTANT NOTE!% Shapefiles can also be read using other data source providers such as
 **[EsriFileGeoDB](usermanual/datasources/vector/esrigeodb)** or **[OGR](usermanual/datasources/vector/othertypes)**.
