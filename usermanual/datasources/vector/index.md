@@ -3,7 +3,8 @@
 This section provides a list of vector data sources supported by MapSurfer.NET. The list includes file based formats, relational and document-oriented databases, as well as web services.
 
 - [CartoDB](usermanual/datasources/vector/cartodb.md)
-- [ESRI Geodatabase](usermanual/datasources/vector/esrigeodb)- [ESRI Shapefiles](usermanual/datasources/vector/shapefiles.md)
+- [ESRI Geodatabase](usermanual/datasources/vector/esrigeodb)
+- [ESRI Shapefiles](usermanual/datasources/vector/shapefiles.md)
 - [GeoJSON](usermanual/datasources/vector/geojson.md)
 - [GPX](usermanual/datasources/vector/gpx.md)
 - [MongoDB](usermanual/datasources/vector/mongodb.md)
