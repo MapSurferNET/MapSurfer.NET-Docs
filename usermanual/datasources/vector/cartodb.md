@@ -18,6 +18,6 @@ ConsumerKey | String | Consumer key used in [OAuth](http://hueniverse.com/oauth/
 ConsumerSecret | String | Consumer secret used in [OAuth](http://hueniverse.com/oauth/) authentication. | Yes
 Table | String | Name of a table you want to access. | Yes
 GeometryColumn | String | Name of a column with geometry objects. | Yes
-Query | String | SQL query. | No
+Query | String | SQL query. For more details, see official documentation for [PostgreSQL](http://www.postgresql.org/docs/8.4/static/tutorial-select.html). | No
 Extent | String | Maximum extent of spatial data in the table. | No
 
