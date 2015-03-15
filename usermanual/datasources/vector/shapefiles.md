@@ -26,13 +26,13 @@ For further details, see the [technical specification](http://www.esri.com/libra
 
 In MapSurfer.NET, **Shape** data source provider operates with the following configuration parameters:
 
-Parameter Name | Description | Required
------------- | ------------- | -------------
-File | Determines a path to the the file. The path can also be relative to the directory where map project is stored. | Yes
-FileBasedIndex | Determines whether the quadtree spatial index is created or not. This index improves the performance of reading data from disk. It requires write permissions to a corresponding folder. Possible values are True or False. | No
-MemoryMappedFile | Creates a memory-mapped file that enables to work with extremely large files. Possible values are True or False. | No
-Encoding | Specifies the character encoding to read data from .dbf file. | No
-BufferSize | A positive integer value greater than 0 indicating the buffer size in bytes. The default buffer size is 512.| No
+Parameter Name | Value Type | Description | Required
+------------ | ------------- | ------------- | -------------
+File | String |Determines a path to the the file. The path can also be relative to the directory where map project is stored. | Yes
+FileBasedIndex | Boolean | Determines whether the quadtree spatial index is created or not. This index improves the performance of reading data from disk. It requires write permissions to a corresponding folder. Possible values are True or False. | No
+MemoryMappedFile | Boolean | Creates a memory-mapped file that enables to work with extremely large files. Possible values are True or False. | No
+Encoding | String |Specifies the character encoding to read data from .dbf file. | No
+BufferSize | Integer | A positive integer value greater than 0 indicating the buffer size in bytes. The default buffer size is 512.| No
 
 
 Note shapefiles can also be read using other data source providers such as
