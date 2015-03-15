@@ -1,6 +1,6 @@
 # OpenStreetMap Data
 
-## Description
+## Introduction
 
 OpenStreetMap (OSM) is a collaborative project to create a free editable map of the world. The initial map data was originally collected by volunteers performing systematic ground surveys using a GPS unit and other devices. 
 
