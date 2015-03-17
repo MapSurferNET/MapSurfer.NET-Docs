@@ -16,5 +16,5 @@ This section describes configuration parameters used in **EsriFileGeoDB** data s
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 Path | String |Determines a path to the the file. The path can also be relative to the directory where map project is stored. | Yes
-Table | String | Determines the name of table from which the data are fetched. | Yes
+Table | String | Determines the name of a table from which the data are fetched. | Yes
 Query | String | Specifies a query to select data from the table. | No
