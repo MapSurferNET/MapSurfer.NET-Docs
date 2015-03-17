@@ -26,6 +26,3 @@ TileCache | String | Determines a list of parameters for a local [tile cache](us
 
 > %!IMPORTANT NOTE!% The **VectorTiles** data source provider also supports tiles encoded in GeoJSON or TopoJSON [formats](https://github.com/mapzen/vector-datasource/wiki/Mapzen-Vector-Tile-Service#formats).
 
-
-
-ameters, "$;$", "$=$");
