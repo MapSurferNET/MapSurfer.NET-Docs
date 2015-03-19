@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The [OGR](http://www.gdal.org/) is an open source library written in C++ that is able to read a variety of vector geospatial dataformats such as:
+The [OGR](http://www.gdal.org/) is an open source library written in C++ that is able to read a variety of vector geospatial data formats such as:
 
 - [Aeronav FAA files](http://www.gdal.org/drv_aeronavfaa.html)		
 - [ESRI ArcObjects](http://www.gdal.org/drv_ao.html)				
@@ -99,4 +99,4 @@ Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 File | String | Determines a path to the the data source. The path can also be relative to the directory where map project is stored. | Yes
 LayerName | String | Determines the name of a layer. | Yes
-LayerIndex | Integer | A positive integer value greater or equal 0 indicating the index of the layer. This parameter is used only when LayerName is not given.| Yes
+LayerIndex | Integer | A positive integer value greater or equal 0 indicating the index of the layer. This parameter is used only when LayerName is not given.| Yes/No
