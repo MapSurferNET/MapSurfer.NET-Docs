@@ -73,11 +73,16 @@ TODO Plugins.
         
 ## Operators
 
+MapSurfer.NET provides a rich set of operators both commonly used in programming languages or SQL queries. The following subsections present an overview of supported operators. 
+
+### Conditional Operators
+
+Operator  | Description | Syntax
+------------- | ------------- | -------------
+?:  | The conditional operator evaluates an expression (condition), then it returns first value if that expression evaluates to true, and the second value if the expression evaluates as false. | condition ? result1 : result2
+
 ### Logical Operators
 
-?:
-
-The conditional operator (?:) returns one of two values depending on the value of a Boolean expression. Following is the syntax for the conditional operator.
 
 ||, or
 
