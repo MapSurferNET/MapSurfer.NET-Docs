@@ -87,6 +87,7 @@ Operator  | Description | Syntax
 ------------- | ------------- | -------------
 ||, or  | The operator performs a logical-OR of its bool expressions.  | first_expression || second_expression
 &&, and  | The operator performs a logical-AND of its bool expressions.  | first_expression && second_expression
+!, not | The unary negation operator is a logical operator that negates its operand. | !expression
 
 ### Comparison Operators
 
@@ -104,8 +105,6 @@ The following example computes a new value adding 1 to **width** property.
 
 ### Multiplicative Operators
  *, /, %, mod
-
--, !, not unary operators
 
 [] brackets
 
