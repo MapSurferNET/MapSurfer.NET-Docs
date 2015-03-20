@@ -88,8 +88,6 @@ Operator  | Description | Syntax
 ||, or  | The operator performs a logical-OR of its bool expressions.  | first_expression || second_expression
 &&, and  | The operator performs a logical-AND of its bool expressions.  | first_expression && second_expression
 
-&&, and 
-
 ### Comparison Operators
 
 =, ==, !=, <>, >, >=, <, <= operators, in , like
