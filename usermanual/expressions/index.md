@@ -79,12 +79,14 @@ MapSurfer.NET provides a rich set of operators both commonly used in programming
 
 Operator  | Description | Syntax
 ------------- | ------------- | -------------
-?:  | The conditional operator evaluates an expression (condition), then it returns first value if that expression evaluates to true, and the second value if the expression evaluates as false. | condition ? result1 : result2
+?:  | The conditional operator evaluates an expression (condition), then it returns first value if that expression evaluates to true, and the second value if the expression evaluates as false. | condition ? first_expression : second_expression
 
 ### Logical Operators
 
-
-||, or
+Operator  | Description | Syntax
+------------- | ------------- | -------------
+||, or  | The operator performs a logical-OR of its bool expressions.  | first_expression || second_expression
+&&, and  | The operator performs a logical-AND of its bool expressions.  | first_expression && second_expression
 
 &&, and 
 
