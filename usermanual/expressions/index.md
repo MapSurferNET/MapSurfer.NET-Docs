@@ -83,11 +83,11 @@ Operator  | Description | Syntax
 
 ### Logical Operators
 
-Operator  | Description | Syntax
-------------- | ------------- | -------------
-||, or  | The operator performs a logical-OR of its bool expressions.  | first_expression || second_expression
-&&, and  | The operator performs a logical-AND of its bool expressions.  | first_expression && second_expression
-!, not | The unary negation operator is a logical operator that negates its operand. | !expression
+|Operator  | Description | Syntax
+|------------- | ------------- | -------------
+| ||, or  | The operator performs a logical-OR of its bool expressions.  | first_expression || second_expression
+| &&, and  | The operator performs a logical-AND of its bool expressions.  | first_expression && second_expression
+| !, not | The unary negation operator is a logical operator that negates its operand. | !expression
 
 ### Comparison Operators
 
