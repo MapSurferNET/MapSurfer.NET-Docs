@@ -1,6 +1,6 @@
 # MapSurfer.NET Expressions
 
-## Intorduction
+## Introduction
 
 According to [Wikipedia](http://en.wikipedia.org/wiki/Expression_%28computer_science%29), an expression in a programming language is a combination of explicit values, constants, variables, operators, and functions that are interpreted according to the particular rules of precedence and of association for a particular programming language, which computes and then produces (returns, in a stateful environment) another value. 
 
