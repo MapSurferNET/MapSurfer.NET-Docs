@@ -52,7 +52,7 @@ The expression engine is based on a modified version of Microsoft's [System.Linq
 
 Each bold item presents a [static class](https://msdn.microsoft.com/en-us/library/79b3xss3.aspx) which cannot be instantiated. The purpose of a static class is to provide an access to a list of functions that can be used in expressions. For more details, see Functions section. 
 
-TODO Plugins.
+MapSurfer.NET gives a possibility to extend expressions with custom functions. In order to plug-in your extension to MapSurfer.NET, you need to create an xml file of the following format:
 
 ```xml
 <?xml version="1.0"?>
@@ -70,6 +70,8 @@ TODO Plugins.
   </AssemblyInfo>
 </Assemblies>
 ```
+
+where each AssemblyInfo element defines an assembly with your extensions. The attribute **path** determines a path to the assembly. Types element is a list of types that should be used in expressions.
         
 ## Operators
 
