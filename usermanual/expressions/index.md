@@ -75,7 +75,7 @@ where each AssemblyInfo element defines an assembly with custom extensions. The 
         
 ## Operators
 
-MapSurfer.NET provides a rich set of operators both commonly used in programming languages or SQL queries. The following subsections present an overview of supported operators. 
+MapSurfer.NET provides a rich set of operators both commonly used in programming languages and SQL queries. The following subsections present an overview of supported operators. 
 
 ### Conditional Operators
 
@@ -95,18 +95,23 @@ Operator  | Description | Syntax
 
 =, ==, !=, <>, >, >=, <, <= operators, in , like
 
-### Additive Operators
+### Arithmetic Operators
 
+Operator  | Description | Syntax
+------------- | ------------- | -------------
++  | The operator of arithmetic addition. | 20 + 5
+-  | The operator of arithmetic subtraction. | 20 - 5
+*  | The operator of arithmetic multiplication. | 20 * 5
+/  | The operator of arithmetic division. | 100/0.2
+  
 +, -, &
-
+*, /, %, mod
 The following example computes a new value adding 1 to **width** property. 
 
 ```cs
 [width] + 1
 ```
 
-### Multiplicative Operators
- *, /, %, mod
 
 [] brackets
 
