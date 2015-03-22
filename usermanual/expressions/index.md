@@ -93,7 +93,16 @@ Operator  | Description | Syntax
 
 ### Comparison Operators
 
-=, ==, !=, <>, >, >=, <, <= operators, in , like
+Operator  | Description | Syntax
+------------- | ------------- | -------------
+=, ==  | The equality operator returns true if the values of its operands are equal, false otherwise | first_expression == second_expression
+!=, <> | The inequality operator returns false if its operands are equal, true otherwise.  | first_expression != second_expression
+> | The "greater than" relational operator returns true if the first operand is greater than the second, false otherwise. | first_expression > second_expression
+>= | The "greater than or equal" relational operator returns true if the first operand is greater than or equal to the second, false otherwise. | first_expression >= second_expression
+< | The "less than" relational operator returns true if the first operand is less than the second, false otherwise. | first_expression < second_expression
+<= | The "less than or equal" relational operator returns true if the first operand is less than or equal to the second, false otherwise. | first_expression <= second_expression
+
+>, >=, <, <= operators, in , like
 
 ### Arithmetic Operators
 
@@ -102,16 +111,9 @@ Operator  | Description | Syntax
 +  | The operator of arithmetic addition. | 20 + 5
 -  | The operator of arithmetic subtraction. | 20 - 5
 *  | The operator of arithmetic multiplication. | 20 * 5
-/  | The operator of arithmetic division. | 100/0.2
+/  | The operator of arithmetic division. | 100 / 0.2
+%  | Returns the remainder of a division of two values. | 10 % 4
   
-+, -, &
-*, /, %, mod
-The following example computes a new value adding 1 to **width** property. 
-
-```cs
-[width] + 1
-```
-
 
 [] brackets
 
@@ -128,3 +130,10 @@ DistanceCalc.Euclidean(4.12,12.6,4.22, 12.8)
 
 access to field values
 
+## Examples
+
+The following example computes a new value adding 1 to **width** property. 
+
+```cs
+[width] + 1
+```
