@@ -152,13 +152,19 @@ The following example select only cities and towns with population greater than 
 [place] in ("city", "town") && Convert.ToInt32([population]) > 100000
 ```
 
+The following example selects only motorways, trunks and primary roads.
+
+```cs
+[highway] in ("motorway", "trunk", "primary")
+```
+
 The following example computes the height of a building in meters. The value of a field building:height is expressed as a string value in yards.
 ```cs
 0.9144*Convert.ToSingle([building:height].Replace("yd", ""))
 ```
 
-The following example computes a new value adding 1 to **width** property. 
+The following example computes an offset polyline that is equidistant from an original one on 5 pixels. 
 
 ```cs
-[width] + 1
+GeometryTransformations.OffsetCurve(GeometryTransformations.ViewTransformation([_geom_], [_ViewTransformation_]), 5, 2) 
 ```
