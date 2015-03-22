@@ -140,6 +140,23 @@ null | The null literal. | null
 
 ## Examples
 
+The following example filters data by selecting only a city with the name "London". 
+
+```cs
+[place] = "city" && [name] = "London"
+```
+
+The following example select only cities and towns with population greater than 100000 inhabitants. Field population is stored as a string.
+
+```cs
+[place] in ("city", "town") && Convert.ToInt32([population]) > 100000
+```
+
+The following example computes the height of a building in meters. The value of a field building:height is expressed as a string value in yards.
+```cs
+0.9144*Convert.ToSingle([building:height].Replace("yd", ""))
+```
+
 The following example computes a new value adding 1 to **width** property. 
 
 ```cs
