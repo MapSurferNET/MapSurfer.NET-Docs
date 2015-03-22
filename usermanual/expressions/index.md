@@ -101,34 +101,43 @@ Operator  | Description | Syntax
 >= | The "greater than or equal" relational operator returns true if the first operand is greater than or equal to the second, false otherwise. | first_expression >= second_expression
 < | The "less than" relational operator returns true if the first operand is less than the second, false otherwise. | first_expression < second_expression
 <= | The "less than or equal" relational operator returns true if the first operand is less than or equal to the second, false otherwise. | first_expression <= second_expression
+expression IN (subquery)
+in | Determines whether a specified value matches any value in a subquery or a list. |  test_expression IN (value1, value2, value3)
+like | Determines whether a specific character string matches a specified pattern. |  match_expression LIKE pattern
 
->, >=, <, <= operators, in , like
 
 ### Arithmetic Operators
 
 Operator  | Description | Syntax
 ------------- | ------------- | -------------
-+  | The operator of arithmetic addition. | 20 + 5
--  | The operator of arithmetic subtraction. | 20 - 5
-*  | The operator of arithmetic multiplication. | 20 * 5
-/  | The operator of arithmetic division. | 100 / 0.2
-%  | Returns the remainder of a division of two values. | 10 % 4
++  | The operator of arithmetic addition. | expression1 + expression2
+-  | The operator of arithmetic subtraction. | expression1 - expression2
+*  | The operator of arithmetic multiplication. | expression1 * expression2
+/  | The operator of arithmetic division. | expression1 / expression2
+%  | Returns the remainder of a division of two values. | expression1 % expression2
   
 
-[] brackets
+## Other Operators
 
-## Functions
-
+Operator  | Description | Syntax
+------------- | ------------- | -------------
+[] | This operator is used to access the value of a field in a data source or to access an element of an array. | [field_name][0]
+() | This operator allows specifying the order of operations in an expression. | (expression1 - expression2) * expression3
+.  | This operator is used to access the functions of a static class. | Class.Method(expression1, value1)
 
 For example, if you have a static class named DistanceCalc that has a method named Euclidean with four arguments of double type, you can call this method as:
 
 ```cs
-DistanceCalc.Euclidean(4.12,12.6,4.22, 12.8)
+DistanceCalc.Euclidean(4.12, 12.6, 4.22, 12.8)
 ```
 
-##Strings ""
+## Literals
 
-access to field values
+Type  | Description | Example
+------------- | ------------- | -------------
+String | A regular string literal represents a set of characters enclosed in double quotes.| "Berlin"
+Char | A character literal is a single character enclosed in quotes. | 'a'
+null | The null literal. | null
 
 ## Examples
 
