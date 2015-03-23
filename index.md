@@ -19,6 +19,7 @@
 
 #### Map Styling ####
 
+- [Expressions](usermanual/expressions/index.md)
 - [Project samples](https://github.com/MapSurferNET/MapSurfer.NET-Examples)
 
 #### Tile Caching ####
