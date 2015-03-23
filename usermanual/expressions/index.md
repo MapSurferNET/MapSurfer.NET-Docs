@@ -16,6 +16,8 @@ The expression engine is based on a modified version of Microsoft's [System.Linq
 
 ## Supported Types
 
+The following types are supported in MapSurfer.NET by default.
+
 ###.NET Default Types
 
 - [Object](https://msdn.microsoft.com/en-us/library/system.object%28v=vs.110%29.aspx)
@@ -50,7 +52,7 @@ The expression engine is based on a modified version of Microsoft's [System.Linq
 - MathEx
 - OSMUtility
 
-Each bold item presents a [static class](https://msdn.microsoft.com/en-us/library/79b3xss3.aspx) which cannot be instantiated. The purpose of a static class is to provide an access to a list of functions that can be used in expressions. For more details, see Functions section. 
+Each bold item presents a [static class](https://msdn.microsoft.com/en-us/library/79b3xss3.aspx) which cannot be instantiated. The purpose of a static class is to provide an access to a list of functions that can be used in expressions. 
 
 MapSurfer.NET framework gives a possibility to extend expressions with custom functions. In order to plug in your extension, you need to create an xml file named **ExpressionTypes.xml** in **..\MyDocuments\MapSurfer.NET\Common** folder. This file should have the following format:
  
@@ -122,9 +124,9 @@ Operator  | Description | Syntax
 ------------- | ------------- | -------------
 [] | This operator is used to access the value of a field in a data source or to access an element of an array. | [field_name][0]
 () | This operator allows specifying the order of operations in an expression. | (expression1 - expression2) * expression3
-.  | This operator is used to access the functions of a static class. | Class.Method(expression1, value1)
+.  | This operator is used to access the functions of a [static class](https://msdn.microsoft.com/en-us/library/79b3xss3.aspx). | Class.Method(expression1, value1)
 
-For example, if you have a static class named DistanceCalc that has a method named Euclidean with four arguments of double type, you can call this method as:
+For example, if you have a static class named DistanceCalc that has a method named Euclidean with four arguments of a double type, you can call this method as:
 
 ```cs
 DistanceCalc.Euclidean(4.12, 12.6, 4.22, 12.8)
@@ -146,24 +148,24 @@ The following example filters data by selecting only a city with the name "Londo
 [place] = "city" && [name] = "London"
 ```
 
-The following example select only cities and towns with population greater than 100000 inhabitants. Field population is stored as a string.
+The following example select only cities and towns with population greater than 100000 inhabitants. Field "population" has string representation.
 
 ```cs
 [place] in ("city", "town") && Convert.ToInt32([population]) > 100000
 ```
 
-The following example selects only motorways, trunks and primary roads.
+The following example selects only [motorways, trunks and primary roads](http://wiki.openstreetmap.org/wiki/Key:highway).
 
 ```cs
 [highway] in ("motorway", "trunk", "primary")
 ```
 
-The following example computes the height of a building in meters. The value of a field building:height is expressed as a string value in yards.
+The following example computes the height of a building in meters. The value of field "building:height" is expressed as a string value in yards.
 ```cs
 0.9144*Convert.ToSingle([building:height].Replace("yd", ""))
 ```
 
-The following example computes an offset polyline that is equidistant from an original one on 5 pixels. 
+The following example computes an offset polyline that is 5 pixels equidistant from an original polyline. 
 
 ```cs
 GeometryTransformations.OffsetCurve(GeometryTransformations.ViewTransformation([_geom_], [_ViewTransformation_]), 5, 2) 
