@@ -136,7 +136,8 @@ DistanceCalc.Euclidean(4.12, 12.6, 4.22, 12.8)
 
 Type  | Description | Example
 ------------- | ------------- | -------------
-String | A regular string literal represents a set of characters enclosed in double quotes.| "Berlin"
+Boolean | There are two Boolean literal values: true and false. | [field_visibility] = true
+String | A regular string literal represents a set of characters enclosed in double quotes. | "Berlin"
 Char | A character literal is a single character enclosed in quotes. | 'a'
 null | The null literal. | null
 
