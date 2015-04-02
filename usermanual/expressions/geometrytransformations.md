@@ -38,7 +38,7 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 
 #### <div id="Envelope">Envelope</div>
 
-Returns a bounding box of a geometry object.
+Returns a bounding box of the geometry object.
 
 **Syntax**
 >%!FUNCTION-SYNTAX!% GeometryTransformations.Envelope([geom_field]) 
@@ -48,7 +48,7 @@ Returns a bounding box of a geometry object.
 
 #### <div id="MBR">MBR</div>
 
-Returns the minimum bounding rectangle (MBR) of a geometry object.
+Returns the minimum bounding rectangle (MBR) of the geometry object.
 
 **Syntax**
 >%!FUNCTION-SYNTAX!% GeometryTransformations.MBR([geom_field]) 
@@ -65,6 +65,16 @@ Returns the longest axis of the minimum bounding rectangle.
 
 **Example**
 <center>![](/media/images/12-geomtrans_mbrlongestaxis.png)</center>
+
+#### <div id="MBRLongestAxis">MBRLongestAxis</div>
+
+Returns a list of vertices that form the geometry object.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.Vertices([geom_field]) 
+
+**Example**
+<center>![](/media/images/13-geomtrans_vertices.png)</center>
 
 #### <div id="ViewTransformation">ViewTransformation</div>
 
