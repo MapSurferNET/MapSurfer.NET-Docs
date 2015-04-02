@@ -17,8 +17,8 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 - [EndPoint](#EndPoint)
 - [Envelope](#Envelope)
 - [Equidistant](#Equidistant)
-- [MBRLongestAxis](#MBRLongestAxis)
 - [MBR](#MBR)
+- [MBRLongestAxis](#MBRLongestAxis)
 - [Offset](#Offset)
 - [OffsetCurve](#OffsetCurve)
 - [Simplify](#Simplify) 
@@ -45,6 +45,22 @@ Returns a bounding box of a geometry object.
  
 **Example**
 <center>![](/media/images/10-geomtrans_envelope.png)</center>
+
+#### <div id="MBR">MBR</div>
+
+**Syntax**
+>%!COMMAND-LINE!% GeometryTransformations.MBR([geom_field]) 
+
+**Example**
+<center>![](/media/images/11-geomtrans_mbr.png)</center>
+
+#### <div id="MBRLongestAxis">MBRLongestAxis</div>
+
+**Syntax**
+>%!COMMAND-LINE!% GeometryTransformations.MBRLongestAxis([geom_field]) 
+
+**Example**
+<center>![](/media/images/12-geomtrans_mbrlongestaxis.png)</center>
 
 #### <div id="ViewTransformation">ViewTransformation</div>
 
