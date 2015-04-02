@@ -42,7 +42,7 @@ Returns a bounding box of a geometry object.
 
 **Syntax**
 >%!COMMAND-LINE!% GeometryTransformations.Envelope([geom_field]) 
-
+ 
 **Example**
 <center>![](/media/images/10-geomtrans_envelope.png)</center>
 
