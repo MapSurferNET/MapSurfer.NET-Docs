@@ -9,7 +9,7 @@ In MapSurfer.NET, expressions are an incredibly powerful tool that provides grea
 - data filtering
 - labelling 
 - symbolizer properties
-- geometry transformations
+- [geometry transformations](usermanual/expressions/geometrytransformations.md)
 
 The expression engine is based on a modified version of Microsoft's [System.Linq.Dynamic](https://www.nuget.org/packages/System.Linq.Dynamic) library. For more information about expressions, please refer to [Microsoft's Documentation](https://msdn.microsoft.com/en-us/library/ms173144.aspx).  
 
