@@ -41,6 +41,8 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 Returns a bounding box of a geometry object.
 <center>![](/media/images/10-geomtrans_envelope.png)</center>
 
+>%!COMMAND-LINE!% GeometryTransformations.Envelope([geom_field]) 
+
 #### <div id="ViewTransformation">ViewTransformation</div>
 
 ```cs
