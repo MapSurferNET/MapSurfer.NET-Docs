@@ -36,6 +36,11 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 
 #### <div id="CentroidPoint">CentroidPoint</div>
 
+#### <div id="Envelope">Envelope</div>
+
+Returns a bounding box of a geometry object.
+<center>![](/media/images/10-geomtrans_envelope.png)</center>
+
 #### <div id="ViewTransformation">ViewTransformation</div>
 
 ```cs
