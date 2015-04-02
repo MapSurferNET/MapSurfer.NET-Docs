@@ -41,23 +41,27 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 Returns a bounding box of a geometry object.
 
 **Syntax**
->%!COMMAND-LINE!% GeometryTransformations.Envelope([geom_field]) 
+>%!FUNCTION-SYNTAX!% GeometryTransformations.Envelope([geom_field]) 
  
 **Example**
 <center>![](/media/images/10-geomtrans_envelope.png)</center>
 
 #### <div id="MBR">MBR</div>
 
+Returns the minimum bounding rectangle (MBR) of a geometry object.
+
 **Syntax**
->%!COMMAND-LINE!% GeometryTransformations.MBR([geom_field]) 
+>%!FUNCTION-SYNTAX!% GeometryTransformations.MBR([geom_field]) 
 
 **Example**
 <center>![](/media/images/11-geomtrans_mbr.png)</center>
 
 #### <div id="MBRLongestAxis">MBRLongestAxis</div>
 
+Returns the longest axis of the minimum bounding rectangle.
+
 **Syntax**
->%!COMMAND-LINE!% GeometryTransformations.MBRLongestAxis([geom_field]) 
+>%!FUNCTION-SYNTAX!% GeometryTransformations.MBRLongestAxis([geom_field]) 
 
 **Example**
 <center>![](/media/images/12-geomtrans_mbrlongestaxis.png)</center>
