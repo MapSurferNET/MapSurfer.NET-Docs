@@ -32,6 +32,9 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 
 #### <div id="CenterLine">CenterLine</div>
 
+#### <div id="CenterPoint">CenterLine</div>
+
+#### <div id="CentroidPoint">CentroidPoint</div>
 
 #### <div id="ViewTransformation">ViewTransformation</div>
 
