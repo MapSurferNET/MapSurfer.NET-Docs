@@ -66,7 +66,7 @@ Returns the longest axis of the minimum bounding rectangle.
 **Example**
 <center>![](/media/images/12-geomtrans_mbrlongestaxis.png)</center>
 
-#### <div id="MBRLongestAxis">MBRLongestAxis</div>
+#### <div id="Vertices">Vertices</div>
 
 Returns a list of vertices that form the geometry object.
 
