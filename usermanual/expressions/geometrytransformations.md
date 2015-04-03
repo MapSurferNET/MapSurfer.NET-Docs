@@ -36,6 +36,16 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 
 #### <div id="CentroidPoint">CentroidPoint</div>
 
+#### <div id="ConvexHull">ConvexHull</div>
+
+Returns the convex hull or convex envelope of the points that form the given geometry object.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.ConvexHull([geom_field]) 
+ 
+**Example**
+<center>![](/media/images/10-geomtrans_convexhull.png)</center>
+
 #### <div id="Envelope">Envelope</div>
 
 Returns a bounding box of the geometry object.
