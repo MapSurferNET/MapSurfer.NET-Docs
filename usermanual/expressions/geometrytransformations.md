@@ -44,7 +44,7 @@ Returns the convex hull or convex envelope of the points that form the given geo
 >%!FUNCTION-SYNTAX!% GeometryTransformations.ConvexHull([geom_field]) 
  
 **Example**
-<center>![](/media/images/10-geomtrans_convexhull.png)</center>
+<center>![](/media/images/14-geomtrans_convexhull.png)</center>
 
 #### <div id="Envelope">Envelope</div>
 
