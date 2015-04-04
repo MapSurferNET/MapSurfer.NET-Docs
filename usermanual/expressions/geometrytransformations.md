@@ -76,6 +76,16 @@ Returns the longest axis of the minimum bounding rectangle.
 **Example**
 <center>![](/media/images/12-geomtrans_mbrlongestaxis.png)</center>
 
+#### <div id="Offset">Offset</div>
+
+Translates the geometry to a new location by adding offset parameters *deltaX* and *deltaY* to each coordinate.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.Offset([geom_field], 5, 5) 
+
+**Example**
+<center>![](/media/images/15-geomtrans_offset.png)</center>
+
 #### <div id="Vertices">Vertices</div>
 
 Returns a list of vertices that form the geometry object.
