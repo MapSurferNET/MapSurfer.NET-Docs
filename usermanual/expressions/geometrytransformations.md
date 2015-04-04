@@ -88,6 +88,11 @@ Returns a list of vertices that form the geometry object.
 
 #### <div id="ViewTransformation">ViewTransformation</div>
 
+Returns a new geometry object with coordinates transformed to the map view coordinate system that is normally measured in map units (for example, pixels). This function helps to operate with other functions such as OffsetCurve that have parameters measured in map units.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.ViewTransformation([geom_field], [_ViewTransformation_]) 
+
 ```cs
 GeometryTransformations.OffsetCurve(GeometryTransformations.ViewTransformation([_geom_], [_ViewTransformation_]), 5, 2) 
 ```
