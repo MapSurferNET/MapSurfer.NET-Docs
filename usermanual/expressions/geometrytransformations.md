@@ -93,6 +93,4 @@ Returns a new geometry object with coordinates transformed to the map view coord
 **Syntax**
 >%!FUNCTION-SYNTAX!% GeometryTransformations.ViewTransformation([geom_field], [_ViewTransformation_]) 
 
-```cs
-GeometryTransformations.OffsetCurve(GeometryTransformations.ViewTransformation([_geom_], [_ViewTransformation_]), 5, 2) 
-```
+
