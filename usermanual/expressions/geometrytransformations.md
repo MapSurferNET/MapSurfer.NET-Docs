@@ -45,6 +45,17 @@ Returns the convex hull or convex envelope of the points that form the given geo
 **Example**
 <center>![](/media/images/14-geomtrans_convexhull.png)</center>
 
+#### <div id="EndPoint">EndPoint</div>
+
+Returns the end point of a geometry.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.EndPoint([geom_field]) 
+blue - end points, purple - start points, green - inner points.
+
+**Example**
+<center>![](/media/images/16-geomtrans_startendpoint.png)</center>
+
 #### <div id="Envelope">Envelope</div>
 
 Returns a bounding box of the geometry object.
@@ -84,6 +95,17 @@ Translates the geometry to a new location by adding offset parameters *deltaX* a
 
 **Example**
 <center>![](/media/images/15-geomtrans_offset.png)</center>
+
+#### <div id="StartPoint">StartPoint</div>
+
+Returns the start point of a geometry.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.StartPoint([geom_field]) 
+
+**Example**
+<center>![](/media/images/16-geomtrans_startendpoint.png)</center>
+blue - end points, purple - start points, green - inner points.
 
 #### <div id="Vertices">Vertices</div>
 
