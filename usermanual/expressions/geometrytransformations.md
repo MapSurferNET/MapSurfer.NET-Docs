@@ -25,13 +25,21 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 - [StartOffset](#StartOffset)
 - [StartPoint](#StartPoint)
 - [VertexAnchoredSegments](#VertexAnchoredSegments)
-- [Vertices](#Vertices)
+- [Vertices](#Vertices)b
 - [ViewTransformation](#ViewTransformation)
 
 
 #### <div id="CenterLine">CenterLine</div>
 
-#### <div id="CenterPoint">CenterLine</div>
+#### <div id="CenterPoint">CenterPoint</div>
+
+Returns the center point of a curve.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.CenterPoint([geom_field]) 
+ 
+**Example**
+<center>![](/media/images/17-geomtrans_centerpoint.png)</center>
 
 #### <div id="CentroidPoint">CentroidPoint</div>
 
@@ -55,6 +63,7 @@ blue - end points, purple - start points, green - inner points.
 
 **Example**
 <center>![](/media/images/16-geomtrans_startendpoint.png)</center>
+blue - end points, purple - start points, green - inner points.
 
 #### <div id="Envelope">Envelope</div>
 
