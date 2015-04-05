@@ -105,7 +105,7 @@ Returns a new geometry object with coordinates transformed to the map view coord
 
 ### Custom Transformations
 
-You can extend the list of supported geometry transformations with your own functions. This can be accomplished by implementing a custom function class inherited from **GeometryTransformationFunction** class defined in MapSurfer.Geometries.TransformationFunctions namespace. This class should have an overriden **TransformGeometry** function that contains the logic of the function. In order to give a unique name to the function, you need to add **PluginDescription** attribute to the class and provide a name as the first parameter of its constructor. See example below
+You can extend the list of supported geometry transformations with your own functions. This can be accomplished by implementing a custom function class inherited from **GeometryTransformationFunction** class defined in MapSurfer.Geometries.TransformationFunctions namespace (MapSurfer.Geometries.dll). This class should have an overriden **TransformGeometry** function that contains the logic of the function. In order to give a unique name to the function, you need to add **PluginDescription** attribute to the class and provide a name as the first parameter of its constructor. See example below
 
 ```cs
 using System;
@@ -132,4 +132,4 @@ namespace MapSurfer.Geometries.TransformationFunctions
 ```
 
 Once you have an assembly containing custom geometry functions, you need to copy it to the folder
-**..\Core\Plugins\Algorithms\GeometryTransformations**. Next, you need to clear the cache of assemblies used by MapSurfer.NET to speed up loading. This cache is normally located in C:\Users\YOURUSER\AppData\Local\MapSurfer.NET\VERSION\Core\UserCache, where YOURUSER is the user name for which the framework with the version VERSION was installed.
+**..\Core\Plugins\Algorithms\GeometryTransformations**. Next, you need to clear the cache of assemblies used by MapSurfer.NET to speed up loading. This cache is normally located in C:\Users\YOURUSER\AppData\Local\MapSurfer.NET\YOURVERSION\Core\UserCache, where YOURUSER is the user name for which the framework with the version YOURVERSION was installed.
