@@ -43,6 +43,14 @@ Returns the center point of a curve.
 
 #### <div id="CentroidPoint">CentroidPoint</div>
 
+Returns the centroid point of a geometry.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.CentroidPoint([geom_field]) 
+ 
+**Example**
+<center>![](/media/images/18-geomtrans_centroidpoint.png)</center>
+
 #### <div id="ConvexHull">ConvexHull</div>
 
 Returns the convex hull or convex envelope of the points that form the given geometry object.
