@@ -15,7 +15,6 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 - [Densify](#Densify)
 - [EndPoint](#EndPoint)
 - [Envelope](#Envelope)
-- [Equidistant](#Equidistant)
 - [MBR](#MBR)
 - [MBRLongestAxis](#MBRLongestAxis)
 - [Offset](#Offset)
@@ -144,7 +143,7 @@ Returns a new geometry object with coordinates transformed to the map view coord
 
 ### Custom Transformations
 
-You can extend the list of supported geometry transformations with your own functions. This can be accomplished by implementing a custom function class inherited from **GeometryTransformationFunction** class defined in MapSurfer.Geometries.TransformationFunctions namespace (MapSurfer.Geometries.dll). This class should have an overriden **TransformGeometry** function that contains the logic of the function. In order to give a unique name to the function, you need to add **PluginDescription** attribute to the class and provide a name as the first parameter of its constructor. See example below
+You can extend the list of supported geometry transformations with your own functions. This can be accomplished by implementing a custom function class inherited from **GeometryTransformationFunction** class defined in MapSurfer.Geometries.TransformationFunctions namespace (MapSurfer.Geometries.dll). This class should have an overriden **TransformGeometry** function that contains the logic of the function. The parameters of the class will be used as parameters of the function. For example, a constructor MyFunc(double deltaX, double deltaY) corresponds to a function GeometryTransformations.MyFunc(Geometry, double, double).  In order to give a unique name to the function, you need to add **PluginDescription** attribute to the class and provide a name as the first parameter of its constructor. See example below
 
 ```cs
 using System;
