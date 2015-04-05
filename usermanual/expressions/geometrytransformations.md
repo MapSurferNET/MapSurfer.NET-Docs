@@ -6,7 +6,6 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 
 ### Supported Transformations
  
-
 - [CenterLine](#CenterLine)
 - [CenterPoint](#CenterPoint)
 - [CentroidPoint](#CentroidPoint)
@@ -104,3 +103,30 @@ Returns a new geometry object with coordinates transformed to the map view coord
 >%!FUNCTION-SYNTAX!% GeometryTransformations.ViewTransformation([geom_field], [_ViewTransformation_]) 
 
 
+### Custom Transformations
+
+You can extend the list of supported geometry transformations with your own functions. This can be accomplished by implementing a custom function class inherited from **MapSurfer.Geometries.TransformationFunctions.GeometryTransformationFunction** class. This class should have an overriden **TransformGeometry** function that contains the logic of the function. In order to give a unique name to the function, you need to provide **PluginDescription** attribute to the class. See example below
+
+```cs
+using System;
+using GeoAPI.Geometries;
+using MapSurfer.Configuration;
+
+namespace MapSurfer.Geometries.TransformationFunctions
+{
+  [PluginDescription("EndPoint")]
+  public class EndPointTranformationFunction : GeometryTransformationFunction
+  {
+    public EndPointTranformationFunction()
+    { 
+    }
+
+    protected override Geometry TransformGeometry(Geometry geom)
+    {
+      ICoordinate[] coords = geom.Coordinates;
+      return new Point((ICoordinate)coords[coords.Length - 1].Clone());
+    } 
+  }
+}
+
+```
