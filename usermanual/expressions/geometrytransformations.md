@@ -65,7 +65,7 @@ Returns the convex hull or convex envelope of the points that form the given geo
 Inserts extra vertices along the line segments that describe the geometry.
 
 **Syntax**
->%!FUNCTION-SYNTAX!% GeometryTransformations.Densify([geom_field], tolerance) 
+>%!FUNCTION-SYNTAX!% GeometryTransformations.Densify([geom_field], distanceTolerance) 
  
 **Example**
 <center>![](/media/images/20-geomtrans_densify.png)</center>
