@@ -60,6 +60,16 @@ Returns the convex hull or convex envelope of the points that form the given geo
 **Example**
 <center>![](/media/images/14-geomtrans_convexhull.png)</center>
 
+#### <div id="Densify">Densify</div>
+
+Inserts extra vertices along the line segments that describe the geometry.
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.Densify([geom_field], tolerance) 
+ 
+**Example**
+<center>![](/media/images/20-geomtrans_densify.png)</center>
+
 #### <div id="EndPoint">EndPoint</div>
 
 Returns the end point of a geometry.
@@ -121,6 +131,7 @@ Computes the offsetting (inflating/deflating) of both open and closed paths usin
 
 **Example**
 <center>![](/media/images/19-geomtrans_offsetcurve.png)</center>
+Street names are located along the curve produced by OffsetCurve function.
 
 #### <div id="StartPoint">StartPoint</div>
 
