@@ -124,7 +124,7 @@ Translates the geometry to a new location by adding offset parameters *deltaX* a
 
 #### <div id="OffsetCurve">OffsetCurve</div>
 
-Computes the offsetting (inflating/deflating) of both open and closed paths using a number of different join types and end types (Square, Round, Miter).
+Computes the offsetting (inflating/deflating) of both open and closed paths using a number of different join types and end types (Square = 0, Round = 1, Miter = 2).
 
 **Syntax**
 >%!FUNCTION-SYNTAX!% GeometryTransformations.OffsetCurve([geom_field], offset, endType) 
