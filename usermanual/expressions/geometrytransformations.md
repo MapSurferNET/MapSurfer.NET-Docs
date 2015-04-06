@@ -24,7 +24,7 @@ Each **Symbolizer** has a property **GeometryExpression** that allows specifying
 - [StartOffset](#StartOffset)
 - [StartPoint](#StartPoint)
 - [VertexAnchoredSegments](#VertexAnchoredSegments)
-- [Vertices](#Vertices)b
+- [Vertices](#Vertices)
 - [ViewTransformation](#ViewTransformation)
 
 
