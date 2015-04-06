@@ -107,10 +107,20 @@ Returns the longest axis of the minimum bounding rectangle.
 Translates the geometry to a new location by adding offset parameters *deltaX* and *deltaY* to each coordinate.
 
 **Syntax**
->%!FUNCTION-SYNTAX!% GeometryTransformations.Offset([geom_field], 5, 5) 
+>%!FUNCTION-SYNTAX!% GeometryTransformations.Offset([geom_field], deltaX, deltaY) 
 
 **Example**
 <center>![](/media/images/15-geomtrans_offset.png)</center>
+
+#### <div id="OffsetCurve">OffsetCurve</div>
+
+Computes the offsetting (inflating/deflating) of both open and closed paths using a number of different join types and end types (Square, Round, Miter).
+
+**Syntax**
+>%!FUNCTION-SYNTAX!% GeometryTransformations.OffsetCurve([geom_field], offset, endType) 
+
+**Example**
+<center>![](/media/images/19-geomtrans_offsetcurve.png)</center>
 
 #### <div id="StartPoint">StartPoint</div>
 
