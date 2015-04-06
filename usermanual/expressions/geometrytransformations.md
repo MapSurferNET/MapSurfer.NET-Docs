@@ -62,7 +62,7 @@ Returns the convex hull or convex envelope of the points that form the given geo
 
 #### <div id="Densify">Densify</div>
 
-Inserts extra vertices along the line segments that describe the geometry.
+Inserts extra vertices along the line segments that describe the geometry. The distance between these points is defined by *distanceTolerance* parameter.
 
 **Syntax**
 >%!FUNCTION-SYNTAX!% GeometryTransformations.Densify([geom_field], distanceTolerance) 
