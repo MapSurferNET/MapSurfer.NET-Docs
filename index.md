@@ -39,6 +39,7 @@
 ### Publishing Web Service  
 
 - [Running a Web Service using IIS 7.5](/usermanual/webservices/running-webservice-using-iis75.md)
+- [Hosting a Web Service using Nancy](/usermanual/webservices/self-hosting-webservice-nancy.md)
 
 ### FAQ
 
