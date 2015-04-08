@@ -90,4 +90,4 @@ Note that this file can contain several tile maps with different urls. For each 
 > !!Step 12!! Set **Full Control** permissions to the folder **C:\inetpub\MSNWebService\Logs** for the web service user.
 
 <center></center>
-> !!Step 13!! Open your browser and type [localhost:8001/tms.ashx?x=0&y=0&z=0](localhost:8001/tms.ashx?x=0&y=0&z=0). 
+> !!Step 13!! To make sure the service is hosted correctly, open your browser and type [localhost:8001/tms.ashx?x=0&y=0&z=0](localhost:8001/tms.ashx?x=0&y=0&z=0). 

@@ -89,4 +89,4 @@ Note that this file can contain several tile maps with different urls. You need 
 >%!COMMAND-LINE!% MSNNancySH.exe -conf "C:\Temp\MSNWS1\mymap.config"
 
 <center></center>
-> !!Step 7!! Open your browser and type [localhost:8001/tms.ashx?x=0&y=0&z=0](localhost:8001/tms.ashx?x=0&y=0&z=0). 
+> !!Step 7!! To make sure the service is hosted correctly, open your browser and type [localhost:8001/tms.ashx?x=0&y=0&z=0](localhost:8001/tms.ashx?x=0&y=0&z=0). 
