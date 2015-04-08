@@ -87,6 +87,7 @@ Note that this file can contain several tile maps with different urls. You need 
 
 <center></center>
 > !!Step 6!! Run the command
+
 <center></center>
 > %!COMMAND-LINE!% MSNNancySH.exe -conf "C:\Temp\MSNWS1\mymap.config"
 
