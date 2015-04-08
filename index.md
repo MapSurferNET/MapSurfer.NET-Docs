@@ -36,7 +36,7 @@
 
 - [Embedding MapSurfer.NET in a Custom Application](/devmanual/embedding-msn-in-custom-application.md)
 
-### Publishing Web Service  
+### Publishing Web Services 
 
 - [Running a Web Service using IIS 7.5](/usermanual/webservices/running-webservice-using-iis75.md)
 - [Hosting a Web Service using Nancy](/usermanual/webservices/self-hosting-webservice-nancy.md)

@@ -15,7 +15,8 @@ Suppose you have a project file **Bremen.msnpx** (see [Examples](https://github.
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
-    <startup> <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
+    <startup> 
+       <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
     </startup>
 
   <appSettings>
@@ -86,7 +87,8 @@ Note that this file can contain several tile maps with different urls. You need 
 
 <center></center>
 > !!Step 6!! Run the command
->%!COMMAND-LINE!% MSNNancySH.exe -conf "C:\Temp\MSNWS1\mymap.config"
+<center></center>
+> %!COMMAND-LINE!% MSNNancySH.exe -conf "C:\Temp\MSNWS1\mymap.config"
 
 <center></center>
 > !!Step 7!! To make sure the service is hosted correctly, open your browser and type [localhost:8001/tms.ashx?x=0&y=0&z=0](localhost:8001/tms.ashx?x=0&y=0&z=0). 
