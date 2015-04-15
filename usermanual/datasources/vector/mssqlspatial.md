@@ -4,7 +4,7 @@
 
 Starting with version 2008, Microsoft SQL Server has a builtin functionality to work with [spatial queries](https://msdn.microsoft.com/en-us/library/bb933790.aspx).  SQL Server supports two spatial data types: the **geometry** and the **geography**.
 
-> %!IMPORTANT NOTE!% At the moment MapSurtfer.NET supports only geometry type.
+> %!IMPORTANT NOTE!% At the moment MapSurfer.NET supports only geometry type.
 
 ## Configuration
 
