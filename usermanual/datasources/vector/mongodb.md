@@ -1,17 +1,20 @@
-# Working with Vector Data #
+# MongoDB 
 
-This section provides a list of vector data sources supported by MapSurfer.NET. The list includes file based formats, relational and document-oriented databases, as well as web services.
+## Introduction
 
-- [ESRI Shapefiles](usermanual/datasources/vector/shapefiles.md)
-- GeoJSON
-- GPX
-- MongoDB
-- MsSQLSpatial
-- MySQLSpatial
-- OpenStreetMap 
-- PostGIS
-- SpatiaLite 
-- VectorTiles
-- CartoDB
+MongoDB is a popular document-oriented (NoSQL) database system. 
 
-Note MapSurfer.NET provides an API to develop a custom data source provider which can be implemented and integrated into the framework as a [plugin](/devmanual/plugins).
+## Configuration
+
+In MapSurfer.NET, **MongoDB** data source provider operates with the following configuration parameters:
+
+Parameter Name | Value Type | Description | Required
+------------ | ------------- | ------------- | -------------
+Host | String | TODO. | Yes
+Port | Integer | TODO. | No
+Database | String | TODO. | Yes
+User | String | TODO. | No
+
+
+> %!IMPORTANT NOTE!% Shapefiles can also be read using other data source providers such as
+**[EsriFileGeoDB](usermanual/datasources/vector/esrigeodb.md)** or **[OGR](usermanual/datasources/vector/ogr.md)**.
