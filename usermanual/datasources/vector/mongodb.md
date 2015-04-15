@@ -2,7 +2,7 @@
 
 ## Introduction
 
-MongoDB is a popular document-oriented (NoSQL) database system. 
+[MongoDB](http://www.mongodb.org/) is a popular document-oriented (NoSQL) database system. Among other features, MongoDB provides a possibility to handle geospatial information. For more details, see [Geospatial Indexes and Queries](http://docs.mongodb.org/manual/applications/geospatial-indexes/).
 
 ## Configuration
 
@@ -10,11 +10,12 @@ In MapSurfer.NET, **MongoDB** data source provider operates with the following c
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
-Host | String | TODO. | Yes
-Port | Integer | TODO. | No
-Database | String | TODO. | Yes
-User | String | TODO. | No
+Host | String | Defines the server's host name. | Yes
+Port | Integer | Defines the server's port number. Default value is 27017. | No
+Database | String |  Sets the optional database name. | Yes
+User | String | Sets the default user name. | Yes
+Password | String | Sets the default user password. | Yes
+Collection | String | Defines a collection on the database with a default document type of BsonDocument. | Yes
+GeometryElement | String | Sets the value of an element where Geometry is stored. Default value is loc.| Yes
+Query | String |  Defines a query to find all documents in the specified collection that match it. | No
 
-
-> %!IMPORTANT NOTE!% Shapefiles can also be read using other data source providers such as
-**[EsriFileGeoDB](usermanual/datasources/vector/esrigeodb.md)** or **[OGR](usermanual/datasources/vector/ogr.md)**.
