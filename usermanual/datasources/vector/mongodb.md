@@ -17,5 +17,5 @@ User | String | Sets the default user name. | Yes
 Password | String | Sets the default user password. | Yes
 Collection | String | Defines a collection on the database with a default document type of BsonDocument. | Yes
 GeometryElement | String | Sets the value of an element where Geometry is stored. Default value is loc.| Yes
-Query | String |  Defines a query to find all documents in the specified collection that match it. | No
+Query | String |  Defines a [query](http://docs.mongodb.org/manual/tutorial/query-documents/) to find all documents in the specified collection that match it. Example: "{ type: "snacks" }"| No
 
