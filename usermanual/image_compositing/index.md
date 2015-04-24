@@ -58,4 +58,4 @@ The following types are supported in MapSurfer.NET by default.
     Stamp = 45
 
 
-<center>![](/media/images/2-Setup_License.png)  ![](/media/images/3-Setup_InstallOptions.png)</center>
+<center>![](/media/images/image_compositing/Clear_1.png)  ![](/media/images/image_compositing/Clear_2.png)</center>
