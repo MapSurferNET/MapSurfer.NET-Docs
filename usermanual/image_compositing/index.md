@@ -59,3 +59,5 @@ The following types are supported in MapSurfer.NET by default.
 
 
 <center>![](/media/images/image_compositing/Screen_1.png)  ![](/media/images/image_compositing/Screen_2.png)</center>
+
+<center>![](/media/images/image_compositing/Multiply_1.png)</center>
