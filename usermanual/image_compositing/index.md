@@ -57,7 +57,8 @@ The following types are supported in MapSurfer.NET by default.
     Phoenix = 44,
     Stamp = 45
 
+<center>![](/media/images/3-Setup_InstallOptions.png)</center>
+Test
 
 <center>![](/media/images/image_compositing/Screen_1.png)  ![](/media/images/image_compositing/Screen_2.png)</center>
 
-<center>![](/media/images/image_compositing/Multiply_1.png)</center>
