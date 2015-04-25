@@ -27,11 +27,20 @@ The following types are supported in MapSurfer.NET by default.
 ### Destination
 <center>![](/media/images/image_compositing/Destination_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Destination_2.png)</center>
 
-    DestinationOver = 6,
-    DestinationIn = 7,
-    DestinationOut = 8,
-    DestinationATop = 9,
-    Xor = 10,
+### DestinationOver
+<center>![](/media/images/image_compositing/DestinationOver_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationOver_2.png)</center>
+
+### DestinationIn 
+<center>![](/media/images/image_compositing/DestinationIn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationIn_2.png)</center>
+    
+### DestinationOut
+<center>![](/media/images/image_compositing/DestinationOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationOut_2.png)</center>
+    
+### DestinationATop
+<center>![](/media/images/image_compositing/DestinationATop_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationATop_2.png)</center>
+
+### Xor
+<center>![](/media/images/image_compositing/Xor_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Xor_2.png)</center>
 
 ## Color Blending
 
