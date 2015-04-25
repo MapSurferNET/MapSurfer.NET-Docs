@@ -10,15 +10,23 @@
 The following types are supported in MapSurfer.NET by default.
 
 ### Source
-<center>![](/media/images/image_compositing/Source_1.png)         ![](/media/images/image_compositing/Source_2.png)</center>
+<center>![](/media/images/image_compositing/Source_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Source_2.png)</center>
 
 ### SourceOver
-<center>![](/media/images/image_compositing/SourceOver_1.png)         ![](/media/images/image_compositing/SourceOver.png)</center>
+<center>![](/media/images/image_compositing/SourceOver_1.png)&nbsp;&nbsp;&nbsp;&nbsp; ![](/media/images/image_compositing/SourceOver.png)</center>
 
-    SourceIn = 2,
-    SourceOut = 3,
-    SourceATop = 4,
-    Destination = 5,
+### SourceIn
+<center>![](/media/images/image_compositing/SourceIn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceIn_2.png)</center>
+    
+### SourceOut
+<center>![](/media/images/image_compositing/SourceOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceOur_2.png)</center>
+
+### SourceATop
+<center>![](/media/images/image_compositing/SourceATop_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceATop_2.png)</center>
+
+### Destination
+<center>![](/media/images/image_compositing/Destination_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Destination_2.png)</center>
+
     DestinationOver = 6,
     DestinationIn = 7,
     DestinationOut = 8,
@@ -66,6 +74,4 @@ The following types are supported in MapSurfer.NET by default.
     Stamp = 45
 
 
-<center>![](/media/images/image_compositing/Screen_1.png)  ![](/media/images/image_compositing/Screen_2.png)</center>
-
-<center>![](/media/images/image_compositing/Multiply_1.png)</center>
+<center>![](/media/images/image_compositing/Screen_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Screen_2.png)</center>
