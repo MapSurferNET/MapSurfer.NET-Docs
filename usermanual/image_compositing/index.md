@@ -5,11 +5,15 @@
 
 
 
-## Supported Types
+## Alpha blending
 
 The following types are supported in MapSurfer.NET by default.
- Source = 0,
-    SourceOver = 1,
+### Source
+<center>![](/media/images/image_compositing/Source_1.png)         ![](/media/images/image_compositing/Source_2.png)</center>
+
+### SourceOver
+<center>![](/media/images/image_compositing/SourceOver_1.png)         ![](/media/images/image_compositing/SourceOver.png)</center>
+
     SourceIn = 2,
     SourceOut = 3,
     SourceATop = 4,
@@ -19,6 +23,9 @@ The following types are supported in MapSurfer.NET by default.
     DestinationOut = 8,
     DestinationATop = 9,
     Xor = 10,
+
+## Color blending
+
     Clear = 11,
     Plus = 12,
     Minus = 13,
