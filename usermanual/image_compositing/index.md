@@ -13,13 +13,13 @@ The following types are supported in MapSurfer.NET by default.
 <center>![](/media/images/image_compositing/Source_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Source_2.png)</center>
 
 ### SourceOver
-<center>![](/media/images/image_compositing/SourceOver_1.png)&nbsp;&nbsp;&nbsp;&nbsp; ![](/media/images/image_compositing/SourceOver.png)</center>
+<center>![](/media/images/image_compositing/SourceOver_1.png)&nbsp;&nbsp;&nbsp;&nbsp; ![](/media/images/image_compositing/SourceOver_2.png)</center>
 
 ### SourceIn
 <center>![](/media/images/image_compositing/SourceIn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceIn_2.png)</center>
     
 ### SourceOut
-<center>![](/media/images/image_compositing/SourceOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceOur_2.png)</center>
+<center>![](/media/images/image_compositing/SourceOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceOut_2.png)</center>
 
 ### SourceATop
 <center>![](/media/images/image_compositing/SourceATop_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceATop_2.png)</center>
