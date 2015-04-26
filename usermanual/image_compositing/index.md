@@ -3,10 +3,10 @@
 ## Introduction
 
 ### Example 1
-<center>![](/media/images/image_compositing/origin/Src1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/origin/Dst1.png)</center>
+<center>![](/media/images/image_compositing/origin/Src1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/origin/Src2.png)</center>
 
-### Example 2
-<center>![](/media/images/image_compositing/origin/Src2.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/origin/Dst2.png)</center>
+
+<center>![](/media/images/image_compositing/origin/Dst1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/origin/Dst2.png)</center>
 
 
 ## Alpha Blending
