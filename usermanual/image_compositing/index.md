@@ -78,7 +78,7 @@
 ### ColorBurn
 <center>![](/media/images/image_compositing/ColorBurn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/ColorBurn_2.png)</center>
 
-HardLight
+### HardLight
 <center>![](/media/images/image_compositing/HardLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/HardLight_2.png)</center>
 
 ### SoftLight
