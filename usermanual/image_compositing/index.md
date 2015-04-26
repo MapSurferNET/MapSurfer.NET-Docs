@@ -39,9 +39,11 @@ The source is drawn on top of the destination only in regions where the destinat
 <center>![](/media/images/image_compositing/SourceOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceOut_2.png)</center>
 
 ### SourceATop
+The source is drawn on top of the destination in regions where it intersects the destination.
 <center>![](/media/images/image_compositing/SourceATop_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceATop_2.png)</center>
 
 ### Destination
+The destination is left unchanged, i.e. the source is not taken into account.
 <center>![](/media/images/image_compositing/Destination_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Destination_2.png)</center>
 
 ### DestinationOver
@@ -49,10 +51,11 @@ The destination is drawn on top of the source.
 <center>![](/media/images/image_compositing/DestinationOver_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationOver_2.png)</center>
 
 ### DestinationIn 
+The destination is drawn only in regions where it overlaps the source. 
 <center>![](/media/images/image_compositing/DestinationIn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationIn_2.png)</center>
     
 ### DestinationOut
-The part of the destination, which overlaps the source, replaces the source. 
+The destination is drawn only in regions where the destination does not overlap the source. 
 <center>![](/media/images/image_compositing/DestinationOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationOut_2.png)</center>
     
 ### DestinationATop
