@@ -3,7 +3,8 @@
 ## Introduction
 In computer graphics, image compositing is a technique of combining two raster images to create a new resulting image. There are two different group of operations (modes): **alpha compositing** and **color blending**.
 
-**Alpha compositing** (see [Porter and Duff](http://keithp.com/~keithp/porterduff/p253-porter.pdf)) is an operation which describes how two images are combined using only alpha components of the images.
+**Alpha compositing** (see [Porter and Duff](http://keithp.com/~keithp/porterduff/p253-porter.pdf)) is an operation which defines how two images are combined using only alpha components of the images.
+
 **Color blending** is an operation which mixes the colors of two images by producing a new color.
 
 In both modes, the first and the second colors presents the colors of the source and the destination images. 
@@ -34,6 +35,7 @@ The part of the source that overlaps the destination replaces the destination.
 <center>![](/media/images/image_compositing/SourceIn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceIn_2.png)</center>
     
 ### SourceOut
+The source is drawn on top of the destination only in regions where the destination is transparent.
 <center>![](/media/images/image_compositing/SourceOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceOut_2.png)</center>
 
 ### SourceATop
@@ -50,6 +52,7 @@ The destination is drawn on top of the source.
 <center>![](/media/images/image_compositing/DestinationIn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationIn_2.png)</center>
     
 ### DestinationOut
+The part of the destination, which overlaps the source, replaces the source. 
 <center>![](/media/images/image_compositing/DestinationOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationOut_2.png)</center>
     
 ### DestinationATop
