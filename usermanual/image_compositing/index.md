@@ -44,11 +44,21 @@ The following types are supported in MapSurfer.NET by default.
 
 ## Color Blending
 
-    Clear = 11,
-    Plus = 12,
-    Minus = 13,
-    Multiply = 14,
-    Screen = 15,
+### Clear
+<center>![](/media/images/image_compositing/Clear_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Clear_2.png)</center>
+
+### Plus
+<center>![](/media/images/image_compositing/Plus_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Plus_2.png)</center>
+
+### Minus
+<center>![](/media/images/image_compositing/Minus_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Minus_2.png)</center>
+
+### Multiply
+<center>![](/media/images/image_compositing/Multiply_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Multiply_2.png)</center>
+
+### Screen
+<center>![](/media/images/image_compositing/Screen_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Screen_2.png)</center>
+
     Overlay = 16,
     Darken = 17,
     Lighten = 18,
