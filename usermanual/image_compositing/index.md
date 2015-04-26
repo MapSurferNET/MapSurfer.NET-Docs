@@ -59,14 +59,19 @@ The destination is drawn only in regions where the destination does not overlap 
 <center>![](/media/images/image_compositing/DestinationOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationOut_2.png)</center>
     
 ### DestinationATop
+
+The destination is composited over the source in regions where it overlaps the source. Source is placed elsewhere.
 <center>![](/media/images/image_compositing/DestinationATop_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationATop_2.png)</center>
 
 ### Xor
+The Xor operator, also known as 'exclusive or', combines the non-overlapping regions of the source and the destination. 
 <center>![](/media/images/image_compositing/Xor_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Xor_2.png)</center>
 
 ## Color Blending
 
 ### Clear
+
+Sets every pixel of both the source and the destination to fully transparent. 
 <center>![](/media/images/image_compositing/Clear_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Clear_2.png)</center>
 
 ### Plus
