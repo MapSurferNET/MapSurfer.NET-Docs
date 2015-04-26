@@ -9,7 +9,7 @@ In computer graphics, image compositing is a technique of combining two raster i
 
 In both modes, the first and the second colors presents the colors of the source and the destination images. 
 
-This article provides the full list of compositing modes available in MapSurfer.NET. This list consists of 46 operations in total, 11 for the alpha compositing and 35 the color blending group. In MapSurfer.NET compositing operations can be applied to two types of the objects, namely to layers and styles.
+This article provides the full list of compositing modes available in MapSurfer.NET. This list consists of 46 operations in total, 11 operations in the alpha compositing and 35 in the color blending group respectively. In MapSurfer.NET compositing operations can be applied to two types of the objects, namely to layers and styles.
 
 In order to demonstrate the effect of each mode, we first give a short description of each operator and visually present a resulting image obtained by applying this operator to the pair of the following images (source and destination).
 
