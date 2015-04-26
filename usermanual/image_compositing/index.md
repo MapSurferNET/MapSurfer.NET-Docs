@@ -97,12 +97,23 @@ HardLight
 <center>![](/media/images/image_compositing/InvertRGB_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/InvertRGB_2.png)</center>
 
 ### GrainMerge
+<center>![](/media/images/image_compositing/GrainMerge_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/GrainMerge_2.png)</center>
 
-    GrainExtract = 29,
-    Hue = 30,
-    Saturation = 31,
-    Color = 32,
-    Value = 33,
+### GrainExtract
+<center>![](/media/images/image_compositing/GrainExtract_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/GrainExtract_2.png)</center>
+
+### Hue 
+<center>![](/media/images/image_compositing/Hue_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Hue_2.png)</center>
+
+### Saturation
+<center>![](/media/images/image_compositing/Saturation_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Saturation_2.png)</center>
+
+### Color 
+<center>![](/media/images/image_compositing/Color_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Color_2.png)</center>
+
+### Value
+<center>![](/media/images/image_compositing/Value_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Value_2.png)</center>
+
 
     LinearDodge = 34,
     LinearBurn = 35,
@@ -117,5 +128,3 @@ HardLight
     Phoenix = 44,
     Stamp = 45
 
-
-<center>![](/media/images/image_compositing/Screen_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Screen_2.png)</center>
