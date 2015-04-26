@@ -59,20 +59,45 @@ The following types are supported in MapSurfer.NET by default.
 ### Screen
 <center>![](/media/images/image_compositing/Screen_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Screen_2.png)</center>
 
-    Overlay = 16,
-    Darken = 17,
-    Lighten = 18,
-    ColorDodge = 19,
-    ColorBurn = 20,
-    HardLight = 21,
-    SoftLight = 22,
-    Difference = 23,
-    Exclusion = 24,
+### Overlay 
 
-    Contrast = 25,
-    Invert = 26,
-    InvertRGB = 27,
-    GrainMerge = 28,
+<center>![](/media/images/image_compositing/Overlay_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Overlay_2.png)</center>
+
+### Darken
+<center>![](/media/images/image_compositing/Darken_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Darken_2.png)</center>
+
+### Lighten
+<center>![](/media/images/image_compositing/Lighten_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Lighten_2.png)</center>
+
+### ColorDodge
+<center>![](/media/images/image_compositing/ColorDodge_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/ColorDodge_2.png)</center>
+
+### ColorBurn
+<center>![](/media/images/image_compositing/ColorBurn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/ColorBurn_2.png)</center>
+
+HardLight
+<center>![](/media/images/image_compositing/HardLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/HardLight_2.png)</center>
+
+### SoftLight
+<center>![](/media/images/image_compositing/SoftLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SoftLight_2.png)</center>
+
+### Difference
+<center>![](/media/images/image_compositing/Difference_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Difference_2.png)</center>
+
+### Exclusion
+<center>![](/media/images/image_compositing/Exclusion_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Exclusion_2.png)</center>
+
+### Contrast
+<center>![](/media/images/image_compositing/Contrast_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Contrast_2.png)</center>
+
+### Invert
+<center>![](/media/images/image_compositing/Invert_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Invert_2.png)</center>
+
+### InvertRGB 
+<center>![](/media/images/image_compositing/InvertRGB_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/InvertRGB_2.png)</center>
+
+### GrainMerge
+
     GrainExtract = 29,
     Hue = 30,
     Saturation = 31,
