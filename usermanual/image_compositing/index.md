@@ -7,7 +7,6 @@
 
 ## Alpha Blending
 
-The following types are supported in MapSurfer.NET by default.
 
 ### Source
 <center>![](/media/images/image_compositing/Source_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Source_2.png)</center>
@@ -114,17 +113,40 @@ HardLight
 ### Value
 <center>![](/media/images/image_compositing/Value_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Value_2.png)</center>
 
+### LinearDodge
+<center>![](/media/images/image_compositing/LinearDodge_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/LinearDodge_2.png)</center>
 
-    LinearDodge = 34,
-    LinearBurn = 35,
-    VividLight =  36,
-    LinearLight = 37,
-    PinLight = 38,
-    HardMix = 39,
-    Glow = 40,
-    Reflect = 41,
-    Freeze = 42,
-    Heat = 43,
-    Phoenix = 44,
-    Stamp = 45
+### LinearBurn
+<center>![](/media/images/image_compositing/LinearBurn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/LinearBurn_2.png)</center>
+
+### VividLight
+<center>![](/media/images/image_compositing/VividLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/VividLight_2.png)</center>
+
+### LinearLight
+<center>![](/media/images/image_compositing/LinearLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/LinearLight_2.png)</center>
+
+### PinLight
+<center>![](/media/images/image_compositing/PinLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/PinLight_2.png)</center>
+
+### HardMix 
+<center>![](/media/images/image_compositing/HardMix_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/HardMix_2.png)</center>
+
+### Glow 
+<center>![](/media/images/image_compositing/Glow_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Glow_2.png)</center>
+
+### Reflect 
+<center>![](/media/images/image_compositing/Reflect_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Reflect_2.png)</center>
+
+### Freeze
+<center>![](/media/images/image_compositing/Freeze_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Freeze_2.png)</center>
+
+### Heat 
+<center>![](/media/images/image_compositing/Heat_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Heat_2.png)</center>
+
+### Phoenix
+<center>![](/media/images/image_compositing/Phoenix_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Phoenix_2.png)</center>
+
+### Stamp
+<center>![](/media/images/image_compositing/Stamp_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Stamp_2.png)</center>
+
 
