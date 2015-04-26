@@ -1,8 +1,18 @@
-# Image Compositing Operations
+# Image Compositing Operators
 
 ## Introduction
+In computer graphics, image compositing is a technique of combining two raster images to create a new resulting image. There are two different group of operations (modes): **alpha compositing** and **color blending**.
 
-### Example 1
+**Alpha compositing** (see [Porter and Duff](http://keithp.com/~keithp/porterduff/p253-porter.pdf)) is an operation which describes how two images are combined using only alpha components of the images.
+**Color blending** is an operation which mixes the colors of two images by producing a new color.
+
+In both modes, the first and the second colors presents the colors of the source and the destination images. 
+
+This article provides the full list of compositing modes available in MapSurfer.NET. This list consists of 46 operations in total, 11 for the alpha compositing and 35 the color blending group. In MapSurfer.NET compositing operations can be applied to two types of the objects, namely to layers and styles.
+
+In order to demonstrate the effect of each mode, we first give a short description of each operator and visually present a resulting image obtained by applying this operator to the pair of the following images (source and destination).
+
+### Example Images
 <center>![](/media/images/image_compositing/origin/Src1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/origin/Src2.png)</center>
 
 
@@ -11,14 +21,16 @@
 
 ## Alpha Blending
 
-
 ### Source
+The source is copied to the destination. 
 <center>![](/media/images/image_compositing/Source_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Source_2.png)</center>
 
 ### SourceOver
+The source is drawn on top of the destination. 
 <center>![](/media/images/image_compositing/SourceOver_1.png)&nbsp;&nbsp;&nbsp;&nbsp; ![](/media/images/image_compositing/SourceOver_2.png)</center>
 
 ### SourceIn
+The part of the source that overlaps the destination replaces the destination.
 <center>![](/media/images/image_compositing/SourceIn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SourceIn_2.png)</center>
     
 ### SourceOut
@@ -31,6 +43,7 @@
 <center>![](/media/images/image_compositing/Destination_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Destination_2.png)</center>
 
 ### DestinationOver
+The destination is drawn on top of the source. 
 <center>![](/media/images/image_compositing/DestinationOver_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationOver_2.png)</center>
 
 ### DestinationIn 
