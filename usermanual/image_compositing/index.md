@@ -59,7 +59,6 @@ The destination is drawn only in regions where the destination does not overlap 
 <center>![](/media/images/image_compositing/DestinationOut_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationOut_2.png)</center>
     
 ### DestinationATop
-
 The destination is composited over the source in regions where it overlaps the source. Source is placed elsewhere.
 <center>![](/media/images/image_compositing/DestinationATop_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/DestinationATop_2.png)</center>
 
@@ -70,11 +69,11 @@ The Xor operator, also known as 'exclusive or', combines the non-overlapping reg
 ## Color Blending
 
 ### Clear
-
-Sets every pixel of both the source and the destination to fully transparent. 
+Both the color values and the alpha of the destination are cleared.
 <center>![](/media/images/image_compositing/Clear_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Clear_2.png)</center>
 
 ### Plus
+The source is added to the destination and replaces the destination. This operator is useful for animating a dissolve between two images.
 <center>![](/media/images/image_compositing/Plus_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Plus_2.png)</center>
 
 ### Minus
@@ -84,22 +83,26 @@ Sets every pixel of both the source and the destination to fully transparent.
 <center>![](/media/images/image_compositing/Multiply_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Multiply_2.png)</center>
 
 ### Screen
+Multiplies the complements of the destination and source color values, then complements the result. The result color is always at least as light as either of the two constituent colors. Screening any color with white produces white; screening with black leaves the original color unchanged. The effect is similar to projecting multiple photographic slides simultaneously onto a single screen.
 <center>![](/media/images/image_compositing/Screen_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Screen_2.png)</center>
 
 ### Overlay 
-
 <center>![](/media/images/image_compositing/Overlay_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Overlay_2.png)</center>
 
 ### Darken
+Returns the darker of the source and the destination colors. The destination is replaced with the source when the source is darker, otherwise it is left unchanged.
 <center>![](/media/images/image_compositing/Darken_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Darken_2.png)</center>
 
 ### Lighten
+Returns the lighter of the source and the destination colors. The destination is replaced with the source when the source is lighter, otherwise it is left unchanged.
 <center>![](/media/images/image_compositing/Lighten_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Lighten_2.png)</center>
 
 ### ColorDodge
+Brightens the destination color to reflect the source color. Painting with black produces no change.
 <center>![](/media/images/image_compositing/ColorDodge_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/ColorDodge_2.png)</center>
 
 ### ColorBurn
+Darkens the destination color to reflect the source color. Painting with white produces no change.
 <center>![](/media/images/image_compositing/ColorBurn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/ColorBurn_2.png)</center>
 
 ### HardLight
@@ -109,9 +112,12 @@ Sets every pixel of both the source and the destination to fully transparent.
 <center>![](/media/images/image_compositing/SoftLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SoftLight_2.png)</center>
 
 ### Difference
+Subtracts the darker of the two constituent colors from the lighter. Painting with white inverts the destination color. Painting with black produces no change.
 <center>![](/media/images/image_compositing/Difference_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Difference_2.png)</center>
 
 ### Exclusion
+Produces an effect similar to that of **Difference**, but appears as lower contrast. Painting with white inverts the
+destination color. Painting with black produces no change.
 <center>![](/media/images/image_compositing/Exclusion_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Exclusion_2.png)</center>
 
 ### Contrast
@@ -154,6 +160,7 @@ Sets every pixel of both the source and the destination to fully transparent.
 <center>![](/media/images/image_compositing/LinearLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/LinearLight_2.png)</center>
 
 ### PinLight
+Replaces the colors, depending on the blend color. If the blend color (light source) is lighter than 50% gray, pixels darker than the blend color are replaced, and pixels lighter than the blend color do not change. If the blend color is darker than 50% gray, pixels lighter than the blend color are replaced, and pixels darker than the blend color do not change. This is useful for adding special effects to an image.
 <center>![](/media/images/image_compositing/PinLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/PinLight_2.png)</center>
 
 ### HardMix 
