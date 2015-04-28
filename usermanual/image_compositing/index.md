@@ -77,6 +77,7 @@ The source is added to the destination and replaces the destination. This operat
 <center>![](/media/images/image_compositing/Plus_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Plus_2.png)</center>
 
 ### Minus
+Adds the values of the source and base colors and subtracts 255 from the result. Because this merge mode treats the color channels as subtractive, the result color is never lighter than the base color. 
 <center>![](/media/images/image_compositing/Minus_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Minus_2.png)</center>
 
 ### Multiply
@@ -106,9 +107,11 @@ Darkens the destination color to reflect the source color. Painting with white p
 <center>![](/media/images/image_compositing/ColorBurn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/ColorBurn_2.png)</center>
 
 ### HardLight
+Multiplies or screens the colors, dependent on the source color value. If the source color is lighter than 0.5, the destination is lightened as if it were screened. If the source color is darker than 0.5, the destination is darkened, as if it were multiplied. The degree of lightening or darkening is proportional to the difference between the source color and 0.5. If it is equal to 0.5 the destination is unchanged. Painting with pure black or white produces black or white.
 <center>![](/media/images/image_compositing/HardLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/HardLight_2.png)</center>
 
 ### SoftLight
+Darkens or lightens the colors, dependent on the source color value. If the source color is lighter than 0.5, the destination is lightened. If the source color is darker than 0.5, the destination is darkened, as if it were burned in. The degree of darkening or lightening is proportional to the difference between the source color and 0.5. If it is equal to 0.5, the destination is unchanged. Painting with pure black or white produces a distinctly darker or lighter area, but does not result in pure black or white.
 <center>![](/media/images/image_compositing/SoftLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/SoftLight_2.png)</center>
 
 ### Difference
