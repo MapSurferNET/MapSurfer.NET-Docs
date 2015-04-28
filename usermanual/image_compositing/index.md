@@ -91,6 +91,8 @@ Multiplies the complements of the destination and source color values, then comp
 <center>![](/media/images/image_compositing/Screen_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Screen_2.png)</center>
 
 ### Overlay 
+Multiplies or screens the colors, dependent on the destination color. Source colors overlay the destination whilst preserving its
+highlights and shadows. The destination color is not replaced, but is mixed with the source color to reflect the lightness or darkness of the destination.
 <center>![](/media/images/image_compositing/Overlay_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Overlay_2.png)</center>
 
 ### Darken
@@ -164,6 +166,7 @@ This mode is a combination of the color burn and multiply modes.
 <center>![](/media/images/image_compositing/LinearBurn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/LinearBurn_2.png)</center>
 
 ### VividLight
+This mode is a combination of the color burn and color dodge modes; color burn is used to darken the destination color if the src color is darker than mid-grey, color dodge is used to lighten the destination color if the source color is lighter than mid-grey.
 <center>![](/media/images/image_compositing/VividLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/VividLight_2.png)</center>
 
 ### LinearLight
