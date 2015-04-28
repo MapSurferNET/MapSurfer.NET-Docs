@@ -127,6 +127,7 @@ destination color. Painting with black produces no change.
 <center>![](/media/images/image_compositing/Contrast_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Contrast_2.png)</center>
 
 ### Invert
+This mode blends an inverted version of the destination with the original destination color under control of source alpha.
 <center>![](/media/images/image_compositing/Invert_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Invert_2.png)</center>
 
 ### InvertRGB 
