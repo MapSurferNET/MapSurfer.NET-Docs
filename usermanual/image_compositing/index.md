@@ -66,6 +66,8 @@ The destination is composited over the source in regions where it overlaps the s
 The Xor operator, also known as 'exclusive or', combines the non-overlapping regions of the source and the destination. 
 <center>![](/media/images/image_compositing/Xor_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Xor_2.png)</center>
 
+
+
 ## Color Blending
 
 ### Clear
@@ -81,6 +83,7 @@ Adds the values of the source and base colors and subtracts 255 from the result.
 <center>![](/media/images/image_compositing/Minus_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Minus_2.png)</center>
 
 ### Multiply
+The source color is multiplied by the destination color and replaces the destination.
 <center>![](/media/images/image_compositing/Multiply_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Multiply_2.png)</center>
 
 ### Screen
@@ -123,9 +126,6 @@ Produces an effect similar to that of **Difference**, but appears as lower contr
 destination color. Painting with black produces no change.
 <center>![](/media/images/image_compositing/Exclusion_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Exclusion_2.png)</center>
 
-### Contrast
-<center>![](/media/images/image_compositing/Contrast_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Contrast_2.png)</center>
-
 ### Invert
 This mode blends an inverted version of the destination with the original destination color under control of source alpha.
 <center>![](/media/images/image_compositing/Invert_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Invert_2.png)</center>
@@ -140,27 +140,34 @@ This mode blends an inverted version of the destination with the original destin
 <center>![](/media/images/image_compositing/GrainExtract_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/GrainExtract_2.png)</center>
 
 ### Hue 
+Creates a resulting color with the luminance and saturation of the destination color and the hue of the source color. 
 <center>![](/media/images/image_compositing/Hue_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Hue_2.png)</center>
 
 ### Saturation
+Creates a resulting color with the luminance and hue of the destination color and the saturation of the source color. Painting with this mode in an area with no (0) saturation (grey) causes no change.
 <center>![](/media/images/image_compositing/Saturation_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Saturation_2.png)</center>
 
 ### Color 
+This mode uses the hue and saturation of the source and the value of the destination to form the resulting image. 
 <center>![](/media/images/image_compositing/Color_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Color_2.png)</center>
 
 ### Value
+This mode uses the value of the source color and the saturation and hue of the destination color to form the resulting image. You can use this mode to reveal details in dark and light areas of an image without changing the saturation. 
 <center>![](/media/images/image_compositing/Value_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Value_2.png)</center>
 
 ### LinearDodge
+This mode is a combination of the color dodge and screen modes. Sometimes refered to as Add mode (not the same as additive mode).
 <center>![](/media/images/image_compositing/LinearDodge_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/LinearDodge_2.png)</center>
 
 ### LinearBurn
+This mode is a combination of the color burn and multiply modes.
 <center>![](/media/images/image_compositing/LinearBurn_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/LinearBurn_2.png)</center>
 
 ### VividLight
 <center>![](/media/images/image_compositing/VividLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/VividLight_2.png)</center>
 
 ### LinearLight
+This mode is a combination of the linear burn and linear dodge modes; linear burn is used to darken the destination color if the source color is darker than mid-grey, linear dodge is used to lighten the destination color if the source color is lighter than mid-grey.
 <center>![](/media/images/image_compositing/LinearLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/LinearLight_2.png)</center>
 
 ### PinLight
@@ -168,24 +175,31 @@ Replaces the colors, depending on the blend color. If the blend color (light sou
 <center>![](/media/images/image_compositing/PinLight_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/PinLight_2.png)</center>
 
 ### HardMix 
+This mode posterizes the destination color and blends with the source color using Vivid Light mode, such that the output consists of only the 6 primary colors (RGBCMY), white, and black.
 <center>![](/media/images/image_compositing/HardMix_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/HardMix_2.png)</center>
 
 ### Glow 
+This mode is a variation of reflect mode (the source and destination colors are swapped). 
 <center>![](/media/images/image_compositing/Glow_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Glow_2.png)</center>
 
 ### Reflect 
+This mode is used for adding shiny objects or areas of light.
 <center>![](/media/images/image_compositing/Reflect_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Reflect_2.png)</center>
 
 ### Freeze
+Another variation of reflect mode; the destination and source colors are inverted, the resulting color is inverted again.
 <center>![](/media/images/image_compositing/Freeze_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Freeze_2.png)</center>
 
 ### Heat 
+Another variation of reflect mode. It is like freeze mode, but the destination and source colors are swapped. 
 <center>![](/media/images/image_compositing/Heat_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Heat_2.png)</center>
 
 ### Phoenix
+This mode substracts lighter pixel from the darker pixel, and adds 255, giving a bright result. 
 <center>![](/media/images/image_compositing/Phoenix_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Phoenix_2.png)</center>
 
 ### Stamp
+This is helpful when applying relief or bump textures to images. Gray blend colors do not change the background, brighter or darker colors make the background brighter or darker. 
 <center>![](/media/images/image_compositing/Stamp_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Stamp_2.png)</center>
 
 
