@@ -124,7 +124,7 @@ Operator  | Description | Syntax
 ------------- | ------------- | -------------
 [] | This operator is used to access the value of a field in a data source or to access an element of an array. | [field_name][0]
 () | This operator allows specifying the order of operations in an expression. | (expression1 - expression2) * expression3
-.  | This operator is used to access the functions of a [static class](https://msdn.microsoft.com/en-us/library/79b3xss3.aspx). | Class.Method(expression1, value1)
+.  | This operator is used to access the functions of an object or a [static class](https://msdn.microsoft.com/en-us/library/79b3xss3.aspx). | [int_id].ToString() or Class.Method(expression1, value1)
 
 For example, if you have a static class named DistanceCalc that has a method named Euclidean with four arguments of a double type, you can call this method as:
 
