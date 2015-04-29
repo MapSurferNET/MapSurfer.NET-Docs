@@ -135,11 +135,13 @@ This mode blends an inverted version of the destination with the original destin
 ### InvertRGB 
 <center>![](/media/images/image_compositing/InvertRGB_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/InvertRGB_2.png)</center>
 
-### GrainMerge
-<center>![](/media/images/image_compositing/GrainMerge_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/GrainMerge_2.png)</center>
-
 ### GrainExtract
+Extracts the “film grain” from a layer to produce a new layer that is pure grain, but it can also be useful for giving images an embossed appearance. It subtracts the pixel value of the source from that of the destination and adds 128. 
 <center>![](/media/images/image_compositing/GrainExtract_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/GrainExtract_2.png)</center>
+
+### GrainMerge
+This mode is the opposite of “Grain extract”. It adds the pixel values of the source and destination together and subtracts 128. 
+<center>![](/media/images/image_compositing/GrainMerge_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/GrainMerge_2.png)</center>
 
 ### Hue 
 Creates a resulting color with the luminance and saturation of the destination color and the hue of the source color. 
