@@ -20,7 +20,8 @@
 #### Map Styling ####
 
 - [Expressions](usermanual/expressions/index.md)
-- [Project samples](https://github.com/MapSurferNET/MapSurfer.NET-Examples)
+- [Image Compositing Operations](usermanual/image_compositing/index.md)
+- [Project Samples](https://github.com/MapSurferNET/MapSurfer.NET-Examples)
 
 #### Tile Caching ####
 
