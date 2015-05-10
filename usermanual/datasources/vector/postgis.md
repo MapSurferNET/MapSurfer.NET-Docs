@@ -12,7 +12,7 @@ This section describes configuration parameters used in **PostGIS** data source 
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
-Connection | String | Defines the string used to open a PostgreSQL database. | Yes
+Connection | String | Defines the string used to open a PostgreSQL database. Example: Host=localhost;Database=GIS;User ID=postgres;Password=xxx;Port=5432 | Yes
 Table | String | The table name. | Yes
 GeometryColumn (GeometryField) | String | Determines a spatial column that contains data of a spatial data type (e.g., geometry or geography). | Yes
 Query | String | The query used to select data from a database. | Yes
