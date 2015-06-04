@@ -12,7 +12,7 @@ Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 Path | String | Determines a path to the the file. | Yes
 Password | String | The user's password to connect. | No
-Pooling | Boolean | Enables pooling mode. | No
+Pooling | Boolean | Enables pooling mode. Default value is False. | No
 Name | String | The plain-english name of the tileset. | Yes
 Version | Integer | The version of the tileset, as a plain number. | Yes
 Type | String | The type of a the tilset; either overlay or baselayer. | Yes
