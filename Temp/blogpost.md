@@ -28,6 +28,22 @@ Mapnik/TileMill	| C++/Node.js | unmanaged code | x86 | 2.2/0.10.1	| 10.10.2012
 
 As it can be seen, the libraries and toolkits are written in different programming languages such as C/C++, C# and Java. Furthermore, they are either compiled into so called unmanaged code (C/C++) or executed in runtime environments such as Java Runtime Environment (JRE) and Microsoft’s .NET framework.
 
+## 3.	Comparisons
+
+### 3.1	Testing Environment, Datasets and Settings
+Our experiments have been performed on a machine with an Intel® Core™ i5-2500 CPU @ 3.30 GHz running Windows 7 Professional x64 with 8GB installed memory. The runtime execution environments of our test application were JRE 8 (x64) and .NET Framework 4.5 (x64) respectively.
+
+We ran our tests on datasets derived from OpenStreetMap data. More precisely, we took shapefiles of land areas (continents and islands) from OpenStreetMapData web site. Two shapefiles (split versions) with data in WGS84 and Mercator projection, with about 400Mb in size each, were used.
+Each toolkit has been configured using the following parameters:
+
+
+Toolkit	| Shapefile Index | Metatile | Image Format | # of Threads	| Cache Format
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
+GeoServer    | yes   | 8x8	| png8 | 4 | disk directories
+MapServer    | yes | 8x8 | png8   | 4 | disk directories
+Map Suite    | yes     | 1x1	| png8	| 4 | disk directories
+MapSurfer.NET	| yes	| 8x8 |png8	| 4	| mbtiles
+Mapnik/TileMill	| yes | 8x8 | png8 | 4	| mbtiles
 
 
 TODO
