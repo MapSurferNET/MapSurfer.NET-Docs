@@ -167,28 +167,28 @@ _SLD_
 
 ## 3.3 Test #1: Shapefile without Reprojection
 
-<center>![](mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image005.png)</center>
+<center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image005.png)</center>
 *Figure 1*
 
-<center>![](mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image006.png)</center>
+<center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image006.png)</center>
 *Figure 2*
 
-TODO Add Image
+<center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image007.png)</center>
 *Figure 3*
 
 ## 3.4 Test #2: Shapefile with Reprojection
 
-TODO Add Image
+<center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image008.png)</center>
 *Figure 4*
 
 ## 3.5 Test #3: PostgreSQL (PostGIS) with Reprojection
 
-TODO Add Image
+<center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image009.png)</center>
 *Figure 5*
 
 ## 3.6 Tests Summary
 
-TODO Add Image
+<center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image010.png)</center>
 *Figure 6*
 
 ## 4.	Conclusions
