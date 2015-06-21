@@ -33,7 +33,7 @@ As it can be seen, the libraries and toolkits are written in different programmi
 ### 3.1	Testing Environment, Datasets and Settings
 Our experiments have been performed on a machine with an Intel® Core™ i5-2500 CPU @ 3.30 GHz running Windows 7 Professional x64 with 8GB installed memory. The runtime execution environments of our test application were JRE 8 (x64) and .NET Framework 4.5 (x64) respectively.
 
-We ran our tests on datasets derived from OpenStreetMap data. More precisely, we took shapefiles of land areas (continents and islands) from OpenStreetMapData web site. Two shapefiles (split versions) with data in WGS84 and Mercator projection, with about 400Mb in size each, were used.
+We ran our tests on datasets derived from OpenStreetMap data. More precisely, we took shapefiles of land areas (continents and islands) from [OpenStreetMapData](http://openstreetmapdata.com/data/land-polygons) web site. Two shapefiles (split versions) with data in [WGS84](http://openstreetmapdata.com/info/projections#wgs84) and [Mercator](http://openstreetmapdata.com/info/projections#mercator) projection, with about 400Mb in size each, were used.
 Each toolkit has been configured using the following parameters:
 
 
@@ -41,9 +41,13 @@ Toolkit	| Shapefile Index | Metatile | Image Format | # of Threads	| Cache Forma
 ------------ | ------------- | ------------- | ------------- | ------------- | -------------
 GeoServer    | yes   | 8x8	| png8 | 4 | disk directories
 MapServer    | yes | 8x8 | png8   | 4 | disk directories
-Map Suite    | yes     | 1x1	| png8	| 4 | disk directories
+Map Suite    | yes     | 1x1	| png24	| 4 | disk directories
 MapSurfer.NET	| yes	| 8x8 |png8	| 4	| mbtiles
 Mapnik/TileMill	| yes | 8x8 | png8 | 4	| mbtiles
+
+It is important to make a note of some differences in configuration and custom changes in tile seeding procedures. First, [Map Suite Tile Cache Generator](http://thinkgeo.com/forums/MapSuite/tabid/143/aft/10446/Default.aspx) does not have capabilities to work with metatiles or save tiles in png8 format. Nevertheless, we decided include this library in our tests. Second, we make use MapServer and [C# mapscript](http://mapserver.org/de/installation/dotnet.html) to render and slice metatiles into smaller tiles. Third, it can be seen in the table that TileMill and MapSurfer.NET use an mbtiles storage. According to our prior tests, the difference in performance between “disk directories” and mbtiles is not significant (less than 1%).
+
+The shapefiles and index files were stored on Samsung SSD P810 128GB. Western Digital WD1002FBYS Caviar RE3 SATA 1TB hard drive was used to store tile caches. For Test #3, we use the same Western Digital SATA disk to store data in a PostgreSQL database.
 
 
 TODO
