@@ -50,8 +50,50 @@ It is important to make a note of some differences in configuration and custom c
 The shapefiles and index files were stored on Samsung SSD P810 128GB. Western Digital WD1002FBYS Caviar RE3 SATA 1TB hard drive was used to store tile caches. For Test #3, we use the same Western Digital SATA disk to store data in a PostgreSQL database.
 
 
-TODO
+### 3.2	Map Styles
+In the experiments, we use two maps styles. These styles are:
+
+#### Style 1
+_CartoCSS_
+
+```cs
+ #landpolygons {
+   polygon-fill:#000;
+   line-color:#ffffff;
+   line-width:1;  
+ }
+```
+
+_SLD_
+ ```xml
+<UserStyle>
+  <FeatureTypeStyle>
+    <Rule>
+      <Name>Rule1</Name>
+      <Title>Polygon with Outline</Title>
+      <PolygonSymbolizer>
+        <Fill>
+          <CssParameter name="fill">#AAAAAA</CssParameter>
+        </Fill>
+      </PolygonSymbolizer>
+      <LineSymbolizer>
+        <Stroke>
+          <CssParameter name="stroke">#FF0000</CssParameter>
+          <CssParameter name="stroke-width">1</CssParameter>
+        </Stroke>	
+      </LineSymbolizer>
+    </Rule>
+  </FeatureTypeStyle>
+</UserStyle>
+```
  
+ #### Style 2
+_CartoCSS_
+
+```css
+todo
+```
+
 ```xml
 <UserStyle>
   <FeatureTypeStyle>
@@ -106,3 +148,11 @@ TODO
 </UserStyle>
 ```
 
+## 4.	Conclusions
+Lastest version of the toolkits
+Memory consumption 700 mb and 250 Mb
+
+
+## See also
+[Q&A: Mapnik Performance, Just as Important as Its Beauty](https://developmentseed.org/blog/2010/oct/19/qa-mapnik-performance-just-important-its-beauty/)
+[WMS Performance Shootout 2009](http://www.slideshare.net/gatewaygeomatics.com/wms-performance-shootout)
