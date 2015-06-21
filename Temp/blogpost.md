@@ -1,9 +1,7 @@
-# Performance Comparison of Map Rendering Toolkits in Tile Seeding 
-
 ## 1. Introduction
 
 The unprecedented growth of different cartographic web services (Google Maps, Here Maps, Bing Maps, Navteq, Mapbox, CartoDB etc.) and the availability of a huge variety of user-defined maps have rapidly expanded the distribution of maps. The most common way of distributing maps through internet is using a web map tile service (WMTS). WMTS is a standard protocol for serving a set of pre-rendered georeferenced map images, called tiles, over the Internet. The most obvious benefit of a tile based approach is that map tiles can be prepared (rendered) beforehand at any location. Use of tile caches increases the performance and scalability of map services significantly.
-Nowadays, a great variety of software packages for rendering maps exist. For example, these packages are ArcGIS Server, QGIS Server, MapServer, GeoServer, Mapnik, Cadcorp GeognoSIS, Thinkgeo's Map Suite, and many others. There are two basic factors that show how powerful a certain software package is. These factors are: the capability to produce a cartographically plausible product and the performance of the software. In the context of WMS Shootout (see also this post), there have been many attempts to compare the performance of different tools in rendering spatial data. According to the latest available benchmarks, conducted in 2010-2011, the winners were MapServer and Mapnik, as they shew the best performance in the tests and left far behind other competitors.
+Nowadays, a great variety of software packages for rendering maps exist. For example, these packages are ArcGIS Server, QGIS Server, MapServer, GeoServer, Mapnik, Cadcorp GeognoSIS, Thinkgeo's Map Suite, and many others. There are two basic factors that show how powerful a certain software package is. These factors are: _the capability to produce a cartographically plausible product_ and the _performance of the software_. In the context of WMS Shootout (see also this post), there have been many attempts to compare the performance of different tools in rendering spatial data. According to the latest available benchmarks, conducted in 2010-2011, the winners were MapServer and Mapnik, as they shew the best performance in the tests and left far behind other competitors.
 
 This article concentrates on comparing performance of different existing GIS applications and libraries in map generation, namely in tile seeding. Generally, the performance of such programs depends on different factors such as data fetching, feature rasterization (rendering), image quantization, disk writing, memory re-allocation etc. All these factors influence the performance of tile seeding as well. 
 
@@ -14,8 +12,8 @@ The goal of this article is to provide performance comparisons between different
  
 * [GeoServer](http://geoserver.org)
 * [Mapnik](http://mapnik.org)/[TileMill](https://www.mapbox.com/tilemill/)
-* MapServer 
-* Map Suite 
+* [MapServer](http://mapserver.org) 
+* [Map Suite](https://thinkgeo.com/map-suite-developer-gis/)
 * [MapSurfer.NET](http://mapsurfernet.com)
 
 A full description of each tested toolkit is given in the table below.
