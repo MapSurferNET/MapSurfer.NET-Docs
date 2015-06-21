@@ -88,12 +88,29 @@ _SLD_
 ```
  
  #### Style 2
+ 
+ In Style 2, we have added a TextStymbolizer to label polygons.
+ 
 _CartoCSS_
 
-```css
-todo
+```cs
+ #landpolygons {
+   polygon-fill:#000;
+   line-color:#ffffff;
+   line-width:1;  
+   
+   ::label{
+     text-face-name:"DejaVu Sans Book";
+     text-name:"[FID]";
+     text-fill:#444;
+     text-halo-fill:rgba(255,255,255,1.0);
+     text-halo-radius:0;
+     text-size:9; 
+  }
+ }
 ```
 
+_SLD_
 ```xml
 <UserStyle>
   <FeatureTypeStyle>
@@ -148,11 +165,37 @@ todo
 </UserStyle>
 ```
 
+## 3.3 Test #1: Shapefile without Reprojection
+
+TODO Add Image
+*Figure 1*
+
+TODO Add Image
+*Figure 2*
+
+TODO Add Image
+*Figure 3*
+
+## 3.4 Test #2: Shapefile with Reprojection
+
+TODO Add Image
+*Figure 4*
+
+## 3.5 Test #3: PostgreSQL (PostGIS) with Reprojection
+
+TODO Add Image
+*Figure 5*
+
+## 3.6 Tests Summary
+
+TODO Add Image
+*Figure 6*
+
 ## 4.	Conclusions
 Lastest version of the toolkits
 Memory consumption 700 mb and 250 Mb
 
 
 ## See also
-[Q&A: Mapnik Performance, Just as Important as Its Beauty](https://developmentseed.org/blog/2010/oct/19/qa-mapnik-performance-just-important-its-beauty/)
-[WMS Performance Shootout 2009](http://www.slideshare.net/gatewaygeomatics.com/wms-performance-shootout)
+* [Q&A: Mapnik Performance, Just as Important as Its Beauty](https://developmentseed.org/blog/2010/oct/19/qa-mapnik-performance-just-important-its-beauty/)
+* [WMS Performance Shootout 2009](http://www.slideshare.net/gatewaygeomatics.com/wms-performance-shootout)
