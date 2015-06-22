@@ -167,7 +167,7 @@ The following sections compare mapping toolkits using different data storages an
 
 ## 4.1 Test #1: Shapefile without Re-projection
 
-In this section, we present the results of our benchmarks evaluating time needed for rendering a large shapefile (400Mb) without re-projection and tiles seeding for small scales (see Figure 1), to be exact for zoom levels 0 to 9. We used Style 1 in this scenario. 
+In this section, we present the results of our benchmarks evaluating time needed to render a large shapefile (approx. 400 Mb) without re-projection and tiles seeding for small scales (see Figure 1), to be exact for zoom levels 0 to 9. We used Style 1 in this scenario. 
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image005.png)</center>
 **Figure 1**
