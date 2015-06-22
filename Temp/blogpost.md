@@ -170,15 +170,18 @@ The following sections compare mapping toolkits using different data storages an
 In this section, we present the results of our benchmarks evaluating time needed to render a large shapefile (approx. 400 Mb) without re-projection and tiles seeding for small scales (see Figure 1), to be exact for zoom levels 0 to 9. We used Style 1 in this scenario. 
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image005.png)</center>
+
 **Figure 1**
 
 A bar chart in Figure 2 shows the throughput comparison of mapping toolkits.
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image006.png)</center>
+
 **Figure 2**
 
 Figure 3 illustrates the results of the second benchmark, which has been carried out using Style 2.
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image007.png)</center>
+
 **Figure 3**
 
 ## 4.2 Test #2: Shapefile with Re-projection
@@ -186,6 +189,7 @@ Figure 3 illustrates the results of the second benchmark, which has been carried
 In this section, the mapping toolkits are tested on how fast they can re-project vector data. The task was to re-project the coordinates of geometries from WGS84 (EPSG:4326) to Spherical Mercator projection (EPSG:3857). The Style 1 was used in this benchmark.
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image008.png)</center>
+
 **Figure 4**
 
 ## 4.3 Test #3: PostgreSQL (PostGIS) without re-projection
@@ -193,6 +197,7 @@ In this section, the mapping toolkits are tested on how fast they can re-project
 In this section, the results of our experiments using PostgreSQL 9.3 (PostGIS 2.0) as data storage are given. The shapefile used in Test #1 has been imported into a PostgreSQL table using the same EPSG:3857 projection.
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image009.png)</center>
+
 **Figure 5**
 
 ## 4.4 Tests Summary
@@ -200,11 +205,12 @@ In this section, the results of our experiments using PostgreSQL 9.3 (PostGIS 2.
 This section summarizes the results of our benchmarks given in sections 4.1-4.3. As can be seen from charts (see Figure 1-5), in most tests, especially when the number of tiles is very large (i.e. at z8 or z9), the best performance has been shown by MapSurfer.NET framework. 
 We aggregated 
 
-
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image010.png)</center>
+
 **Figure 6**
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image011.png)</center>
+
 **Figure 7**
 
 ## 5.	Conclusions
