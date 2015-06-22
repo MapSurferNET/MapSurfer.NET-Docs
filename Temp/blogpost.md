@@ -28,14 +28,11 @@ Mapnik/TileMill	| C++/Node.js | unmanaged code | x86 | 2.2/0.10.1	| 10.10.2012
 
 As it can be seen, the libraries and toolkits are written in different programming languages such as C/C++, C# and Java. Furthermore, they are either compiled into so called unmanaged code (C/C++) or executed in runtime environments such as Java Runtime Environment (JRE) and Microsoft’s .NET framework.
 
-## 3.	Comparisons
-
-### 3.1	Testing Environment, Datasets and Settings
+### 3	Testing Environment, Datasets and Settings
 Our experiments have been performed on a machine with an Intel® Core™ i5-2500 CPU @ 3.30 GHz running Windows 7 Professional x64 with 8GB installed memory. The runtime execution environments of our test application were JRE 8 (x64) and .NET Framework 4.5 (x64) respectively.
 
 We ran our tests on datasets derived from OpenStreetMap data. More precisely, we took shapefiles of land areas (continents and islands) from [OpenStreetMapData](http://openstreetmapdata.com/data/land-polygons) web site. Two shapefiles (split versions) with data in [WGS84](http://openstreetmapdata.com/info/projections#wgs84) and [Mercator](http://openstreetmapdata.com/info/projections#mercator) projection, with about 400Mb in size each, were used.
 Each toolkit has been configured using the following parameters:
-
 
 Toolkit	| Shapefile Index | Metatile | Image Format | # of Threads	| Cache Format
 ------------ | ------------- | ------------- | ------------- | ------------- | -------------
@@ -50,7 +47,7 @@ It is important to make a note of some differences in configuration and custom c
 The shapefiles and index files were stored on Samsung SSD P810 128GB. Western Digital WD1002FBYS Caviar RE3 SATA 1TB hard drive was used to store tile caches. For Test #3, we use the same Western Digital SATA disk to store data in a PostgreSQL database.
 
 
-### 3.2	Map Styles
+### 3.1	Map Styles
 In the experiments, we use two maps styles. These styles are:
 
 #### Style 1
@@ -165,33 +162,49 @@ _SLD_
 </UserStyle>
 ```
 
-## 3.3 Test #1: Shapefile without Reprojection
+## 4.	Comparisons
+The following sections compare mapping toolkits using different data storages and map styles.
+
+## 4.1 Test #1: Shapefile without Re-projection
+
+In this section, we present the results of our benchmarks evaluating time needed for rendering a large shapefile (400Mb) without re-projection and tiles seeding for small scales (see Figure 1), to be exact for zoom levels 0 to 9. We used Style 1 in this scenario. 
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image005.png)</center>
 *Figure 1*
 
+A bar chart in Figure 2 shows the throughput comparison of mapping toolkits.
+
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image006.png)</center>
 *Figure 2*
 
+Figure 3 illustrates the results of the second benchmark, which has been carried out using Style 2.
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image007.png)</center>
 *Figure 3*
 
-## 3.4 Test #2: Shapefile with Reprojection
+## 4.2 Test #2: Shapefile with Re-projection
+
+In this section, the mapping toolkits are tested on how fast they can re-project vector data. The task was to re-project the coordinates of geometries from WGS84 (EPSG:4326) to Spherical Mercator projection (EPSG:3857). The Style 1 was used in this benchmark.
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image008.png)</center>
 *Figure 4*
 
-## 3.5 Test #3: PostgreSQL (PostGIS) with Reprojection
+## 4.3 Test #3: PostgreSQL (PostGIS) without re-projection
+
+In this section, the results of our experiments using PostgreSQL 9.3 (PostGIS 2.0) as data storage are given. The shapefile used in Test #1 has been imported into a PostgreSQL table using the same EPSG:3857 projection.
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image009.png)</center>
 *Figure 5*
 
-## 3.6 Tests Summary
+## 4.4 Tests Summary
+
+This section summarizes the results of our benchmarks given in sections 4.1-4.3. As can be seen from charts (see Figure 1-5), in most tests, especially when the number of tiles is very large (i.e. at z8 or z9), the best performance has been shown by MapSurfer.NET framework. 
+We aggregated 
+
 
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image010.png)</center>
 *Figure 6*
 
-## 4.	Conclusions
+## 5.	Conclusions
 Lastest version of the toolkits
 Memory consumption 700 mb and 250 Mb
 
