@@ -204,6 +204,9 @@ We aggregated
 <center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image010.png)</center>
 **Figure 6**
 
+<center>![](http://mapsurfernet.com/media/images/Blog/Post-Performance_Comparison_Tile_Seeding/image011.png)</center>
+**Figure 7**
+
 ## 5.	Conclusions
 Lastest version of the toolkits
 Memory consumption 700 mb and 250 Mb
