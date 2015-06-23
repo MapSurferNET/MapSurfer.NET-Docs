@@ -46,6 +46,8 @@ It is important to make a note of some differences in configuration and custom c
 
 The shapefiles and index files were stored on Samsung SSD P810 128GB. Western Digital WD1002FBYS Caviar RE3 SATA 1TB hard drive was used to store tile caches. For Test #3, we use the same Western Digital SATA disk to store data in a PostgreSQL database.
 
+In the experiments, every toolkit was run two times and the best shown time was wrote down.
+
 
 ### 3.1	Map Styles
 In the experiments, we use two maps styles. These styles are:
@@ -215,11 +217,11 @@ This section summarizes the results of our benchmarks given in Sections 3.1-3.4.
 ## 5.	Conclusions
 In general, the worst performance has been shown by Map Suite. It can be explained by the fact that Map Suite does not support metatiling and is not able to save 8-bit png files. Nevertheless, at relatively larger scales (z8, z9) this library is even faster than GeoServer. GeoServer has impressive benchmarking results at small scales (z0-z4) in Test #1. This is most likely because it stores the whole shapefile in memory. MapServer was ultra fast in all tests in generating tiles for zoom levels z0-z7. At larger scales (z8-z9), MapServer has been overcome by two other competitors such as Mapnik/TileMill and MapSurfer.NET. As a whole, TileMill powered by Mapnik demonstrated really good performance in all tests except Test #2 (see Figure 7), where it failed and performed quite poorly, 1.85 times slower than MapServer. Probably, it is a result of a well-known [issue](https://github.com/mapnik/mapnik/issues/1703) in Mapnik when it deals with a re-projection using proj4 library. In our benchmarking tests, MapSurfer.NET had a role of a black horse. It has not demonstrated any noticeable results in making tiles at small scales. But suddenly MapSurfer.NET shot ahead by demonstrating amazing performance (see Figures 6-7) by generating thousands of tiles with lightning speed. For examples, it reaches throughput of **1285** tiles per second (see Figure 2).  
 
-To summarize the results, **Mapnik/TileMill** and **MapSurfer.NET** are two fastest renderers and tile seeders in our tests conducted on a Windows machine. In tests #2 and #3 these toolkits are about 700%- and 500% faster than GeoServer and Map Suite (see Figures 6-7).
+To summarize the results, **Mapnik/TileMill** and **MapSurfer.NET** are two fastest renderers and tile seeders in our tests conducted on a Windows machine. In tests #2 and #3 these toolkits are about 700% and 500% faster than GeoServer and Map Suite (see Figures 6-7).
 
 In our experiments, we observed that GeoServer and Map Suite require much more memory to perform the tasks than other tested toolkits. Their memory consumption was about **700-770 MB** against **250-300 MB** by others respectively.
 
-It is important to note that we used quite old versions of Mapnik/TileMill and MapServer. It is most likely that recently released versions of Mapnik ([v3.0.0 rc3](http://mapnik.org/news/release-3.0.0-rc3)) and MapServer ([v7.0 beta](http://mapserver.org/development/announce/7-0.html#announce-7-0)), which have a bunch of new features and improvements, can show even better results with greater performance gains. Unfortunately, it is unlikely that we will be able to test TileMill using latest Mapnik as [TileMill is no longer in active development](https://www.mapbox.com/tilemill/docs/upgrade/). Instead, we could use a new open-source mapping framework [kosmtik](https://github.com/kosmtik/kosmtik) that internally uses Mapnik to render maps.
+It is important to note that we used quite old versions of Mapnik/TileMill and MapServer. It is most likely that recently released versions of Mapnik ([v3.0.0 rc3](http://mapnik.org/news/release-3.0.0-rc3)) and MapServer ([v7.0 beta](http://mapserver.org/development/announce/7-0.html#announce-7-0)), which have a bunch of new features and improvements, can show even better results with greater performance gains. Unfortunately, it is unlikely that we will be able to test TileMill using latest Mapnik, as [TileMill is no longer in active development](https://www.mapbox.com/tilemill/docs/upgrade/). Instead, we could use a new open-source mapping framework [kosmtik](https://github.com/kosmtik/kosmtik) that internally uses Mapnik to render maps.
 
 
 ## See also
