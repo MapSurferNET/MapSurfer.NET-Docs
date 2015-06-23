@@ -21,7 +21,7 @@ A full description of each tested toolkit is given in the table below.
 Toolkit	| Language | Runtime Environment | Architecture | Version	| Build Date
 ------------ | ------------- | ------------- | ------------- | ------------- | -------------
 GeoServer    | Java   | JRE 8	| x64 | 2.7.0 | 20.03.2015
-MapServer    | C/C++  | unmanaged code | x86   | 6.4.1 | 02.01. 2014
+MapServer    | C/C++, C#  | unmanaged code | x86   | 6.4.1 | 02.01. 2014
 Map Suite    | C#     |.NET 4.0	| x64	|8.0.0.0 | 22.12.2014
 MapSurfer.NET	| C#/C++	|.NET 4.5 |x64	|2.0.3	|02.06.2015
 Mapnik/TileMill	| C++/Node.js | unmanaged code | x86 | 2.2/0.10.1	| 10.10.2012
