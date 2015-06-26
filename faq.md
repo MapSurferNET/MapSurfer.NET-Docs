@@ -31,6 +31,7 @@ A collection of sample projects is available on [GitHub](https://github.com/MapS
 Yes, you can. See a [developer guide](devmanual/embedding-msn-in-custom-application.md) about embedding MapSurfer.NET into a custom application.
 
 >%!INFO!% <strong id="PublishWebService">How can I publish a web map service?</strong>
+
 A map can be published through a web map service using either [IIS](usermanual/webservices/running-webservice-using-iis75) or a [self-hosting console application](usermanual/webservices/self-hosting-webservice-nancy). For developers, we recommend to look at [this](https://github.com/MapSurferNET/MapSurfer.NET-Web) github repo.
 
 
