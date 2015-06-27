@@ -23,3 +23,8 @@ Tile is a pre-rendered georeferenced map image. MapSurfer.NET framework has a bu
 
 
 > %!IMPORTANT NOTE !% MapSurfer.NET provides an API to develop a custom tile cache provider which can be implemented and integrated into the framework through a [plugin](/devmanual/plugins/index.md) system.
+
+
+### See also
+
+[Generating Tile Cache using MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-tile-cache.md)
