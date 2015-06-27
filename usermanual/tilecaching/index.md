@@ -1,4 +1,4 @@
-# Tile Caches #
+# Tile Cache Storages
 
 Tile is a pre-rendered georeferenced map image. MapSurfer.NET framework has a built-in tile caching mechanism which allows to deliver higher performance and lower loading of TMS and WMTS services. The framework supports the following cache types:
 
