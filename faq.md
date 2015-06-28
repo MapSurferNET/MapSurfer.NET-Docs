@@ -7,6 +7,7 @@ This page provides answers to questions that are frequently asked by users.
 - [Which version should I use?](#WhichVersion)
 - [Where can one find sample projects with map styles?](#WhereSampleProjects)
 - [Can I embed the framework into my application?](#CanEmbed)
+- [How can I generate a tile cache using my map style?](#GenTileCache)
 - [How can I publish a web map service?](#PublishWebService)
 
 # General Information #
@@ -29,6 +30,10 @@ A collection of sample projects is available on [GitHub](https://github.com/MapS
 >%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
 
 Yes, you can. See a [developer guide](devmanual/embedding-msn-in-custom-application.md) about embedding MapSurfer.NET into a custom application.
+
+>%!INFO!% <strong id="GenTileCache">How can I generate a tile cache using my map style?</strong>
+
+You can use either [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-tile-cache.md) or [MSNMapGen](/usermanual/tools/msnmapgen.md) utility to accomplish this task.
 
 >%!INFO!% <strong id="PublishWebService">How can I publish a web map service?</strong>
 
