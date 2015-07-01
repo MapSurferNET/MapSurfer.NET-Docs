@@ -25,7 +25,7 @@
 
 #### Tile Caching ####
 
-- [Cache providers](usermanual/tilecaching/index.md)
+- [Cache Providers](usermanual/tilecaching/index.md)
 
 #### Tools ####
 
