@@ -6,6 +6,7 @@ This page provides answers to questions that are frequently asked by users.
 - [What platforms are supported by the framework?](#WhatOS)
 - [Which version should I use?](#WhichVersion)
 - [Where can one find sample projects with map styles?](#WhereSampleProjects)
+- [What is the performance of MapSurfer.NET in comparison to other existing toolkits?](#WhatIsPerformance)
 - [Can I embed the framework into my application?](#CanEmbed)
 - [How can I generate a tile cache using my map style?](#GenTileCache)
 - [How can I publish a web map service?](#PublishWebService)
@@ -22,6 +23,10 @@ At the moment, MapSurfer.NET can run on Windows and Linux platforms. The support
 >%!INFO!% <strong id="WhichVersion">Which version should I use?</strong>
 
 It is highly recommended to use the latest stable release of the framework. More detailed information about available [releases](release-notes.md), you can get on Downloads page.
+
+>%!INFO!% <strong id="WhatIsPerformance">What is the performance of MapSurfer.NET in comparison to other existing toolkits?</strong>
+
+Our [benchmarks](http://mapsurfernet.com/blog/benchmarking-mapping-toolkits-in-tile-seeding) show that MapSurfer.NET is as fast as MapServer and Mapnik written in C/C++. 
 
 >%!INFO!% <strong id="WhereSampleProjects">Where can one find sample projects with map styles?</strong>
 
