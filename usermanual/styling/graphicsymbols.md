@@ -71,7 +71,7 @@ Angle | Single | Specifies the rotation (in degrees) of the symbol around its ce
 Description | String | Specifies the short description of the symbol. | No
 Displacement | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies a displacement of a texture or a hatch pattern. Default value is (0,0). | No
 FileName | String | Specifies the location of the hatch pattern file. | Yes
-FrontStroke | [Stroke](/usermanual/styling/linesymbolizer) | Specifies a stroke which is used to draw lines in the hatch pattern. | No
+FrontStroke | [Stroke](/usermanual/styling/linesymbolizer.md#Stroke) | Specifies a stroke which is used to draw lines in the hatch pattern. | No
 Scale | Single | Specifies the scale of the hatch pattern. Default value is 0. | No
 
 ## MarkGraphicSymbol
