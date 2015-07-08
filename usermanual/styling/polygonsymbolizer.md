@@ -39,5 +39,5 @@ TileWrapMode | [TileWrapMode](https://msdn.microsoft.com/en-us/library/system.dr
 
 ## Stroke
 
-**Stroke** specifies a style of a polygon boundary. Stroke is rendered on top of the Fill. **Stroke** is defined in a corresponding section of [LineSymbolizer](/usermanual/styling/linesymbolizer):
+Stroke specifies a style of a polygon boundary. Stroke is rendered on top of the Fill. Stroke is defined in a corresponding section of [LineSymbolizer](/usermanual/styling/linesymbolizer#Stroke):
 
