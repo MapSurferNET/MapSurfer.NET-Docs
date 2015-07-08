@@ -84,6 +84,6 @@ Angle | Single | Specifies the rotation (in degrees) of the symbol around its ce
 Description | String | Specifies the short description of the symbol. | No
 Displacement | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies a displacement of a texture or a hatch pattern. Default value is (0,0). | No
 Fill | [Fill](/usermanual/styling/polygonsymbolizer#Fill)  | Specifies the style which is used to fill the interior part of the shape. Default  | No
-Stroke | [Stroke](/usermanual/styling/linesymbolizer) | Specifies a stroke which is used to draw the shape. | No
+Stroke | [Stroke](/usermanual/styling/linesymbolizer#Stroke) | Specifies a stroke which is used to draw the shape. | No
 WellKnownName | String | Specifies the well-known name of the shape of the mark. Supported values are: circle, cross, diagcross, diamond, downtriangle, rectangle, smalldot, star, triangle. Default value is empty string. | Yes
 
