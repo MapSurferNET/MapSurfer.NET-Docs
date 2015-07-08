@@ -19,6 +19,7 @@
 
 #### Map Styling ####
 
+- [Symbolizers](usermanual/styling/symbolizers.md)
 - [Expressions](usermanual/expressions/index.md)
 - [Image Compositing Operations](usermanual/image_compositing/index.md)
 - [Project Samples](https://github.com/MapSurferNET/MapSurfer.NET-Examples)
