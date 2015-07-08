@@ -6,7 +6,7 @@ Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 Stroke | Stroke | Specifies a line symbolization. Default value is black. | Yes
 Clip | Boolean | Specifies whether geometry is clipped to map bounds before rendering or not. Default value is False. | No
-GeometryExpression | String | Specifies an [expression](/usermanual/expressions/geometrytransformations) to compute a geometry to be used in rendering. | No
+GeometryExpression | String | Specifies an [expression](/usermanual/expressions/geometrytransformations) to compute a geometry to be used in rendering. This parameter is optional. If it is not specified, a default geometry field of a data source is used. | No
 
 
 ## Stroke
