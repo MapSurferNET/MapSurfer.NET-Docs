@@ -7,7 +7,7 @@ Parameter Name | Value Type | Description | Required
 Clip | Boolean | Specifies whether geometry is clipped to map bounds before rendering or not. Default value is False. | No
 GeometryExpression | String | Specifies an [expression](/usermanual/expressions/geometrytransformations) to compute a geometry to be used in rendering. This parameter is optional. If it is not specified, a default geometry field of a data source is used. | No
 InternalSymbolizer | Symbolizer | Specifies the symbolizer which property is being customized. | Yes
-PropertyName | String | Specifies the symbolizer property to be changed. | Yes
+PropertyName | String | Specifies the symbolizer property to be changed. A property of a complex structure (e.g., Stroke, Fill, etc.) can be accessed by using a dot (.). For example, to access Opacity property of Stroke in LineSymbolizer, we need to use Stroke.Width. | Yes
 ValueExpression | String | Specifies the value of the property. | Yes
 
 
