@@ -1,4 +1,4 @@
-TODO# CustomValueSymbolizer
+# CustomValueSymbolizer
 
 CustomValueSymbolizer is a wrapper which is used to evaluate properties of symbolizers in runtime. This symbolizer helps to change those properties that are not defined as expressions. CustomValueSymbolizer has the following parameters:
 
@@ -9,6 +9,7 @@ GeometryExpression | String | Specifies an [expression](/usermanual/expressions/
 InternalSymbolizer | Symbolizer | Specifies the symbolizer which property is being customized. | Yes
 PropertyName | String | Specifies the symbolizer property to be changed. | Yes
 ValueExpression | String | Specifies the value of the property. | Yes
+
 
 The following example demonstrates how to draw a solid line with variable width taken from a data source.
 
