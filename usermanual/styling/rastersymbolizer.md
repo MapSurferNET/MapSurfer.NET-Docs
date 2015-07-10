@@ -9,54 +9,54 @@ CompositingMode | [CompositingMode](/usermanual/image_compositing/index) | Speci
 ImageOutline | [Symbolizer](/usermanual/styling/symbolizers) | Specifiews whether and how the raster image should be outlined. Possible values are either [LineSymbolizer](/usermanual/styling/linesymbolizer) or [PolygonSimbolizer](/usermanual/styling/polygonsymbolizer). | No
 InterpolationMode | [InterpolationMode](https://msdn.microsoft.com/en-us/library/system.drawing.drawing2d.interpolationmode%28v=vs.110%29.aspx) | Specifies the algorithm that is used when images are scaled or rotated. This parameter is taken into account when Scale is not equal 1. | No
 Opacity | Single | Specifies the opacity of the image when it is combined with the background. | No
-ShadedRelief | [ShadedRelief](/usermanual/styling/rastersymbolizer.md#ShadedRelief) | Specifies whether and how relief shading is applied to an image. | Yes
+ShadedRelief | [ShadedRelief](/usermanual/styling/rastersymbolizer.md#ShadedRelief) | Specifies whether and how relief shading is applied to an image. | No
 
 
 ## <div id="ColorMap">ColorMap</div>
 
-ColorMap element defines a set of control points, called ColorMapEntry, which are used to colorize an elevation map. Each ColorMapEntry element specifies the color and the quantity value, which is altitude of elevation. In hill-shading, the color of each elevation point is computed using linear interpolation between two color map entries with altitudes above and below the given value.    
+ColorMap element defines a set of control points, called ColorMapEntry, which are used to colorize an elevation map. Each ColorMapEntry element specifies the color and the quantity value, which is altitude of elevation. In hillshading, the color of each elevation point is computed using linear interpolation between two color map entries with altitudes above and below the given value.    
 
 The following examples demonstrates a ColorMap to produce a shaded relief given below.
 
 ```xml
-                  <ColorMap>
-                    <ColorMapEntry>
-                      <Color>#A3BDE0</Color>
-                      <Label />
-                      <Quantity>0</Quantity>
-                      <Opacity>1</Opacity>
-                    </ColorMapEntry>
-                    <ColorMapEntry>
-                      <Color>#C7DAA5</Color>
-                      <Quantity>1</Quantity>
-                      <Opacity>1</Opacity>
-                    </ColorMapEntry>
-                    <ColorMapEntry>
-                      <Color>#DEE5C3</Color>
-                      <Quantity>200</Quantity>
-                      <Opacity>1</Opacity>
-                    </ColorMapEntry>
-                    <ColorMapEntry>
-                      <Color>#B9CFB5</Color>
-                      <Quantity>1000</Quantity>
-                      <Opacity>1</Opacity>
-                    </ColorMapEntry>
-                    <ColorMapEntry>
-                      <Color>#71BF7E</Color>
-                      <Quantity>2500</Quantity>
-                      <Opacity>1</Opacity>
-                    </ColorMapEntry>
-                    <ColorMapEntry>
-                      <Color>#C18E39</Color>
-                      <Quantity>3500</Quantity>
-                      <Opacity>1</Opacity>
-                    </ColorMapEntry>
-                    <ColorMapEntry>
-                      <Color>White</Color>
-                      <Quantity>4200</Quantity>
-                      <Opacity>1</Opacity>
-                    </ColorMapEntry>
-                  </ColorMap>
+<ColorMap>
+  <ColorMapEntry>
+    <Color>#A3BDE0</Color>
+    <Label />
+    <Quantity>0</Quantity>
+    <Opacity>1</Opacity>
+  </ColorMapEntry>
+  <ColorMapEntry>
+    <Color>#C7DAA5</Color>
+    <Quantity>1</Quantity>
+    <Opacity>1</Opacity>
+  </ColorMapEntry>
+  <ColorMapEntry>
+    <Color>#DEE5C3</Color>
+    <Quantity>200</Quantity>
+    <Opacity>1</Opacity>
+  </ColorMapEntry>
+  <ColorMapEntry>
+    <Color>#B9CFB5</Color>
+    <Quantity>1000</Quantity>
+    <Opacity>1</Opacity>
+  </ColorMapEntry>
+  <ColorMapEntry>
+    <Color>#71BF7E</Color>
+    <Quantity>2500</Quantity>
+    <Opacity>1</Opacity>
+  </ColorMapEntry>
+  <ColorMapEntry>
+    <Color>#C18E39</Color>
+    <Quantity>3500</Quantity>
+    <Opacity>1</Opacity>
+  </ColorMapEntry>
+  <ColorMapEntry>
+    <Color>White</Color>
+    <Quantity>4200</Quantity>
+    <Opacity>1</Opacity>
+  </ColorMapEntry>
+</ColorMap>
 ```
 
 
@@ -64,7 +64,6 @@ The following examples demonstrates a ColorMap to produce a shaded relief given 
 
 
 ## <div id="ShadedRelief">ShadedRelief</div>
-
 
 ShadedRelief allows to set parameters of hillshading.
 
