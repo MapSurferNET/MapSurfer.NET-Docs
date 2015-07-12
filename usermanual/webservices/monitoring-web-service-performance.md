@@ -22,8 +22,7 @@ Total Tiles Updated | The total number of tiles that have been updated during th
 
 ## Web Map Service (WMS)
 
-At the moment MapSurfer.NET does not provide any tool to monitor the performance of a Web Map Service. 
+At the moment MapSurfer.NET does not provide any specific performance counters to monitor the performance of a Web Map Service. If you are hosting your application in IIS, you can use default ASP.NET [performance counters](https://msdn.microsoft.com/en-us/library/fxk122b4%28v=vs.140%29.aspx).
 
 
-
-> %!IMPORTANT IMPORTANT:!% Note that the user running a web service requires access rights > to write the Performance counters.
+> %!IMPORTANT IMPORTANT:!% Note that the user running a web service requires access rights to write the Performance counters.
