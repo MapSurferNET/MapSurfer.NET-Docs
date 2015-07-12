@@ -1,6 +1,6 @@
 # Monitoring Web Service Performance
 
-Performance plays an important role in running a successful web service. MapSurfer.NET provides several performance counters that you can use to monitor the execution of your web service.
+Performance plays an important role in running a successful web service. MapSurfer.NET provides several [performance counters](https://msdn.microsoft.com/en-us/library/fxk122b4%28v=vs.140%29.aspx) that you can use to monitor the execution of your web service.
 
 
 ## Web Map Tile Service (WMTS)
@@ -23,3 +23,7 @@ Total Tiles Updated | The total number of tiles that have been updated during th
 ## Web Map Service (WMS)
 
 At the moment MapSurfer.NET does not provide any tool to monitor the performance of a Web Map Service. 
+
+
+
+> %!IMPORTANT IMPORTANT:!% Note that the user running a web service requires access rights > to write the Performance counters.
