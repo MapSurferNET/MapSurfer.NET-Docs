@@ -19,6 +19,8 @@ Total Tiles Read from Cache | The total number of tiles that have been read from
 Total Tiles Rendered | The total number of tiles that have been rendered during the lifetime of the current Web service process. 
 Total Tiles Updated | The total number of tiles that have been updated during the lifetime of the current Web service process. 
 
+<center>![](/media/images/29-performance_counters_wmts.png)</center>
+**Figure.** An example of performance counters chart.
 
 ## Web Map Service (WMS)
 
