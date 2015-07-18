@@ -6,6 +6,7 @@ This page provides answers to questions that are frequently asked by users.
 - [What platforms are supported by the framework?](#WhatOS)
 - [Which version should I use?](#WhichVersion)
 - [Where can one find sample projects with map styles?](#WhereSampleProjects)
+- [What to do if MapSurfer.NET craches?](#WhatTodoIfCrashes)
 - [What is the performance of MapSurfer.NET in comparison to other existing toolkits?](#WhatIsPerformance)
 - [Can I embed the framework into my application?](#CanEmbed)
 - [How can I generate a tile cache using my map style?](#GenTileCache)
@@ -24,13 +25,17 @@ At the moment, MapSurfer.NET can run on Windows and Linux platforms. The support
 
 It is highly recommended to use the latest stable release of the framework. More detailed information about available [releases](release-notes.md), you can get on Downloads page.
 
->%!INFO!% <strong id="WhatIsPerformance">What is the performance of MapSurfer.NET in comparison to other existing toolkits?</strong>
-
-Our [benchmarks](http://mapsurfernet.com/blog/benchmarking-mapping-toolkits-in-tile-seeding) show that MapSurfer.NET is as fast as MapServer and Mapnik written in C/C++. 
-
 >%!INFO!% <strong id="WhereSampleProjects">Where can one find sample projects with map styles?</strong>
 
 A collection of sample projects is available on [GitHub](https://github.com/MapSurferNET/MapSurfer.NET-Examples).
+
+>%!INFO!% <strong id="WhatTodoIfCrashes">What to do if MapSurfer.NET craches?</strong>
+
+You can either contact us via e-mail (see contact information at the bottom of the page) or post a question on the [forum](https://groups.google.com/forum/#!forum/mapsurfer-net). In both cases, some details or a crash log would be very helpful to resolve an issue.
+
+>%!INFO!% <strong id="WhatIsPerformance">What is the performance of MapSurfer.NET in comparison to other existing toolkits?</strong>
+
+Our [benchmarks](http://mapsurfernet.com/blog/benchmarking-mapping-toolkits-in-tile-seeding) show that MapSurfer.NET is as fast as MapServer and Mapnik written in C/C++.
 
 >%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
 
