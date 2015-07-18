@@ -5,8 +5,6 @@ ExtrudedPolygonSymbolizer is used to represent a body that is built by extruding
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 BottomLevelExpression | String | Specifies an [expression](/usermanual/expressions/geometrytransformations) to compute a vertical offset of an extruded body. | No
-
-
 FacesColor | Color | Specifies the color of the faces. | No
 FillOpacity | Single | Specifies the opacity of the faces Default value is 1. | No
 FrameColor | Color | Specifies the color of the frames. | No
