@@ -5,7 +5,7 @@ A Symbolizer describes how a feature is drawn on a map. The Symbolizer defines b
 
 MapSurfer.NET has 13 different types of symbolizers. They are:
 
-- [BridgeSymbolizer](/usermanual/styling/symbolizers/bridgesymbolizer)
+- [BridgeSymbolizer](/usermanual/styling/symbolizers/bridgesymbolizer.md)
 - [CustomValueSymbolizer](/usermanual/styling/symbolizers/customvaluesymbolizer)
 - [ExtrudedLineSymbolizer](/usermanual/styling/symbolizers/extrudedlinesymbolizer)
 - [ExtrudedPolygonSymbolizer](/usermanual/styling/symbolizers/extrudedpolygonsymbolizer)
