@@ -5,19 +5,19 @@ A Symbolizer describes how a feature is drawn on a map. The Symbolizer defines b
 
 MapSurfer.NET has 13 different types of symbolizers. They are:
 
-- [BridgeSymbolizer](/usermanual/styling/bridgesymbolizer)
-- [CustomValueSymbolizer](/usermanual/styling/customvaluesymbolizer)
-- [ExtrudedLineSymbolizer](/usermanual/styling/extrudedlinesymbolizer)
-- [ExtrudedPolygonSymbolizer](/usermanual/styling/extrudedpolygonsymbolizer)
-- [FramedTextSymbolizer](/usermanual/styling/framedtextsymbolizer)
-- [GraphicTextSymbolizer](/usermanual/styling/graphictextsymbolizer)
-- [LinePatterSymbolizer](/usermanual/styling/linepatternsymbolizer)
-- [LineSymbolizer](/usermanual/styling/linesymbolizer)
-- [PointSymbolizer](/usermanual/styling/pointsymbolizer)
-- [PolygonSymbolizer](/usermanual/styling/polygonsymbolizer)
-- [RasterSymbolizer](/usermanual/styling/rastersymbolizer)
-- [TextSymbolizer](/usermanual/styling/textsymbolizer)
-- [TunnelSymbolizer](/usermanual/styling/tunnelsymbolizer)
+- [BridgeSymbolizer](/usermanual/styling/symbolizers/bridgesymbolizer)
+- [CustomValueSymbolizer](/usermanual/styling/symbolizers/customvaluesymbolizer)
+- [ExtrudedLineSymbolizer](/usermanual/styling/symbolizers/extrudedlinesymbolizer)
+- [ExtrudedPolygonSymbolizer](/usermanual/styling/symbolizers/extrudedpolygonsymbolizer)
+- [FramedTextSymbolizer](/usermanual/styling/symbolizers/framedtextsymbolizer)
+- [GraphicTextSymbolizer](/usermanual/styling/symbolizers/graphictextsymbolizer)
+- [LinePatterSymbolizer](/usermanual/styling/symbolizers/linepatternsymbolizer)
+- [LineSymbolizer](/usermanual/styling/symbolizers/linesymbolizer)
+- [PointSymbolizer](/usermanual/styling/symbolizers/pointsymbolizer)
+- [PolygonSymbolizer](/usermanual/styling/symbolizers/polygonsymbolizer)
+- [RasterSymbolizer](/usermanual/styling/symbolizers/rastersymbolizer)
+- [TextSymbolizer](/usermanual/styling/symbolizers/textsymbolizer)
+- [TunnelSymbolizer](/usermanual/styling/symbolizers/tunnelsymbolizer)
 
 
 > %!IMPORTANT IMPORTANT:!% Please note that [OpenGIS Symbology Encoding Implementation Specification](http://portal.opengeospatial.org/files/?artifact_id=16700) official supports only LineSymbolizer, PolygonSymbolizer, PointSymbolizer, TextSymbolizer and RasterSymbolizer. All other symbolizers are introduced only in MapSurfer.NET. Therefore, they are not necessarily supported by other mapping toolkits.  
