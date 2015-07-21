@@ -19,7 +19,8 @@
 
 #### Map Styling ####
 
-- [Symbolizers](usermanual/styling/symbolizers.md)
+- [Symbolizers](usermanual/styling/symbolizers/index.md)
+- - [Symbolizers](usermanual/labeling/index.md)
 - [Expressions](usermanual/expressions/index.md)
 - [Geometry Transformations](usermanual/expressions/geometrytransformations.md)
 - [Image Compositing Operations](usermanual/image_compositing/index.md)
