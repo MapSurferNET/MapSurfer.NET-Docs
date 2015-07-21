@@ -35,7 +35,6 @@
 - [MapSurfer.NET Studio](/usermanual/tools/msnstudio/index.md)
 - [MSNMapGen](/usermanual/tools/msnmapgen.md)
 
-
 ### For Developers 
 
 - [Embedding MapSurfer.NET in a Custom Application](/devmanual/embedding-msn-in-custom-application.md)
