@@ -9,6 +9,7 @@ This page provides answers to questions that are frequently asked by users.
 - [What to do if MapSurfer.NET craches?](#WhatTodoIfCrashes)
 - [What is the performance of MapSurfer.NET in comparison to other existing toolkits?](#WhatIsPerformance)
 - [Can I embed the framework into my application?](#CanEmbed)
+- [I want to develop an application using MapSurfer.NET, where can I find code samples?](#WhereCodeSamples)
 - [How can I generate a tile cache using my map style?](#GenTileCache)
 - [How can I publish a web map service?](#PublishWebService)
 
@@ -40,6 +41,9 @@ Our [benchmarks](http://mapsurfernet.com/blog/benchmarking-mapping-toolkits-in-t
 >%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
 
 Yes, you can. See a [developer guide](devmanual/embedding-msn-in-custom-application.md) about embedding MapSurfer.NET into a custom application.
+
+>%!INFO!% <strong id="WhereCodeSamples">I want to develop an application using MapSurfer.NET, where can I find code samples?</strong>
+An official collection of code samples is available on [github] (https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples)
 
 >%!INFO!% <strong id="GenTileCache">How can I generate a tile cache using my map style?</strong>
 
