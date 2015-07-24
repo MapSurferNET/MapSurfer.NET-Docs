@@ -1,7 +1,7 @@
 ### Introduction ###
 
 - [Overview](overview.md) 
-- [License](license.md) 
+- [License](msnlicense.md) 
 - [Versioning](versioning.md)
 - [Release Notes](release-notes.md)
 
