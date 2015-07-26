@@ -8,10 +8,13 @@ This page provides answers to questions that are frequently asked by users.
 - [Where can one find sample projects with map styles?](#WhereSampleProjects)
 - [What to do if MapSurfer.NET craches?](#WhatTodoIfCrashes)
 - [What is the performance of MapSurfer.NET in comparison to other existing toolkits?](#WhatIsPerformance)
-- [Can I embed the framework into my application?](#CanEmbed)
-- [I want to develop an application using MapSurfer.NET, where can I find code samples?](#WhereCodeSamples)
 - [How can I generate a tile cache using my map style?](#GenTileCache)
 - [How can I publish a web map service?](#PublishWebService)
+
+# Development #
+
+- [Can I embed the framework into my application?](#CanEmbed)
+- [I want to develop an application using MapSurfer.NET, where can I find code samples?](#WhereCodeSamples)
 
 # General Information #
 >%!INFO!% <strong id="What">What is MapSurfer.NET?</strong>
@@ -38,14 +41,6 @@ You can either contact us via e-mail (see contact information at the bottom of t
 
 Our [benchmarks](http://mapsurfernet.com/blog/benchmarking-mapping-toolkits-in-tile-seeding) show that MapSurfer.NET is as fast as MapServer and Mapnik written in C/C++.
 
->%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
-
-Yes, you can. See a [developer guide](devmanual/embedding-msn-in-custom-application.md) about embedding MapSurfer.NET into a custom application.
-
->%!INFO!% <strong id="WhereCodeSamples">I want to develop an application using MapSurfer.NET, where can I find code samples?</strong>
-
-An official collection of code samples is available on [GitHub]. (https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples)
-
 >%!INFO!% <strong id="GenTileCache">How can I generate a tile cache using my map style?</strong>
 
 You can use either [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-tile-cache.md) or [MSNMapGen](/usermanual/tools/msnmapgen.md) utility to accomplish this task.
@@ -55,4 +50,12 @@ You can use either [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-til
 A map can be published through a web map service using either [IIS](usermanual/webservices/running-webservice-using-iis75) or a [self-hosting console application](usermanual/webservices/self-hosting-webservice-nancy). For developers, we recommend to look at [this](https://github.com/MapSurferNET/MapSurfer.NET-Web) github repo.
 
 
+# Development #
 
+>%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
+
+Yes, you can. See a [developer guide](devmanual/embedding-msn-in-custom-application.md) about embedding MapSurfer.NET into a custom application.
+
+>%!INFO!% <strong id="WhereCodeSamples">I want to develop an application using MapSurfer.NET, where can I find code samples?</strong>
+
+An official collection of code samples is available on [GitHub]. (https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples)
