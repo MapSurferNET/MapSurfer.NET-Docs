@@ -22,7 +22,7 @@ Then in the entry point of your application, you need to add the following lines
 ```
 
 Since several versions of MapSurfer.NET framework can be installed on a machine at the same time, function MSNUtility.SetCurrentMSNVersion is specially designed to setup which of those versions you want to use.
-Note, calling methods of MSNUtility and AssemblyLoader classes needs to be done before you call any other method that contains references to MapSurfer.NET classes.
+Note, calling methods of MSNUtility and AssemblyLoader classes needs to be done before you call any other method that contains references to MapSurfer.NET classes. Otherwise, a required assembly won't be found as your application is not aware where to find MapSurfer.NET assemblies.
 
 ```cs
  static void Main(string[] args) 
