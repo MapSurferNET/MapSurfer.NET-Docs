@@ -8,39 +8,45 @@ To start developing, you need to add some assemblies into your application. It c
 Next, it is required to reference two source files [AssemblyLoader.cs](https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples/blob/master/Common/AssemblyLoader.cs) and 
 [MSNUtility.cs](https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples/blob/master/Common/MSNUtility.cs) that help to detect a proper version of the framework and load its core assemblies and plugins.
 
-Then in the entry point of your application, you need to add the following lines of code.
+Then, in the entry point of your application, you need to add the following lines of code:
 
 ```cs
  static Program()
  {
     // Register assembly loader
-    // Uncomment if needed
     string version = MSNUtility.TryDetectInstalledVersion();
     MSNUtility.SetCurrentMSNVersion(version);
     AssemblyLoader.Register(AppDomain.CurrentDomain, version);
  }
 ```
 
-Since several versions of MapSurfer.NET framework can be installed on a machine at the same time, function MSNUtility.SetCurrentMSNVersion is specially designed to setup which of those versions you want to use.
-Note, calling methods of MSNUtility and AssemblyLoader classes needs to be done before you call any other method that contains references to MapSurfer.NET classes. Otherwise, a required assembly won't be found as your application is not aware where to find MapSurfer.NET assemblies.
+Since several versions of MapSurfer.NET framework can be installed on a machine at the same time, the function MSNUtility.SetCurrentMSNVersion is specially designed to setup which of those versions you want to use.
+Note, calling methods of MSNUtility and AssemblyLoader classes needs to be done before you call any other method that contains references to MapSurfer.NET classes. Otherwise, a required assembly won't be found as your application is not aware where MapSurfer.NET's assemblies are located.
+
+Before working with MapSurfer.NET, initialize it by calling CoreUtility.Initialize() method. This function should be called only once.
 
 ```cs
  static void Main(string[] args) 
  {
-   // Initialize internals 
+   // Initialize internals of the framework
    CoreUtility.Initialize();
 
    string mapPath = @"C:\Users\Public\Documents\MapSurfer.NET\2.1\Samples\Projects\Bremen.msnpx";// @"\map\example.msnpx";
-   // Load map from file and initialize data source providers.
+   // Load map from a file with styles and initialize data source providers.
    using (Map map = Map.FromFile(mapPath, true))
    {
+     // Set the size of the map to 600 by 600 pixels.
      map.Size = new SizeF(600, 600);
+     // Set the scale and the extent of the map.
      map.ZoomToFullExtent();
 
+     // Create an instance of the default renderer, GDI in our case.
      using (IRenderer renderer = RendererManager.CreateDefaultInstance())
      {
+       // Render map to a RenderSurface
        using (RenderSurface surface = RenderContext.Render(map, renderer))
        {
+         // Save the content of the surface into an image file, by defining its format (e.g., BMP, GIF, PNG, etc.)
          surface.Save(@"D:\Temp\000.png", new object[] { ImageFormat.Png });
        }
      }
