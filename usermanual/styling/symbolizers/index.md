@@ -1,4 +1,4 @@
-#Symbolizers
+# Symbolizers
 
 A Symbolizer describes how a feature is drawn on a map. The Symbolizer defines both the shape of a geometry and a graphical representation of a feature such as color, opacity, fill pattern, etc.  
 
