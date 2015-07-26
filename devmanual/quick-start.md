@@ -1,12 +1,12 @@
-###  Quick Start
+#  Quick Start
 
-#### Installation
+### Installation
 There are a couple of packages for MapSurfer.NET available on [GitHub](https://www.nuget.org/packages?q=mapsurfer.net).
 To start developing, you need to add some assemblies into your application. It can be done by typing the following command into the Package Manager Console window:
 
 >%!COMMAND-LINE!% PM> Install-Package MapSurfer.NET.Core 
 
-#### Configuration
+### Configuration
 
 Next, it is required to reference two source files [AssemblyLoader.cs](https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples/blob/master/Common/AssemblyLoader.cs) and 
 [MSNUtility.cs](https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples/blob/master/Common/MSNUtility.cs) that help to detect a proper version of the framework and load its core assemblies and plugins.
@@ -28,7 +28,7 @@ Note, calling methods of MSNUtility and AssemblyLoader classes needs to be done 
 
 Before working with MapSurfer.NET, initialize it by calling CoreUtility.Initialize() method. This function should be called only once.
 
-#### Working with the framework
+### Working with the framework
 
 This section presents and example that shows how you can render a map and save it as a raster image.
 
