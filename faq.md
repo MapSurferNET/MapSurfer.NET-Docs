@@ -1,22 +1,26 @@
 This page provides answers to questions that are frequently asked by users.
 
-# General Information #
+# General Information 
 
 - [What is MapSurfer.NET?](#What)
 - [What platforms are supported by the framework?](#WhatOS)
 - [Which version should I use?](#WhichVersion)
-- [Where can one find sample projects with map styles?](#WhereSampleProjects)
 - [What to do if MapSurfer.NET craches?](#WhatTodoIfCrashes)
 - [What is the performance of MapSurfer.NET in comparison to other existing toolkits?](#WhatIsPerformance)
 - [How can I generate a tile cache using my map style?](#GenTileCache)
 - [How can I publish a web map service?](#PublishWebService)
 
-# Development #
+# Styling 
+
+- [Where can one find sample projects with map styles?](#WhereSampleProjects)
+- [I have map styles in SLD format. Can I use them in MapSurfer.NET?](#SLDStyles)
+
+# Development 
 
 - [Can I embed the framework into my application?](#CanEmbed)
 - [I want to develop an application using MapSurfer.NET, where can I find code samples?](#WhereCodeSamples)
 
-# General Information #
+# General Information 
 >%!INFO!% <strong id="What">What is MapSurfer.NET?</strong>
 
 MapSurfer.NET is a free, modern and advanced framework for rendering and publishing maps to the web. This framework has a functionality which is very similar to other well-known open source and proprietary software packages such as MapServer, GeoServer, Mapnik or ArcGIS. MapSurfer.NET is written in C# and provides the whole power of the .NET Framework to solve labour-intensive and time-consuming cartographic tasks.
@@ -28,10 +32,6 @@ At the moment, MapSurfer.NET can run on Windows and Linux platforms. The support
 >%!INFO!% <strong id="WhichVersion">Which version should I use?</strong>
 
 It is highly recommended to use the latest stable release of the framework. More detailed information about available [releases](release-notes.md), you can get on Downloads page.
-
->%!INFO!% <strong id="WhereSampleProjects">Where can one find sample projects with map styles?</strong>
-
-A collection of sample projects is available on [GitHub](https://github.com/MapSurferNET/MapSurfer.NET-Examples).
 
 >%!INFO!% <strong id="WhatTodoIfCrashes">What to do if MapSurfer.NET craches?</strong>
 
@@ -50,7 +50,17 @@ You can use either [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-til
 A map can be published through a web map service using either [IIS](usermanual/webservices/running-webservice-using-iis75) or a [self-hosting console application](usermanual/webservices/self-hosting-webservice-nancy). For developers, we recommend to look at [this](https://github.com/MapSurferNET/MapSurfer.NET-Web) github repo.
 
 
-# Development #
+# Styling 
+
+>%!INFO!% <strong id="WhereSampleProjects">Where can one find sample projects with map styles?</strong>
+
+A collection of sample projects is available on [GitHub](https://github.com/MapSurferNET/MapSurfer.NET-Examples).
+
+>%!INFO!% <strong id="SLDStyles">I have map styles in SLD format. Can I use them in MapSurfer.NET?</strong>
+
+Yes, you can. MapSurfer.NET Studio allows to import or export SLD styles into/from a native format. 
+
+# Development 
 
 >%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
 
