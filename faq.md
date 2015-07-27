@@ -13,7 +13,7 @@ This page provides answers to questions that are frequently asked by users.
 # Styling 
 
 - [Where can one find sample projects with map styles?](#WhereSampleProjects)
-- [I have map styles in SLD format. Can I use them in MapSurfer.NET?](#SLDStyles)
+- [I have map styles in SLD format. Is it possible to use them in MapSurfer.NET?](#SLDStyles)
 
 # Development 
 
@@ -56,9 +56,9 @@ A map can be published through a web map service using either [IIS](usermanual/w
 
 A collection of sample projects is available on [GitHub](https://github.com/MapSurferNET/MapSurfer.NET-Examples).
 
->%!INFO!% <strong id="SLDStyles">I have map styles in SLD format. Can I use them in MapSurfer.NET?</strong>
+>%!INFO!% <strong id="SLDStyles">I have map styles in SLD format. Is it possible to use them in MapSurfer.NET?</strong>
 
-Yes, you can. MapSurfer.NET Studio allows to import or export SLD styles into/from a native format. 
+Yes, it is. [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-import-styles.md) allows to import or export SLD styles into/from a native format. 
 
 # Development 
 
