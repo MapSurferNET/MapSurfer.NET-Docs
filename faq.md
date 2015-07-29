@@ -1,10 +1,11 @@
 This page provides answers to questions that are frequently asked by users.
 
-# General Information 
+# General Questions 
 
 - [What is MapSurfer.NET?](#What)
 - [What platforms are supported by the framework?](#WhatOS)
 - [Which version should I use?](#WhichVersion)
+- [Are the builds of previous releases still available somewhere?](#PreviousBuilds)
 - [What to do if MapSurfer.NET craches?](#WhatTodoIfCrashes)
 - [What is the performance of MapSurfer.NET in comparison to other existing toolkits?](#WhatIsPerformance)
 - [How can I generate a tile cache using my map style?](#GenTileCache)
@@ -28,6 +29,10 @@ MapSurfer.NET is a free, modern and advanced framework for rendering and publish
 >%!INFO!% <strong id="WhatOS">What platforms are supported by the framework?</strong>
 
 At the moment, MapSurfer.NET can run on Windows and Linux platforms. The support of other operating systems is a high priority task. Thanks to Mono project which makes it potentially possible.
+
+>%!INFO!% <strong id="PreviousBuilds">Are the builds of previous releases still available somewhere?</strong>
+
+Yes, although they are not officially supported. The builds of previous releases for different platforms is given on [this page](/releases).
 
 >%!INFO!% <strong id="WhichVersion">Which version should I use?</strong>
 
