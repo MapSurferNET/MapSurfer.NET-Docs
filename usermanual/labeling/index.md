@@ -49,7 +49,7 @@ The quality function computes a single numerical score by using a function that 
 <center>![](/media/images/34-labeling-quality-function.png)</center>
 
 where *L* is a set of labels on the map, *F* is a set of non-textual map features, *w<sub>i</sub>*,
-*i = 1,2, . . . ,5* are the weights that define the contribution of each metric to the overall quality value. The functions *q<sub>*</sub>*, or metrics, correspond to cartographic criteria summarized by the cartographers in various textbooks and scientific articles. 
+*i = 1,2, . . . ,5* are the weights that define the contribution of each metric to the overall quality value. The functions *q*<sub>*</sub>, or metrics, correspond to cartographic criteria summarized by the cartographers in various textbooks and scientific articles. 
 
 MapSurfer.NET's labeling engine has partial implementation of [quality metrics](/usermanual/labeling/quality-metrics) given in the above-mentioned equation. The list of supported quality metrics is:
  
