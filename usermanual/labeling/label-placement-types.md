@@ -37,6 +37,7 @@ This section provides the details about label placement types, which are used in
 
 **Example**
 
+<center>![](/media/images/38-labeling-lineplacement.png)</center>
 
 ## LinePatternPlacement <div id="LinePatternPlacement">
 
