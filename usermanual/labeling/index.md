@@ -19,7 +19,7 @@ type (e.g., point, line or area). The generated label positions (candidates) are
 
 In cartography, geographic features are labeled using three classes of label  placement (or designations). They are position (e.g., settlements, peaks, etc.), linear (e.g., rivers, streams, mountain ranges, paths, etc.) and areal (e.g., countries, islands, lakes, valleys, etc.) designations. Each type of designation has its own principles and requirements.Furthermore, every type of designation can have different forms of presentations, for example, an island can be labeled using either a horizontally aligned text or a curve text. For more information, we refer to a fundamental work by [Eduard Imhof (1975)](http://www.mapgraphics.net/downloads/Positioning_Names_on_Maps.pdf). 
 
-In MapSurfer.NET framework, the type of designation (or label placement type) is specified in *LabelPlacement* property of a corresponding symbolizer. LabelPlacement property can have the following values:     
+In MapSurfer.NET framework, the type of designation (or label placement type) is specified in *LabelPlacement* property of a corresponding symbolizer. LabelPlacement property can take one of the following values:     
 
 - [PointPlacement](/usermanual/labeling/label-placement-types#PointPlacement)
 - [PeakPointPlacement](/usermanual/labeling/label-placement-types#PeakPointPlacement)
