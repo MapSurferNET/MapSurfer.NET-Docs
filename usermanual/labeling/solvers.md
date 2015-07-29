@@ -36,7 +36,7 @@ MaxTemperature | Integer | The maximum temperature. Default value is 10. | No
 MinTemperature | Integer | The minimum temperature. Default value is 0.01. | No
 MaxExecutionTime | Integer | The maximum execution time expressed in seconds. | No
 StepsCount | Integer | The maximum number of iterations. | No
-StepIterationsCount | Integer | The number of label repositions at each temperature. 
+StepIterationsCount | Integer | The number of label repositions at each temperature. | No
 TransitOnlyLabelsWithCollisions | Boolean | Specifies whether transitions are allowed only for labels with collisions. | No 
 
 
