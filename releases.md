@@ -1,4 +1,6 @@
+# Releases
 
+The following table presents a list of releases and links to their corresponding binaries for different platforms.
 
 Version | Release | Windows | Linux | Mac OS X
 ------------ | ------------ | ------------- | ------------- | -------------
