@@ -4,6 +4,7 @@
 - [License](msnlicense.md) 
 - [Versioning](versioning.md)
 - [Release Notes](release-notes.md)
+- [Releases](releases.md)
 
 ### Installation ###
 
