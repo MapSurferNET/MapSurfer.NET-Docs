@@ -1,4 +1,8 @@
-## Using Installer Package ###
+# Installation on Linux
+
+There are two common ways to install MapSurfer.NET on Linux.
+
+## Using Installer Package
 
 In order to install MapSurfer.NET on a Linux Operating System, you need to use [Linux Installer](http://mapsurfernet.com/downloads#tab-linux). Step belows describe how to use the installer.
 
@@ -15,7 +19,7 @@ Once the installer has completed its job, four sub-folders such as Core, Samples
 
 Well done! MapSurfer.NET is now successfully installed. 
 
-## Manual Installation ###
+## Manual Installation
 
 This section contains instructions for manually installing MapSurfer.NET on Linux. 
 
