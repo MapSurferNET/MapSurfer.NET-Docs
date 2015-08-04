@@ -23,6 +23,7 @@ In order to demonstrate the effect of each mode, we first give a short descripti
 ## Alpha Blending
 
 **Source** 
+
 The source is copied to the destination. 
 <center>![](/media/images/image_compositing/Source_1.png)&nbsp;&nbsp;&nbsp;&nbsp;![](/media/images/image_compositing/Source_2.png)</center>
 
