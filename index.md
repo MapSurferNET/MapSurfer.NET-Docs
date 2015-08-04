@@ -1,3 +1,5 @@
+# Documentation
+
 ## Introduction 
 
 - [Overview](overview.md) 
@@ -36,17 +38,17 @@
 - [MapSurfer.NET Studio](/usermanual/tools/msnstudio/index.md)
 - [MSNMapGen](/usermanual/tools/msnmapgen.md)
 
-## For Developers 
-
-- [Quick Start](/devmanual/quick-start.md)
-- [Embedding MapSurfer.NET in a Custom Application](/devmanual/embedding-msn-in-custom-application.md)
-- [Code Samples](https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples)
-
 ## Web Services 
 
 - [Running a Web Service using IIS 7.5](/usermanual/webservices/running-webservice-using-iis75.md)
 - [Hosting a Web Service using Nancy](/usermanual/webservices/self-hosting-webservice-nancy.md)
 - [Monitoring Web Service Performance](/usermanual/webservices/monitoring-web-service-performance.md)
+
+## For Developers 
+
+- [Quick Start](/devmanual/quick-start.md)
+- [Embedding MapSurfer.NET in a Custom Application](/devmanual/embedding-msn-in-custom-application.md)
+- [Code Samples](https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples)
 
 ## FAQ
 
