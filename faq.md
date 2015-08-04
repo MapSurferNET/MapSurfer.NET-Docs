@@ -1,6 +1,8 @@
+# Frequently Asked Questions
+
 This page provides answers to questions that are frequently asked by users.
 
-# General Questions 
+## General Questions 
 
 - [What is MapSurfer.NET?](#What)
 - [What platforms are supported by the framework?](#WhatOS)
@@ -11,17 +13,17 @@ This page provides answers to questions that are frequently asked by users.
 - [How can I generate a tile cache using my map style?](#GenTileCache)
 - [How can I publish a web map service?](#PublishWebService)
 
-# Styling 
+## Styling 
 
 - [Where can one find sample projects with map styles?](#WhereSampleProjects)
 - [I have map styles in SLD format. Is it possible to use them in MapSurfer.NET?](#SLDStyles)
 
-# Development 
+## Development 
 
 - [Can I embed the framework into my application?](#CanEmbed)
 - [I want to develop an application using MapSurfer.NET, where can I find code samples?](#WhereCodeSamples)
 
-# General Information 
+## General Questions 
 >%!INFO!% <strong id="What">What is MapSurfer.NET?</strong>
 
 MapSurfer.NET is a free, modern and advanced framework for rendering and publishing maps to the web. This framework has a functionality which is very similar to other well-known open source and proprietary software packages such as MapServer, GeoServer, Mapnik or ArcGIS. MapSurfer.NET is written in C# and provides the whole power of the .NET Framework to solve labour-intensive and time-consuming cartographic tasks.
@@ -55,7 +57,7 @@ You can use either [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-til
 A map can be published through a web map service using either [IIS](usermanual/webservices/running-webservice-using-iis75) or a [self-hosting console application](usermanual/webservices/self-hosting-webservice-nancy). For developers, we recommend to look at [this](https://github.com/MapSurferNET/MapSurfer.NET-Web) github repo.
 
 
-# Styling 
+## Styling 
 
 >%!INFO!% <strong id="WhereSampleProjects">Where can one find sample projects with map styles?</strong>
 
@@ -65,7 +67,7 @@ A collection of sample projects is available on [GitHub](https://github.com/MapS
 
 Yes, it is. [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-import-styles.md) allows to import or export SLD styles into/from a native format. 
 
-# Development 
+## Development 
 
 >%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
 
