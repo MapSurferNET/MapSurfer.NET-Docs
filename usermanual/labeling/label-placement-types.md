@@ -144,6 +144,8 @@ UpsideDownFactorThreshold | Single | Specifies the threshold for the number of c
 
 ## StraightInsidePolygonPlacement 
 
+![](/media/images/42-labeling-horizontaloutsidepolygonplacement)
+
 
 **Example**
 
