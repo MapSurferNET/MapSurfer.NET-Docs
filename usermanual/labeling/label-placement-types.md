@@ -1,6 +1,6 @@
 # Label Placement Types
 
-This section provides the details about label placement types, which are used to specify the rules of positioning labels in text-related symbolizers (see *LabelPlacement* property). Note that placement parameters are considered in [candidate-position generation](/usermanual/labeling/index#candidate-position) procedure which defines a *search space* of labeling problem. 
+This section provides the details about label placement types, which are used to specify the rules of positioning labels in text-related symbolizers (see *LabelPlacement* property). Note that placement parameters are considered in [candidate-position generation](/usermanual/labeling/index#candidate-position) procedure which defines the *search space* of a labeling problem. 
 
 
 ## PointPlacement
@@ -40,9 +40,9 @@ RandomAlignment | Boolean | Specifies whether elements of Alignments list are ta
 
 **Example**
 
-<center>![](/media/images/35-labeling-peakpointplacement.png)</center>
+![](/media/images/35-labeling-peakpointplacement.png)
 
-<center>![](/media/images/37-labeling-peakpointplacement.png)</center>
+![](/media/images/37-labeling-peakpointplacement.png)
 
 **Parameters**
 
@@ -73,7 +73,7 @@ MinimumAngle | Single | Specifies the minimum possible angle in degrees that def
 
 **Example**
 
-<center>![](/media/images/38-labeling-lineplacement.png)</center>
+![](/media/images/38-labeling-lineplacement.png)
 
 **Parameters**
 
@@ -105,7 +105,7 @@ UpsideDownFactorThreshold | Single | Specifies the threshold for the number of c
 
 ## DoubleSidedLinePlacement
 
-<center>![](/media/images/40-labeling-doublesidedlineplacement)</center>
+![](/media/images/40-labeling-doublesidedlineplacement.png)
 
 
 **Example**
