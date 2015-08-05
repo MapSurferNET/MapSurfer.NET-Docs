@@ -7,7 +7,7 @@ This section provides the details about label placement types, which are used to
 
 **PointPlacement** is used to label not only point-like features, but also areal objects, whose extents are small enough to apply any other placement type such as, for example, [HorizontalInsidePolygonPlacement](#HorizontalInsidePolygonPlacement) or [StraightInsidePolygonPlacement](StraightInsidePolygonPlacement). The following figure illustrates an example of a model for positional prioritization of point-feature labeling (see Alignments parameter).
 
-<center>![](/media/images/39-labeling-point-positional-prioritization.png)</center>
+![](/media/images/39-labeling-point-positional-prioritization.png)
 
 
 **Example**
