@@ -12,7 +12,7 @@ This section provides the details about label placement types, which are used to
 
 **Example**
 
-<center>![](/media/images/36-labeling-pointplacement.png)</center>
+![](/media/images/36-labeling-pointplacement.png)
 
 **Parameters**
 
