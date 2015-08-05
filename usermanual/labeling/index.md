@@ -21,22 +21,22 @@ In cartography, geographic features are labeled using three classes of label  pl
 
 In MapSurfer.NET framework, the type of designation (or label placement type) is specified in *LabelPlacement* property of a corresponding symbolizer. LabelPlacement property can take one of the following values:     
 
-- [PointPlacement](/usermanual/labeling/label-placement-types#PointPlacement)
-- [PeakPointPlacement](/usermanual/labeling/label-placement-types#PeakPointPlacement)
-- [MultiPointPlacement](/usermanual/labeling/label-placement-types#MultiPointPlacement)
-- [CurvedPointPlacement](/usermanual/labeling/label-placement-types#CurvedPointPlacement)
-- [LinePlacement](/usermanual/labeling/label-placement-types#LinePlacement)
-- [LinePatternPlacement](/usermanual/labeling/label-placement-types#LinePatternPlacement)
-- [LinePointPatternPlacement](/usermanual/labeling/label-placement-types#LinePointPatternPlacement)
-- [DoubleSidedLinePlacement](/usermanual/labeling/label-placement-types#DoubleSidedLinePlacement)
-- [TrapezoidAreaWeightedCenterPolygonPlacement](/usermanual/labeling/label-placement-types#TrapezoidAreaWeightedCenterPolygonPlacement)
-- [BBoxCentroidPolygonPlacement](/usermanual/labeling/label-placement-types#BBoxCentroidPolygonPlacement)
-- [RandomPointPolygonPlacement](/usermanual/labeling/label-placement-types#RandomPointPolygonPlacement)
-- [BoxesInsdiePolygonPlacement](/usermanual/labeling/label-placement-types#BoxesInsdiePolygonPlacement)
-- [GridPatternPolygonPlacement](/usermanual/labeling/label-placement-types#GridPatternPolygonPlacement)
-- [HorizontalInsidePolygonPlacement](/usermanual/labeling/label-placement-types#HorizontalInsidePolygonPlacement)
-- [HorizontalOutsidePolygonPlacement](/usermanual/labeling/label-placement-types#HorizontalOutsidePolygonPlacement)
-- [StraightInsidePolygonPlacement](/usermanual/labeling/label-placement-types#StraightInsidePolygonPlacement)
+- [PointPlacement](/usermanual/labeling/label-placement-types#pointplacement)
+- [PeakPointPlacement](/usermanual/labeling/label-placement-types#peakpointplacement)
+- [MultiPointPlacement](/usermanual/labeling/label-placement-types#multipointplacement)
+- [CurvedPointPlacement](/usermanual/labeling/label-placement-types#curvedpointplacement)
+- [LinePlacement](/usermanual/labeling/label-placement-types#lineplacement)
+- [LinePatternPlacement](/usermanual/labeling/label-placement-types#linepatternplacement)
+- [LinePointPatternPlacement](/usermanual/labeling/label-placement-types#linepointpatternplacement)
+- [DoubleSidedLinePlacement](/usermanual/labeling/label-placement-types#doublesidedlineplacement)
+- [TrapezoidAreaWeightedCenterPolygonPlacement](/usermanual/labeling/label-placement-types#trapezoidareaweightedcenterpolygonplacement)
+- [BBoxCentroidPolygonPlacement](/usermanual/labeling/label-placement-types#bboxcentroidpolygonplacement)
+- [RandomPointPolygonPlacement](/usermanual/labeling/label-placement-types#randompointpolygonplacement)
+- [BoxesInsdiePolygonPlacement](/usermanual/labeling/label-placement-types#boxesinsdiepolygonplacement)
+- [GridPatternPolygonPlacement](/usermanual/labeling/label-placement-types#gridpatternpolygonplacement)
+- [HorizontalInsidePolygonPlacement](/usermanual/labeling/label-placement-types#horizontalinsidepolygonplacement)
+- [HorizontalOutsidePolygonPlacement](/usermanual/labeling/label-placement-types#horizontaloutsidepolygonplacement)
+- [StraightInsidePolygonPlacement](/usermanual/labeling/label-placement-types#straightinsidepolygonplacement)
 
 A diagram of label placement types available in MapSurfer.NET is presented in the following figure.
 
