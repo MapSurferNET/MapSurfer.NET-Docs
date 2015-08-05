@@ -70,6 +70,7 @@ MinimumAngle | Single | Specifies the minimum possible angle in degrees that def
 
 ## LinePlacement
 
+**LinePlacement** is designed to set and control label placement along linear features such as rivers, mountain ranges, roads, etc.  
 
 **Example**
 
@@ -136,9 +137,14 @@ UpsideDownFactorThreshold | Single | Specifies the threshold for the number of c
 ## HorizontalInsidePolygonPlacement 
 
 **Example**
+
 ## HorizontalOutsidePolygonPlacement 
 
 **Example**
 
 ## StraightInsidePolygonPlacement 
 
+
+**Example**
+
+![](/media/images/41-labeling-straightinsidepolygonplacement.png)
