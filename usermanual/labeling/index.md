@@ -15,7 +15,7 @@ type (e.g., point, line or area). The generated label positions (candidates) are
 <center>![](/media/images/32-labeling-subtasks.png)</center>
 
 
-## Candidate-position generation <div id="candidate-position">
+## Candidate-position generation
 
 In cartography, geographic features are labeled using three classes of label  placement (or designations). They are position (e.g., settlements, peaks, etc.), linear (e.g., rivers, streams, mountain ranges, paths, etc.) and areal (e.g., countries, islands, lakes, valleys, etc.) designations. Each type of designation has its own principles and requirements.Furthermore, every type of designation can have different forms of presentations, for example, an island can be labeled using either a horizontally aligned text or a curve text. For more information, we refer to a fundamental work by [Eduard Imhof (1975)](http://www.mapgraphics.net/downloads/Positioning_Names_on_Maps.pdf). 
 
@@ -42,7 +42,7 @@ A diagram of label placement types available in MapSurfer.NET is presented in th
 
 <center>![](/media/images/33-labeling-placement-types.png)</center> 
 
-## Quality evaluation <div id="quality-evaluation"> 
+## Quality evaluation
 
 The quality function computes a single numerical score by using a function that is normally expressed through a weighted sum of single metrics [van Dijk et al., 2002](10.1080/13658810210138742). These metrics reflect, in one way or another, the formalized cartographic precepts (Imhof, 1975; Wood, 2000). According to van Dijk et al. (2002), this function can be expressed as:.
 
@@ -63,7 +63,7 @@ MapSurfer.NET's labeling engine has partial implementation of [quality metrics](
 - [Water](/usermanual/labeling/quality-metrics#Water)
 - [Water Coverage](/usermanual/labeling/quality-metrics#WaterCoverage)
 
-## Position selection <div id="position-selection">
+## Position selection
 
 Position selection task is treated as a mathematical optimization (or mathematical programming) problem which can be solved using one of the existing algorithms, for example, [*greedy*](http://www.maneyonline.com/doi/abs/10.1179/caj.1972.9.2.99) algorithm, [*discrete gradient descent*](http://www.tandfonline.com/doi/abs/10.1559/152304082783948367#.VbjLufkqdUE) method, [*simulated annealing*](http://dl.acm.org/citation.cfm?id=212334) algorithm, [*genetic*](http://pubsonline.informs.org/doi/abs/10.1287/ijoc.9.3.266) algorithm or [*tabu search*](http://link.springer.com/article/10.1023%2FA%3A1013720231747) heuristic. Note that the selection is an NP-hard problem in general. Therefore, all listed algorithms, often called solvers, try to find a feasible near-optimal solution for label placement.
 
