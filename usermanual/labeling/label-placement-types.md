@@ -56,16 +56,18 @@ MinimumAngle | Single | Specifies the minimum possible angle in degrees that def
 
 ### MultiPointPlacement
 
-TODO
+**MultiPointPlacement** allows to label a series of points (e.g., nodes of a polyline) using an array of text values of the same size.
 
 **Example**
 
-TODO
+![](/media/images/50-labeling-multipointplacement.png)
 
 **Parameters**
 
-TODO
-
+Parameter Name | Value Type | Description | Required
+------------ | ------------- | ------------- | -------------
+Displacement | Point | Specifies the displacement of a label from the original position. | No
+Integrated | Boolean | Specifies whether text of the nodes are considered as a single label or not | No
 
 ### CurvedPointPlacement
 
@@ -115,15 +117,20 @@ UpsideDownFactorThreshold | Single | Specifies the threshold for the number of c
 
 ### LinePointPatternPlacement
 
-TODO
+**LinePointPatternPlacement** allows to place a series of graphic symbols along a linear feature according to a predefined pattern. 
 
 **Example**
 
-TODO
+![](/media/images/51-labeling-linepointpatternplacement.png)
 
 **Parameters**
 
-TODO
+Parameter Name | Value Type | Description | Required
+------------ | ------------- | ------------- | -------------
+AngleExpression | Single | Specifies the angle of rotation (in degrees) at which the graphic symbol will be drawn. | No
+Displacement | Point | Specifies the displacement of a symbol from its preferable position on a line. | No
+Pattern | Single[] | Specifies the pattern for placing labels. This pattern is an array of real number that specifies the spaces between symbols. | Yes
+PatternInterval | Single | Specifies the scale of the pattern. Default value is 1. | No 
 
 ### DoubleSidedLinePlacement
 
