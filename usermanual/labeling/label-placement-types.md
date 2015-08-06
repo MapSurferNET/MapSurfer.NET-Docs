@@ -2,7 +2,7 @@
 
 This section provides the details about label placement types, which are used to specify the rules of positioning labels in text-related symbolizers (see *LabelPlacement* property). Note that placement parameters are considered in [candidate-position generation](/usermanual/labeling/index#candidate-position) procedure which defines the *search space* of a labeling problem. 
 
-# Point Placements
+## Point Placements
 
 ### PointPlacement
 
