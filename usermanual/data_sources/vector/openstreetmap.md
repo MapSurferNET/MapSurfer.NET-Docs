@@ -23,5 +23,5 @@ BuildSpatialIndex | Boolean | Determines whether a quadtree spatial index is cre
 TagsFilter | String | Determines a comma-separated list of tags to be considered. | No
 Query | String |Specifies a query which is used to filter data before storing it in RAM. Example: [highway] = "motorway" and [highway] = "trunk". For more details, see [Expressions](usermanual/expressions/index.md). | No
 
-> %!IMPORTANT NOTE!% For big data sets, it is recommended to utilize more memory-efficient data source providers such as [PostGIS/PostgreSQL](usermanual/datasources/vector/postgis.md), [Microsoft SQL Spatial](usermanual/datasources/vector/mssqlspatial.md) or [MySQL Spatial](usermanual/datasources/vector/mysqlspatial.md).
+> %!IMPORTANT NOTE!% For big data sets, it is recommended to utilize more memory-efficient data source providers such as [PostGIS/PostgreSQL](usermanual/data_sources/vector/postgis.md), [Microsoft SQL Spatial](usermanual/data_sources/vector/mssqlspatial.md) or [MySQL Spatial](usermanual/data_sources/vector/mysqlspatial.md).
 

@@ -39,7 +39,7 @@ Yes, although they are not officially supported. The builds of previous releases
 
 >%!INFO!% <strong id="GDALInstall"> [Do I need to install GDAL to run MapSurfer.NET?</strong>
 
-In general, you don't have to. GDAL is only needed to work with [GDAL](usermanual/datasources/raster/gdal.md) and [DEM](usermanual/datasources/raster/dem.md) data sources.
+In general, you don't have to. GDAL is only needed to work with [GDAL](usermanual/data_sources/raster/gdal.md) and [DEM](usermanual/data_sources/raster/dem.md) data sources.
 
 >%!INFO!% <strong id="WhichVersion">Which version should I use?</strong>
 

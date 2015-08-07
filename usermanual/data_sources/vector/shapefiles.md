@@ -35,4 +35,4 @@ BufferSize | Integer | A positive integer value greater than 0 indicating the bu
 
 
 > %!IMPORTANT NOTE!% Shapefiles can also be read using other data source providers such as
-**[EsriFileGeoDB](usermanual/datasources/vector/esrigeodb.md)** or **[OGR](usermanual/datasources/vector/ogr.md)**.
+**[EsriFileGeoDB](usermanual/data_sources/vector/esrigeodb.md)** or **[OGR](usermanual/data_sources/vector/ogr.md)**.

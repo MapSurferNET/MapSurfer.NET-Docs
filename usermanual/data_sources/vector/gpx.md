@@ -16,4 +16,4 @@ File | String | Determines a path to the the file. The path can also be relative
 BuildSpatialIndex | Boolean | Determines whether the quadtree spatial index is created or not. This index improves the performance of reading data from disk. It requires write permissions to a corresponding folder. Possible values are True or False. | No
 
 > %!IMPORTANT NOTE!% GPX files can also be read using another data source providers such as
-**[OGR](usermanual/datasources/vector/ogr.md)**.
+**[OGR](usermanual/data_sources/vector/ogr.md)**.

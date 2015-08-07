@@ -17,8 +17,8 @@
 ## For GIS Users 
 
 ### Working with Data Sources 
-  - [Vector Data](usermanual/datasources/vector/index.md)
-  - [Raster Data](usermanual/datasources/raster/index.md)
+  - [Vector Data](usermanual/data_sources/vector/index.md)
+  - [Raster Data](usermanual/data_sources/raster/index.md)
 
 ### Map Styling 
 

@@ -20,4 +20,4 @@ Query | String | The query used to select data from a database. | Yes
 Extent | String | Sets the extent of spatial data in a table. It is used by MapSurfer.NET Studio to speed up Zoom To Layer function.| No
 
 
-> %!IMPORTANT NOTE!% **[OGR](usermanual/datasources/vector/ogr.md)** is another data source provider that can access spatial data from Microsoft SQL Server.
+> %!IMPORTANT NOTE!% **[OGR](usermanual/data_sources/vector/ogr.md)** is another data source provider that can access spatial data from Microsoft SQL Server.
