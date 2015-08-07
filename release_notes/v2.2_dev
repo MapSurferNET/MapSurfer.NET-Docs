@@ -1,0 +1,6 @@
+# Release Notes for MapSurfer.NET v2.2.0
+
+*xx August, 2015*
+ 
+### Core
+- **Changed**: PairSuppress property in DoubleSidedLinePlacement has been changed to SuppressPartialLabels.
