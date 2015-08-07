@@ -134,7 +134,7 @@ PatternInterval | Single | Specifies the scale of the pattern. Default value is 
 
 ### DoubleSidedLinePlacement
 
-**DoubleSidedLinePlacement** is used to perform pairwise labeling of linear features that present geographic boundaries. This kind of placement helps to easily distinguish boundaries from other linear objects and amplifies the precise graphic relation between the toponyms their features. Furthermore, two names are considered as a unit or a single label.
+**DoubleSidedLinePlacement** is used to perform pairwise labeling of linear features that present geographic boundaries. This kind of placement helps to easily distinguish boundaries from other linear objects and amplifies the precise graphic relation between the toponyms their features. Furthermore, two names are considered as a unit or a single label. An algorithm for this placement method was taken from the work by [Rylov and Reimer (2015)](http://www.cartographicperspectives.org/index.php/journal/article/view/cp79-rylov-reimer/1375).
 
 **Example**
 

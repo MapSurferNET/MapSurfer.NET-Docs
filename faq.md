@@ -8,6 +8,7 @@ This page provides answers to questions that are frequently asked by users.
 - [What platforms are supported by the framework?](#WhatOS)
 - [Which version should I use?](#WhichVersion)
 - [Are the builds of previous releases still available somewhere?](#PreviousBuilds)
+- [Do I need to install GDAL to run MapSurfer.NET?](#GDALInstall)
 - [What to do if MapSurfer.NET craches?](#WhatTodoIfCrashes)
 - [What is the performance of MapSurfer.NET in comparison to other existing toolkits?](#WhatIsPerformance)
 - [How can I generate a tile cache using my map style?](#GenTileCache)
@@ -35,6 +36,10 @@ At the moment, MapSurfer.NET can run on Windows and Linux platforms. The support
 >%!INFO!% <strong id="PreviousBuilds">Are the builds of previous releases still available somewhere?</strong>
 
 Yes, although they are not officially supported. The builds of previous releases for different platforms is given on [this page](/releases).
+
+>%!INFO!% <strong id="GDALInstall"> [Do I need to install GDAL to run MapSurfer.NET?</strong>
+
+In general, you don't have to. GDAL is only needed to work with [GDAL](usermanual/datasources/raster/gdal.md) and [DEM](usermanual/datasources/raster/dem.md) data sources.
 
 >%!INFO!% <strong id="WhichVersion">Which version should I use?</strong>
 

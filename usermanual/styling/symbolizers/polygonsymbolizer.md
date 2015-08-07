@@ -1,6 +1,8 @@
 # PolygonSymbolizer
 
-PolygonSymbolizer is used to draw areal features by filling its interior part and stroking its border.
+**PolygonSymbolizer** is used to draw areal features by filling its interior part and stroking its border.
+
+**Parameters**
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
@@ -10,9 +12,11 @@ Clip | Boolean | Specifies whether geometry is clipped to map bounds before rend
 GeometryExpression | String | Specifies an [expression](/usermanual/expressions/geometrytransformations) to compute a geometry to be used in rendering. This parameter is optional. If it is not specified, a default geometry field of a data source is used. | No
  
 
-## <div id="Fill">Fill</div>
+## Fill
 
 The Fill element determines how the interior part of an areal feature is filled. This element has the following parameters:
+
+**Parameters**
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
@@ -25,6 +29,8 @@ GraphicFill | GraphicFill | Specifies a pattern to fill the area. Default value 
 ### GraphicFill
 
 The GraphicFill element defines properties of a pattern filling.
+
+**Parameters**
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
@@ -39,5 +45,5 @@ TileWrapMode | [TileWrapMode](https://msdn.microsoft.com/en-us/library/system.dr
 
 ## Stroke
 
-Stroke specifies a style of a polygon boundary. Stroke is rendered on top of the Fill. Stroke is defined in a corresponding section of [LineSymbolizer](/usermanual/styling/linesymbolizer.md#Stroke):
+Stroke specifies a style of a polygon boundary. Stroke is rendered on top of the Fill. Stroke is defined in a corresponding section of [LineSymbolizer](/usermanual/styling/linesymbolizer.md#stroke):
 
