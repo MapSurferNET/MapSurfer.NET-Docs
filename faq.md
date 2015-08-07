@@ -59,7 +59,7 @@ You can use either [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-til
 
 >%!INFO!% <strong id="PublishWebService">How can I publish a web map service?</strong>
 
-A map can be published through a web map service using either [IIS](usermanual/webservices/running-webservice-using-iis75) or a [self-hosting console application](usermanual/webservices/self-hosting-webservice-nancy). For developers, we recommend to look at [this](https://github.com/MapSurferNET/MapSurfer.NET-Web) github repo.
+A map can be published through a web map service using either [IIS](usermanual/web_services/running-webservice-using-iis75) or a [self-hosting console application](usermanual/web_services/self-hosting-webservice-nancy). For developers, we recommend to look at [this](https://github.com/MapSurferNET/MapSurfer.NET-Web) github repo.
 
 
 ## Styling 
