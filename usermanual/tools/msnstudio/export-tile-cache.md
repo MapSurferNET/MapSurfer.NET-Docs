@@ -28,7 +28,7 @@ This tab allows to specify the bounding box of a map region you want to export, 
 
 ### Storage
 
-This tab allows to choose the [type of a tile cache](usermanual/tilecaching/index.md). By changing the selected tile cache type, you get an access to the set of its configuration parameters.
+This tab allows to choose the [type of a tile cache](usermanual/tile_caching/index). By changing the selected tile cache type, you get an access to the set of its configuration parameters.
 
 <center>![](/media/images/23-msnstudio_export_tile_cache_storage.png)</center>
 

@@ -21,7 +21,7 @@ Mode | String | Working mode of the data source provider. Possible values are   
 Properties | String | Determines a list of properties to be decoded.| No
 MaxZoom | Integer | The maximum zoom level of data. | No
 ThreadsNumber | Integer | The number of threads used to process data. | No
-TileCache | String | Determines a list of parameters for a local [tile cache](usermanual/tilecaching/index.md) which is used to store downloaded tiles. This list must contain parameter **CacheName**, the name-value pairs must be delimited with $;$, where each key and value pair must be delimited with $=$. | No
+TileCache | String | Determines a list of parameters for a local [tile cache](usermanual/tile_caching/index) which is used to store downloaded tiles. This list must contain parameter **CacheName**, the name-value pairs must be delimited with $;$, where each key and value pair must be delimited with $=$. | No
 
 
 > %!IMPORTANT NOTE!% The **VectorTiles** data source provider also supports tiles encoded in GeoJSON or TopoJSON [formats](https://github.com/mapzen/vector-datasource/wiki/Mapzen-Vector-Tile-Service#formats).
