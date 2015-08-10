@@ -54,14 +54,14 @@ where *L* is a set of labels on the map, *F* is a set of non-textual map feature
 MapSurfer.NET's labeling engine has partial implementation of [quality metrics](/usermanual/labeling/quality-metrics) given in the above-mentioned equation. The list of supported quality metrics is:
  
 - [Cluttering](/usermanual/labeling/quality-metrics#Cluttering)
-- [Coastal Point](/usermanual/labeling/quality-metrics#CoastalPoint)
-- [Feature Overlapping](/usermanual/labeling/quality-metrics#FeatureOverlapping)
-- [Max Distance](/usermanual/labeling/quality-metrics#MaxDistance)
+- [CoastalPoint](/usermanual/labeling/quality-metrics#CoastalPoint)
+- [FeatureOverlapping](/usermanual/labeling/quality-metrics#FeatureOverlapping)
+- [MaxDistance](/usermanual/labeling/quality-metrics#MaxDistance)
 - [Positioning](/usermanual/labeling/quality-metrics#Positioning)
 - [Priority](/usermanual/labeling/quality-metrics#Priority)
 - [Unambiguity](/usermanual/labeling/quality-metrics#Unambiguity)
 - [Water](/usermanual/labeling/quality-metrics#Water)
-- [Water Coverage](/usermanual/labeling/quality-metrics#WaterCoverage)
+- [WaterCoverage](/usermanual/labeling/quality-metrics#WaterCoverage)
 
 ## Position selection
 
