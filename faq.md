@@ -18,6 +18,7 @@ This page provides answers to questions that are frequently asked by users.
 
 - [Where can one find sample projects with map styles?](#WhereSampleProjects)
 - [I have map styles in SLD format. Is it possible to use them in MapSurfer.NET?](#SLDStyles)
+- [Can I produce cartographically plausible labeling?](#Labeling)
 
 ## Development 
 
@@ -69,8 +70,12 @@ A map can be published through a web map service using either [IIS](usermanual/w
 A collection of sample projects is available on [GitHub](https://github.com/MapSurferNET/MapSurfer.NET-Examples).
 
 >%!INFO!% <strong id="SLDStyles">I have map styles in SLD format. Is it possible to use them in MapSurfer.NET?</strong>
-
+ 
 Yes, it is. [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-import-styles.md) allows to import or export SLD styles into/from a native format. 
+
+>%!INFO!% <strong id="Labeling">Can I produce cartographically plausible labeling?</strong>
+
+You sure can. MapSurfer.NET equipped with an advanced labeling engine that allows producing map lettering of a superior cartographic quality comparable to hand-drawn maps. For more information, check out [this article](/usermanual/labeling/index.md).
 
 ## Development 
 
