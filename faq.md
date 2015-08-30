@@ -95,4 +95,4 @@ It is highly recommended to use [NuGet packages](https://www.nuget.org/packages?
 
 >%!INFO!% <strong id="WhereCodeSamples">I want to develop an application using MapSurfer.NET, where can I find code samples?</strong>
 
-An official collection of code samples is available on [GitHub]. (https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples)
+An official collection of code samples is available on [GitHub](https://github.com/MapSurferNET/MapSurfer.NET-CodeSamples). 
