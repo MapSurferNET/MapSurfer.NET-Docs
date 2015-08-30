@@ -24,6 +24,7 @@ This page provides answers to questions that are frequently asked by users.
 ## Development 
 
 - [Can I embed the framework into my application?](#CanEmbed)
+- [What is the quickest way to start using MapSurfer.NET assemblies?](#NuGet)
 - [I want to develop an application using MapSurfer.NET, where can I find code samples?](#WhereCodeSamples)
 
 ## General Questions 
@@ -87,6 +88,10 @@ You sure can. MapSurfer.NET equipped with an advanced labeling engine that allow
 >%!INFO!% <strong id="CanEmbed">Can I embed the framework into my application?</strong>
 
 Yes, you can. See a [developer guide](devmanual/embedding-msn-in-custom-application.md) about embedding MapSurfer.NET into a custom application.
+
+>%!INFO!% <strong id="NuGet">What is the quickest way to start using MapSurfer.NET assemblies?</strong>
+
+It is highly recommended to use [NuGet packages](https://www.nuget.org/packages?q=mapsurfer.net) in the development environment. 
 
 >%!INFO!% <strong id="WhereCodeSamples">I want to develop an application using MapSurfer.NET, where can I find code samples?</strong>
 
