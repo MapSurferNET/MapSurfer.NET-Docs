@@ -6,6 +6,7 @@ This page provides answers to questions that are frequently asked by users.
 
 - [What is MapSurfer.NET?](#What)
 - [What platforms are supported by the framework?](#WhatOS)
+- [What is required to run MapSurfer.NET?](#WhatRequirements)
 - [Which version should I use?](#WhichVersion)
 - [Are the builds of previous releases still available somewhere?](#PreviousBuilds)
 - [Do I need to install GDAL to run MapSurfer.NET?](#GDALInstall)
@@ -33,6 +34,10 @@ MapSurfer.NET is a free, modern and advanced framework for rendering and publish
 >%!INFO!% <strong id="WhatOS">What platforms are supported by the framework?</strong>
 
 At the moment, MapSurfer.NET can run on Windows and Linux platforms. The support of other operating systems is a high priority task. Thanks to Mono project which makes it potentially possible.
+
+>%!INFO!% <strong id="WhatRequirements">What is required to run MapSurfer.NET?</strong>
+
+MapSurfer.NET requires [.NET Framework 4.5](http://www.microsoft.com/en-us/download/details.aspx?id=30653).
 
 >%!INFO!% <strong id="PreviousBuilds">Are the builds of previous releases still available somewhere?</strong>
 
