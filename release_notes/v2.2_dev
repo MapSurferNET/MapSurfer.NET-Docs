@@ -4,3 +4,4 @@
  
 ### Core
 - **Changed**: PairSuppress property in DoubleSidedLinePlacement has been changed to SuppressPartialLabels.
+- **Improved**: Sanitized native xml format for storing map styles.
