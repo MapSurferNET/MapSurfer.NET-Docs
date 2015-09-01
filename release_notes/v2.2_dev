@@ -5,3 +5,11 @@
 ### Core
 - **Changed**: PairSuppress property in DoubleSidedLinePlacement has been changed to SuppressPartialLabels.
 - **Improved**: Sanitized native xml format for storing map styles.
+
+### Plugins
+
+- **Updated**: [Npgsql](http://www.npgsql.org/) library has been update to version 3.0.1.
+
+### Installer
+
+- **Fixed**: msnmapgen.exe utility is missing.
