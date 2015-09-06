@@ -9,7 +9,7 @@ It is recommended to always install the latest, stable version of MapSurfer.NET.
 
 ## Version 2.x ##
 
-* [2.2.0](/release_notes/v2.2.0.md)  (05 Sep 2015)
+* [2.2.0](/release_notes/v2.2.0.md)  (04 Sep 2015)
 * [2.1.0](/release_notes/v2.1.0.md)  (25 Jul 2015)
 * [2.0.3](/release_notes/v2.0.3.md)  (02 Jun 2015)
 * [2.0.2](/release_notes/v2.0.2.md)  (08 May 2015)
