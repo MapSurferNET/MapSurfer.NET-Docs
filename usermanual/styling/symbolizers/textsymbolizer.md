@@ -10,7 +10,7 @@ Clip | Boolean | Specifies whether geometry is clipped to map bounds before rend
 GeometryExpression | String | Specifies an [expression](/usermanual/expressions/geometrytransformations) to compute a geometry to be used in rendering. This parameter is optional. If it is not specified, a default geometry field of a data source is used. | No
 Graphic | [Graphic](#graphic) | Specifies the graphic object to be rendered. | Yes
 GridAlignment | Boolean | Specifies whether to align symbol to a pixel grid. Default value is True. | Yes
-LabelBehaviour | [LabelBehaviour](#labelbehaviour) | Specifiews the role and behaviour of a label. | Yes
+LabelBehaviour | [LabelBehaviour](#labelbehaviour) | Specifies the role and behaviour of a label. | Yes
 LabelPlacement | [LabelPlacement](usermanual/labeling/label-placement-types)| Specifies the type of a label placement (e.g. point-like, linear or areal labeling style) | No
 PriorityExpression | [Expression](usermanual/expressions/index) | Specifies the priority of a label. Being an expression, this parameter allows to take values from a data source. For example, the value can be [field_priority], where field_priority is an attribute in the data source. Note, an expression must always return a numerical value. | No
 TextAbbreviation | [TextAbbreviation](#textabbreviation) | todo. | No
