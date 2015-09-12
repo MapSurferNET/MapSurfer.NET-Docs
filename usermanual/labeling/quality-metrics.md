@@ -35,7 +35,7 @@ Weight | Single | Specifies the weight of the metric. The value should fall into
 
 ## Cluttering
 
-**Cluttering**metric can measure the degree of cluttering of neighbouring labels within a specific radius.
+**Cluttering** metric can measure the degree of cluttering of neighbouring labels within a specific radius.
 
 
 **Parameters**
