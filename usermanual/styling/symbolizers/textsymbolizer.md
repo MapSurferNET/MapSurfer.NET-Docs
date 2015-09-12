@@ -196,7 +196,7 @@ Halo | [Halo](#halo) | Specifies the halo of the text. | No
 Opacity | Single | Specifies the opacity of the text fill. Default value is 1 (fully opaque). | No
 
 
-## TextDecoration
+### TextDecoration
 
 **TextDecoration** element specifies the decoration added to text.
 
@@ -208,7 +208,7 @@ Scale | Single | Specifies the opacity of the text fill. Default value is 1. Pos
 Type | [TextDecorationType](#textdecorationtype) | Specifies the type of the decoration. Default value is None.| No
 
   
-## TextDecorationType 
+#### TextDecorationType 
 
 Member Name | Description
 ------------ | ------------- 
@@ -219,7 +219,7 @@ Strikethrough | Defines a line through the text.
 DoubleStrikethrough | Defines a double line through the text.
 
 
-## Font
+### Font
 
 **Font** element specifies the font properties.
 
@@ -232,7 +232,7 @@ Style | FontStyle | Defines font style. Default value is Normal. Possible values
 Weight | FontWeight | Defines font weight. The FontWeight enumeration describes common values for degree of blackness or thickness of strokes of characters in a font. Possible values are Thin, ExtraLight, UltraLight, Light, Normal, Regular, Medium, DemiBold, SemiBold, Bold, ExtraBold, UltraBold, Black, Heavy, ExtraBlack, UltraBlack. Default value is Regular. | No
 
 
-## Halo
+### Halo
 
 **Halo** element specifies the representation of the halo outline around the text.
 
