@@ -52,7 +52,7 @@ At the moment MapSurfer.NET supports the following dictionary file formats:
 
 - [Maplex](http://webhelp.esri.com/arcgisdesktop/9.1/body.cfm?tocVisable=1&ID=2705&TopicName=Abbreviating%20words%20to%20place%20more%20labels) 
 
-```txt
+```cs
    * Maplex Extension Dictionary File - v1.0
    * Format: TEXT ABBREVIATION(S) TYPE
    * where TYPE=[Translation|Keyword|Ending]
@@ -76,7 +76,7 @@ Alignment | [Alignment](#alignment) | Specifies whether the text in the label is
 Leading | Single | Determines the space between adjacent [TextBlocks](#textblock). Default value is 0. | No
 Blocks | [TextBlock](#textblock)[] | Determines a list of text blocks. By default this list is empty. | Yes
 FontReduction | [FontReduction](#fontreduction)[] | Specifies the set of parameters to control the reduction of the font size. | No
-CombinedBlocks | Boolean | Specifies whether text blocks are combined, in other words whether one of the text blocks can be skipped from rendering if it does not fit into the current label placement. Default value is True. Note, this parameter is only combined with [DoubleSidedLinePlacement](/usermanual/labeling/label-placement-types#lineplacement). | No
+CombinedBlocks | Boolean | Specifies whether text blocks are combined, in other words whether one of the text blocks can be skipped from rendering if it does not fit into the current label placement. Default value is True. Note, this parameter is only combined with [LinePlacement](/usermanual/labeling/label-placement-types#lineplacement). | No
 
 ## Alignment
 
