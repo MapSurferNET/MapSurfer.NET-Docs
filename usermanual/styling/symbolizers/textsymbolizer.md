@@ -78,7 +78,7 @@ Blocks | [TextBlock](#textblock)[] | Determines a list of text blocks. By defaul
 FontReduction | [FontReduction](#fontreduction)[] | Specifies the set of parameters to control the reduction of the font size. | No
 CombinedBlocks | Boolean | Specifies whether text blocks are combined, in other words whether one of the text blocks can be skipped from rendering if it does not fit into the current label placement. Default value is True. Note, this parameter is only combined with [LinePlacement](/usermanual/labeling/label-placement-types#lineplacement). | No
 
-## Alignment
+### Alignment
 
 **Alignment** specifies the alignment of the text contents of the label.
 
@@ -89,7 +89,7 @@ CenterAligned | Text is centered with regard to the feature. At the same time te
 Left | Text is aligned to the left.
 Right | Text is aligned to the right.
 
-## FontReduction
+### FontReduction
 
 **FontReduction** element specifies how to reduce the size and the width of the label text. This parameter allows controlling the reduction of both the width and the size of the font independently from each other.
 
@@ -101,7 +101,7 @@ SizeLowerLimit | Single | Specifies the lower limit of the font size. Default va
 WidthInterval | Single | Determines an interval which will be used in compressing the width of the font. This parameter is specified in terms of a percentage of the original font width of the label. Default value is 5. The parameter can take values in the range between 1 and 20 percent. | No
 WidthLowerLimit | Single | Specifies the lower limit of the font width specified in terms of a percentage of the original font width of the label. Default value is 100. The parameter can take values in the range between 1 and 100 percent. | No
 
-## TextBlock
+### TextBlock
 
 **TextBlock** element is responsible for displaying small amounts of text that has its own characteristics such as size, color, spacing, etc. 
 
@@ -130,7 +130,7 @@ TextStyle | [TextStyle](#textstyle) | Specifies the style of the text including 
 TextWrapping | [TextWrapping](#textwrapping) | Determines whether and how text is wrapped when it reaches the specified limits. | No
 
 
-## TextSpacing
+### TextSpacing
 
 **TextSpacing** element specifies a set of parameters that control leading, kerning, spacing between characters and lines, as well as spreading of the text along the tagged feature.
 
@@ -147,7 +147,7 @@ SpreadCharacters | Boolean | Specifies whether characters are spread along the l
 WordSpacing | Single | Specifies spacing between words. Default value is 0. | No
 
 
-## TextWrapping
+### TextWrapping
 
 **TextWrapping** element determines whether and how text is wrapped when it reaches the specified limits.
 
@@ -160,7 +160,7 @@ MaxWidth | Single | Specifies the length of a line. Default value is 0. | No
 Mode | [WrapMode](#wrapmode) | Specifies the mode of text wrapping. Default value is NoWrap. | No
 
 
-## WrapCharacter
+#### WrapCharacter
 
 **WrapCharacter** element 
 
@@ -170,7 +170,7 @@ Character | Boolean | Specifies a character or even a string at which the wrappi
 WrapType | WrapType | Determines where the wrapping is performed, i.e. either Before or After the character. Default value is After. | No
 
 
-## WrapMode
+#### WrapMode
 
 **TextWrapping** element determines whether and how text is wrapped when it reaches the specified limits.
 
