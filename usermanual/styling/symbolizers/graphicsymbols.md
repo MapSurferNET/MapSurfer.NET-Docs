@@ -14,7 +14,7 @@ Parameter Name | Value Type | Description | Required
 Angle | Single | Specifies the rotation (in degrees) of the symbol around its center point. Default value is 0. | No
 CompositingMode | [CompositingMode](/usermanual/image_compositing/index) | Specifies how the symbol is combined with the canvas. | No
 Description | String | Specifies the short description of the symbol. | No
-Displacement | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies a displacement of a texture or a hatch pattern. Default value is (0,0). | No
+Displacement | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies the displacement of a texture or a hatch pattern. Default value is (0,0). | No
 Format | String | Identifies the expected document MIME type. | No
 Opacity | Single | Specifies the opacity of the graphic symbol. | No
 Path | String | Specifies the location of the graphic file. | No
