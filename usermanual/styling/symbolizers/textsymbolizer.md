@@ -238,14 +238,21 @@ Weight | FontWeight | Defines font weight. The FontWeight enumeration describes 
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
-BlurFactor | TODO | TODO | No
-CollisionDetectable | TODO | TODO | No
-Color | TODO | TODO | No
+BlurFactor | Single | Specifies the radius of a Gaussian Blur effect. | No
+CollisionDetectable | Boolean | Specifies whether the label is considered as a candidate for a labeling algorithm. If not, the label will be simply rendered. Default value is True. | No
+Color | Color | Specifies halo color. Default value is white. | No
 ColorLuminosity | TODO | TODO | No
 ColorSource | TODO | TODO | No
-Displacement | TODO | TODO | No
-Mode | TODO | TODO | No
+Displacement | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies the displacement of a texture or a hatch pattern. Default value is (0,0) | No
+Mode | [HaloSmoothMode](#halosmoothmode) | TODO | No
 Opacity | TODO | TODO | No
 PercOfLuminosity | TODO | TODO | No
 Radius | TODO | TODO | No
 Sharpness | TODO | TODO | No
+
+#### HaloSmoothMode 
+
+Member Name | Description
+------------ | ------------- 
+Default | Defines a normal text. This is default.
+Smooth | Defines a line below the text.
