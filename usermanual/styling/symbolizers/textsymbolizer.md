@@ -13,8 +13,8 @@ GridAlignment | Boolean | Specifies whether to align symbol to a pixel grid. Def
 LabelBehaviour | [LabelBehaviour](#labelbehaviour) | Specifies the role and behaviour of a label. | Yes
 LabelPlacement | [LabelPlacement](usermanual/labeling/label-placement-types)| Specifies the type of a label placement (e.g. point-like, linear or areal labeling style) | No
 PriorityExpression | [Expression](usermanual/expressions/index) | Specifies the priority of a label. Being an expression, this parameter allows to take values from a data source. For example, the value can be [field_priority], where field_priority is an attribute in the data source. Note, an expression must always return a numerical value. | No
-TextAbbreviation | [TextAbbreviation](#textabbreviation) | todo. | No
-TextLayout | [TextLayout](#textlayout) | todo. | No
+TextAbbreviation | [TextAbbreviation](#textabbreviation) | Specifies the parameters for text abbreviation. | No
+TextLayout | [TextLayout](#textlayout) | Specifies the parameters that define layout of the text. | No
 
 
 ## LabelBehaviour
@@ -142,7 +142,7 @@ CharacterSpacing | Single | Specifies spacing between characters in words. Defau
 CollisionDetectable | Boolean | Specifies whether spacing is considered in detecting collisions between labels. Default value is True. | No
 Kerning | Boolean | Specifies whether kerning is enabled or not. Default value is False. | No
 Leading | Single | Determines the space between adjacent lines. Default value is 0. | No
-MaximumCharactersSpacing | Single | TODO. Default value is 0. | No
+MaximumCharactersSpacing | Single | Specifies the maximum spacing between characters allowed. Default value is 0. | No
 SpreadCharacters | Boolean | Specifies whether characters are spread along the line/through polygon or not. Default value is False. | No
 WordSpacing | Single | Specifies spacing between words. Default value is 0. | No
 
@@ -241,18 +241,36 @@ Parameter Name | Value Type | Description | Required
 BlurFactor | Single | Specifies the radius of a Gaussian Blur effect. | No
 CollisionDetectable | Boolean | Specifies whether the label is considered as a candidate for a labeling algorithm. If not, the label will be simply rendered. Default value is True. | No
 Color | Color | Specifies halo color. Default value is white. | No
-ColorLuminosity | TODO | TODO | No
-ColorSource | TODO | TODO | No
+ColorLuminosity | [HaloColorLuminosity](#halocolorluminosity) | Specifies text luminosity. Default is None. | No
+ColorSource | [HaloColorSource](#halocolorsource) | Specifies the source of the color. | No
 Displacement | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies the displacement of a texture or a hatch pattern. Default value is (0,0) | No
-Mode | [HaloSmoothMode](#halosmoothmode) | TODO | No
-Opacity | TODO | TODO | No
-PercOfLuminosity | TODO | TODO | No
-Radius | TODO | TODO | No
-Sharpness | TODO | TODO | No
+Mode | [HaloSmoothMode](#halosmoothmode) | Specifies the halo mode, i.e. solid or smoothed. | No
+Opacity | Single | Specifies halo opacity. Default value is 1 (fully opaque). | No
+PercOfLuminosity | Single | Specifies the percentage value of the luminosity. Default value is 0.5 | No
+Radius | Single | Specifies the halo width. Default value is 0. | No
+Sharpness | Single | Specifies the threshold for alpha channel when Smooth mode is applied. Default value is 0. | No
+
+#### HaloColorLuminosity 
+
+Member Name | Description
+------------ | ------------- 
+None | No color luminosity changes. This is default.
+Lighter | Changes the color to a lighter one.
+Darker  | Changes the color to a darker one.
+
+#### HaloColorSource
+
+Member Name | Description
+------------ | ------------- 
+Default | Applies color of the text. This is default.
+Background | Applies color of the background image.
+Text  | Applies color of the text. This is the same as Default.
 
 #### HaloSmoothMode 
 
 Member Name | Description
 ------------ | ------------- 
-Default | Defines a normal text. This is default.
+Default | Defines a normal text with solid outline. This is default.
 Smooth | Defines a line below the text.
+
+
