@@ -7,7 +7,7 @@
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 Clip | Boolean | Specifies whether geometry is clipped to map bounds before rendering or not. Default value is False. | No
-GeometryExpression | String | Specifies an [expression](/usermanual/expressions/geometrytransformations) to compute a geometry to be used in rendering. This parameter is optional. If it is not specified, a default geometry field of a data source is used. | No
+GeometryExpression | String | Specifies the [expression](/usermanual/expressions/geometrytransformations) to compute a geometry to be used in rendering. This parameter is optional. If it is not specified, a default geometry field of a data source is used. | No
 Graphic | [Graphic](#graphic) | Specifies the graphic object to be rendered. | Yes
 GridAlignment | Boolean | Specifies whether to align symbol to a pixel grid. Default value is True. | Yes
 LabelBehaviour | [LabelBehaviour](#labelbehaviour) | Specifies the role and behaviour of a label. | Yes
@@ -31,7 +31,7 @@ CollisionDetectable | Boolean | Specifies whether the label is considered as a c
 CollisionMeasures  | [CollisionMeasure](usermanual/labeling/collision-measures)[] | Specifies a list of collision measures. | No
 DropOnCollision | Boolean | Specifies whether to drop the label if any collision with other labels exists. | No
 IgnorePadding | Boolean | Specifies whether to ignore padding parameter of the map object or not. | No
-QualityFilter | [Expression](usermanual/expressions/index) | Specifies an expression to filter labels by using [quality functions](/usermanual/labeling/label-placement-types). | No
+QualityFilter | [Expression](usermanual/expressions/index) | Specifies the expression to filter labels by using [quality functions](/usermanual/labeling/label-placement-types). | No
 
 
 ## TextAbbreviation
@@ -112,7 +112,7 @@ Parameter Name | Value Type | Description | Required
 FontSetName | String | The name of a [FontSet](/usermanual/map/index#fontsets). | No
 SuppressInCombining | Boolean | Specifies whether the text block can be skipped or not if its label elements can not be located. | No
 TextExpression | [Expression](/usermanual/expressions/index) | The content of the label. | No
-TextFormat | [TextFormat](#textformat) | Specifies character formatting information. | No
+TextFormat | [TextFormat](#textformat) | Specifies the character formatting information. | No
 
 
 ## TextFormat
@@ -125,7 +125,7 @@ Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 BidiMode | Boolean | Specifies whether bi-directional mode is enabled or not. Default value is True. | No
 CharPadding | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies the size of the padding around label characters. This feature helps to control the density of labels. Default value is 0,0. | No
-TextSpacing | [TextSpacing](#textspacing) | Specifies a set of parameters that control leading, kerning, spacing between characters and lines, as well as spreading of the text along the tagged feature. | No
+TextSpacing | [TextSpacing](#textspacing) | Specifies the set of parameters that control leading, kerning, spacing between characters and lines, as well as spreading of the text along the tagged feature. | No
 TextStyle | [TextStyle](#textstyle) | Specifies the style of the text including font size, color, decoration effects, etc. | No
 TextWrapping | [TextWrapping](#textwrapping) | Determines whether and how text is wrapped when it reaches the specified limits. | No
 
@@ -138,13 +138,13 @@ TextWrapping | [TextWrapping](#textwrapping) | Determines whether and how text i
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
-CharacterSpacing | Single | Specifies spacing between characters in words. Default value is 0. | No
+CharacterSpacing | Single | Specifies the spacing between characters in words. Default value is 0. | No
 CollisionDetectable | Boolean | Specifies whether spacing is considered in detecting collisions between labels. Default value is True. | No
 Kerning | Boolean | Specifies whether kerning is enabled or not. Default value is False. | No
 Leading | Single | Determines the space between adjacent lines. Default value is 0. | No
 MaximumCharactersSpacing | Single | Specifies the maximum spacing between characters allowed. Default value is 0. | No
 SpreadCharacters | Boolean | Specifies whether characters are spread along the line/through polygon or not. Default value is False. | No
-WordSpacing | Single | Specifies spacing between words. Default value is 0. | No
+WordSpacing | Single | Specifies the spacing between words. Default value is 0. | No
 
 
 ### TextWrapping
@@ -154,7 +154,7 @@ WordSpacing | Single | Specifies spacing between words. Default value is 0. | No
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 BeingLineWithCapitalLetter | Boolean | Specifies whether the first letter in the line is capitalized or not. Default value is False. | No
-Characters | [WrapCharacter](#wrapcharacter) | Specifies characters at which line wrapping is performed. Default value is 0. | No
+Characters | [WrapCharacter](#wrapcharacter) | Specifies the characters at which line wrapping is performed. Default value is 0. | No
 MaxLines | Integer | Specifies the maximum allowed number of lines in the text block. Default value is 0. | No
 MaxWidth | Single | Specifies the length of a line. Default value is 0. | No
 Mode | [WrapMode](#wrapmode) | Specifies the mode of text wrapping. Default value is NoWrap. | No
@@ -166,7 +166,7 @@ Mode | [WrapMode](#wrapmode) | Specifies the mode of text wrapping. Default valu
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
-Character | Boolean | Specifies a character or even a string at which the wrapping needs to be performed. Default value is ''. | No
+Character | Boolean | Specifies the character, or even a string, at which the wrapping needs to be performed. Default value is ''. | No
 WrapType | WrapType | Determines where the wrapping is performed, i.e. either Before or After the character. Default value is After. | No
 
 
@@ -189,7 +189,7 @@ WrapByMaxWidthPixels | Line-breaking occurs if the line exceeds MaxWidth given i
 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
-Color | Color | Specifies text color. Default value is Black. | No
+Color | Color | Specifies the text color. Default value is Black. | No
 Decoration | [TextDecoration](#textdecoration) | Specifies the decoration added to text. | No
 Font | [Font](#font) | Specifies the font of the text. | Yes
 Halo | [Halo](#halo) | Specifies the halo of the text. | No
@@ -227,7 +227,7 @@ Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 Name | Sting | Name of the font. Default value is platform dependent. | Yes
 Size | Single | Size of the font measured in pixels. Default value is 10. | No
-Stretch | Single | Specifies font stretch parameter which allows making text wider or narrower. Default value is 1. | No
+Stretch | Single | Specifies the font stretch parameter which allows making text wider or narrower. Default value is 1. | No
 Style | FontStyle | Defines font style. Default value is Normal. Possible values are Normal, Oblique, Italic. | No
 Weight | FontWeight | Defines font weight. The FontWeight enumeration describes common values for degree of blackness or thickness of strokes of characters in a font. Possible values are Thin, ExtraLight, UltraLight, Light, Normal, Regular, Medium, DemiBold, SemiBold, Bold, ExtraBold, UltraBold, Black, Heavy, ExtraBlack, UltraBlack. Default value is Regular. | No
 
@@ -240,12 +240,12 @@ Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 BlurFactor | Single | Specifies the radius of a Gaussian Blur effect. | No
 CollisionDetectable | Boolean | Specifies whether the label is considered as a candidate for a labeling algorithm. If not, the label will be simply rendered. Default value is True. | No
-Color | Color | Specifies halo color. Default value is white. | No
-ColorLuminosity | [HaloColorLuminosity](#halocolorluminosity) | Specifies text luminosity. Default is None. | No
+Color | Color | Specifies the halo color. Default value is white. | No
+ColorLuminosity | [HaloColorLuminosity](#halocolorluminosity) | Specifies the text luminosity. Default is None. | No
 ColorSource | [HaloColorSource](#halocolorsource) | Specifies the source of the color. | No
 Displacement | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies the displacement of a texture or a hatch pattern. Default value is (0,0) | No
 Mode | [HaloSmoothMode](#halosmoothmode) | Specifies the halo mode, i.e. solid or smoothed. | No
-Opacity | Single | Specifies halo opacity. Default value is 1 (fully opaque). | No
+Opacity | Single | Specifies the halo opacity. Default value is 1 (fully opaque). | No
 PercOfLuminosity | Single | Specifies the percentage value of the luminosity. Default value is 0.5 | No
 Radius | Single | Specifies the halo width. Default value is 0. | No
 Sharpness | Single | Specifies the threshold for alpha channel when Smooth mode is applied. Default value is 0. | No
