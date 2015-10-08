@@ -44,7 +44,7 @@
 - [Monitoring Web Service Performance](/usermanual/web_bservices/monitoring-web-service-performance.md)
  
 ### Tutorials
-  [Tutorials Collection](/usermanual/tutorials.md)
+- [Tutorials Collection](/usermanual/tutorials.md)
 
 ## For Developers 
 
