@@ -11,4 +11,9 @@ MapSurfer.NET Studio is a destkop application to create and edit map styles in a
 
 - [Export Tile Cache](/usermanual/tools/msnstudio/export-tile-cache.md)
 
+## Tutorials
+
+- [Generating a Tile Cache](/usermanual/tools/msnstudio/tutorials.md)
+
+
 
