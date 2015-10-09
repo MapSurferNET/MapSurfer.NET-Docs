@@ -62,7 +62,7 @@ Our [benchmarks](http://mapsurfernet.com/blog/benchmarking-mapping-toolkits-in-t
 
 >%!INFO!% <strong id="GenTileCache">How can I generate a tile cache using my map style?</strong>
 
-You can use either [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-tile-cache.md) or [MSNMapGen](/usermanual/tools/msnmapgen.md) utility to accomplish this task.
+You can use either [MapSurfer.NET Studio](/usermanual/tools/msnstudio/export-tile-cache.md) or [MSNMapGen](/usermanual/tools/msnmapgen.md) utility to accomplish this task. Watch [this](https://youtu.be/vRS6agTD1j4) video tutorial.
 
 >%!INFO!% <strong id="PublishWebService">How can I publish a web map service?</strong>
 
