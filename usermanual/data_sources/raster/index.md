@@ -1,4 +1,4 @@
-# Vector Data Sources 
+# Raster Data Sources 
 
 This section provides a list of raster data sources supported by MapSurfer.NET. The list includes file based formats, relational and document-oriented databases, as well as web services.
 
