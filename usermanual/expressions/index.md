@@ -84,6 +84,7 @@ MapSurfer.NET provides a rich set of operators both commonly used in programming
 Operator  | Description | Syntax
 ------------- | ------------- | -------------
 ?:  | The conditional operator evaluates an expression (condition), then it returns first value if that expression evaluates to true, and the second value if the expression evaluates as false. | condition ? first_expression : second_expression
+??  | The null-coalescing operator which returns the left-hand operand if the operand is not null; otherwise it returns the right hand operand. | first_expression ?? second_expression
 
 ### Logical Operators
 
