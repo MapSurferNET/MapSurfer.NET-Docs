@@ -104,6 +104,7 @@ Operator  | Description | Syntax
 >= | The "greater than or equal" relational operator returns true if the first operand is greater than or equal to the second, false otherwise. | first_expression >= second_expression
 < | The "less than" relational operator returns true if the first operand is less than the second, false otherwise. | first_expression < second_expression
 <= | The "less than or equal" relational operator returns true if the first operand is less than or equal to the second, false otherwise. | first_expression <= second_expression
+=~ | The "Equal Tilde" operator allows using regular expressions. The right operand is considered as an regular expression which needs to be embraced with double quotes. | first_expression =~ second_expression
 in | Determines whether a specified value matches any value in a subquery or a list. |  test_expression IN (value1, value2, value3)
 like | Determines whether a specific character string matches a specified pattern. |  match_expression LIKE pattern
 
