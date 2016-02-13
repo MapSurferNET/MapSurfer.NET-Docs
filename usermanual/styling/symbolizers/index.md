@@ -11,7 +11,7 @@ MapSurfer.NET has 13 different types of symbolizers. They are:
 - [ExtrudedPolygonSymbolizer](/usermanual/styling/symbolizers/extrudedpolygonsymbolizer.md)
 - [FramedTextSymbolizer](/usermanual/styling/symbolizers/framedtextsymbolizer.md)
 - [GraphicTextSymbolizer](/usermanual/styling/symbolizers/graphictextsymbolizer.md)
-- [LinePatterSymbolizer](/usermanual/styling/symbolizers/linepatternsymbolizer.md)
+- [LinePatternSymbolizer](/usermanual/styling/symbolizers/linepatternsymbolizer.md)
 - [LineSymbolizer](/usermanual/styling/symbolizers/linesymbolizer.md)
 - [PointSymbolizer](/usermanual/styling/symbolizers/pointsymbolizer.md)
 - [PolygonSymbolizer](/usermanual/styling/symbolizers/polygonsymbolizer.md)
