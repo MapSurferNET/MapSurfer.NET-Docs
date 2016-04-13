@@ -244,7 +244,7 @@ Color | Color | Specifies the halo color. Default value is white. | No
 ColorLuminosity | [HaloColorLuminosity](#halocolorluminosity) | Specifies the text luminosity. Default is None. | No
 ColorSource | [HaloColorSource](#halocolorsource) | Specifies the source of the color. | No
 Displacement | [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) | Specifies the displacement of a texture or a hatch pattern. Default value is (0,0) | No
-Mode | [HaloSmoothMode](#halosmoothmode) | Specifies the halo mode, i.e. solid or smoothed. | No
+Mode | [HaloMode](#halomode) | Specifies the halo mode, i.e. solid or blurred. | No
 Opacity | Single | Specifies the halo opacity. Default value is 1 (fully opaque). | No
 PercOfLuminosity | Single | Specifies the percentage value of the luminosity. Default value is 0.5 | No
 Radius | Single | Specifies the halo width. Default value is 0. | No
@@ -266,11 +266,11 @@ Default | Applies color of the text. This is default.
 Background | Applies color of the background image.
 Text  | Applies color of the text. This is the same as Default.
 
-#### HaloSmoothMode 
+#### HaloMode 
 
 Member Name | Description
 ------------ | ------------- 
-Default | Defines a normal text with solid outline. This is default.
-Smooth | Defines a line below the text.
-
+Solid | Defines a halo type with solid outline. This is default value.
+Blurred | Defines a blurred halo.
+SolidAndBlurred | Applies both Solid and Blurred modes simultaneously.
 
