@@ -1,4 +1,4 @@
-Copyright © MapSurfer.NET 2008-2016, Maxim Rylov. 
+Copyright © MapSurfer.NET 2008-2017, Maxim Rylov. 
 
 License last updated: January 25, 2015
 
