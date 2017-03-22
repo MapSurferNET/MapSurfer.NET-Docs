@@ -11,7 +11,6 @@ This section describes configuration parameters used in **MySQLSpatial** data so
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 Connection | String |  Defines the string used to open a MySQL Server database. | Yes
-Table | String | The table name. | Yes
 GeometryColumn (or GeometryField) | String | Determines a spatial column that contains data of a spatial data type (e.g., geometry or geography). | Yes
 Query | String | The query used to select data from a database. | Yes
 Extent | String | Sets the extent of spatial data in a table. It is used by MapSurfer.NET Studio to speed up Zoom To Layer function.| No

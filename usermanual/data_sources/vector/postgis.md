@@ -13,10 +13,10 @@ This section describes configuration parameters used in **PostGIS** data source 
 Parameter Name | Value Type | Description | Required
 ------------ | ------------- | ------------- | -------------
 Connection | String | Defines the string used to open a PostgreSQL database. Example: Host=localhost;Database=GIS;User ID=postgres;Password=xxx;Port=5432 | Yes
-Table | String | The table name. | Yes
 GeometryColumn (GeometryField) | String | Determines a spatial column that contains data of a spatial data type (e.g., geometry or geography). | Yes
 Query | String | The query used to select data from a database. | Yes
 Extent | String | Sets the extent of spatial data in a table. It is used by MapSurfer.NET Studio to speed up Zoom To Layer function.| No
 SpatialTypePrefix | Boolean | Uses ST_ prefix in queries (for example, ST_XMin instead of XMin). Default value is true. | No
 UseSTIntersects | Boolean | The provider uses ST_Intersects function to find objects within a bounding box specified in a query. If the value is false then && operator is used. Default value is false. | No
 SRID | Integer | Defines the spatial reference identifier for a geometry object (see [ST_SetSRID](http://postgis.org/docs/ST_SetSRID.html) function). | No 
+BinaryFormat | String | Sets the binary format used by Postgresql in data transfer. Possible values are WKB and TWKB. Default value is WKB. | No

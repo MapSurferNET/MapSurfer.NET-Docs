@@ -20,4 +20,11 @@ Query | String | The query used to select data from a database. | Yes
 Extent | String | Sets the extent of spatial data in a table. It is used by MapSurfer.NET Studio to speed up Zoom To Layer function.| No
 
 
+> %!IMPORTANT IMPORTANT:!% For MSSQLSpatial plugin, [SQL Server Management Objects (SMO)](https://technet.microsoft.com/en-US/library/ms162189.aspx) and 
+> [Microsoft.SQLServer.Types](https://www.nuget.org/packages/> Microsoft.SqlServer.Types/) are required to be installed on a computer.
+> You can also install the required assemblies manually by copying the following files **Microsoft.SqlServer.ConnectionInfo.dll**, **Microsoft.SqlServer.Management.Sdk.Sfc.dll**,
+> **Microsoft.SqlServer.Smo.dll**, **Microsoft.SqlServer.SqlEnum.dll**, **Microsoft.SqlServer.Types.dll** into the folder **MapSurfer.NET_Installation_Folder\Core\Plugins\Providers\MsSQLSpatial**.
+> Dynamic link libraries **msvcr100.dll** and **SqlServerSpatial120.dll** need to be copied into **Native.x64** (for 64-bit OS) or **Native.x86** (for 32-bit OS) directory respectively.
+
+
 > %!IMPORTANT NOTE!% **[OGR](usermanual/data_sources/vector/ogr.md)** is another data source provider that can access spatial data from Microsoft SQL Server.
