@@ -15,3 +15,5 @@ Version | Release | Windows | Linux | Mac OS X
 [2.2](/release_notes/v2.2.0.md) | Development | [Installer](http://update.mapsurfernet.com/windows/2.2/MapSurfer.NET-2.2-setup_win.exe) | None | None
 [2.3](/release_notes/v2.3.0.md) | Development | [Installer](http://update.mapsurfernet.com/windows/2.3/MapSurfer.NET-2.3-setup_win.exe) | None | None
 [2.4](/release_notes/v2.4.0.md) | Development | [Installer](http://update.mapsurfernet.com/windows/2.4/MapSurfer.NET-2.4-setup_win.exe) | None | None
+[2.5](/release_notes/v2.5.0.md) | Development | [Installer](http://update.mapsurfernet.com/windows/2.5/MapSurfer.NET-2.5-setup_win.exe) | None | None
+[2.6](/release_notes/v2.6.0.md) | Development | [Installer](http://update.mapsurfernet.com/windows/2.6/MapSurfer.NET-2.6-setup_win.exe) | None | None
