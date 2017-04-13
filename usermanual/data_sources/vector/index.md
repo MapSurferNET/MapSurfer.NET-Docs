@@ -12,6 +12,7 @@ This section provides a list of vector data sources supported by MapSurfer.NET. 
 - [MySQL Spatial](usermanual/data_sources/vector/mysqlspatial.md)
 - [OGR](usermanual/data_sources/vector/ogr.md)
 - [OpenStreetMap](usermanual/data_sources/vector/openstreetmap.md)
+- [OracleSpatial](usermanual/data_sources/vector/oraclespatial.md)
 - [PostGIS/PostgreSQL](usermanual/data_sources/vector/postgis.md)
 - [SpatiaLite](usermanual/data_sources/vector/spatialite.md)
 - [TopoJSON](usermanual/data_sources/vector/topojson.md)
